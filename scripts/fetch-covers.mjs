@@ -35,16 +35,27 @@ async function spaced(fn) {
   return fn();
 }
 
+class AuthError extends Error {}
+let authFailed = false;
+
+/** GET on the SteamGridDB v2 API. Returns the `data` field ({ success, data }), or null when nothing was found. */
 async function sgGet(path) {
+  if (authFailed) throw new AuthError();
   const res = await spaced(() =>
     fetch(`${API}${path}`, {
       headers: { Authorization: `Bearer ${key}`, Accept: "application/json", "User-Agent": "ports-catalogue" },
       signal: AbortSignal.timeout(15_000),
     }),
   );
+  if (res.status === 401 || res.status === 403) {
+    authFailed = true;
+    throw new AuthError();
+  }
   if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`HTTP ${res.status} on ${path.split("?")[0]}`);
-  return res.json();
+  if (!res.ok) throw new Error(`HTTP ${res.status} on ${path.split("/").slice(0, 3).join("/")}`);
+  const body = await res.json();
+  if (!body?.success || !Array.isArray(body.data)) return null;
+  return body.data;
 }
 
 async function lookup(port) {
@@ -53,15 +64,15 @@ async function lookup(port) {
   if (!term) return { gameId: null, cover: null, hero: null, checkedAt };
 
   const search = await sgGet(`/search/autocomplete/${encodeURIComponent(term)}`);
-  const gameId = search?.data?.[0]?.id ?? null;
+  const gameId = search?.[0]?.id ?? null;
   if (gameId === null) return { gameId: null, cover: null, hero: null, checkedAt };
 
   const grids = await sgGet(`/grids/game/${gameId}?dimensions=600x900&types=static`);
   const heroes = await sgGet(`/heroes/game/${gameId}`);
   return {
     gameId,
-    cover: grids?.data?.[0]?.url ?? null,
-    hero: heroes?.data?.[0]?.url ?? null,
+    cover: grids?.[0]?.url ?? null,
+    hero: heroes?.[0]?.url ?? null,
     checkedAt,
   };
 }
@@ -76,21 +87,30 @@ console.log(`looking up covers for ${todo.length} of ${catalogue.ports.length} p
 
 let found = 0;
 let failed = 0;
+let looked = 0;
 let next = 0;
 const worker = async () => {
-  while (next < todo.length) {
+  while (next < todo.length && !authFailed) {
     const port = todo[next];
     next += 1;
     try {
       covers[port.id] = await lookup(port);
+      looked += 1;
       if (covers[port.id].cover) found += 1;
     } catch (err) {
+      if (err instanceof AuthError) break;
       failed += 1; // not cached: retried on the next run
       console.error(`${port.id}: ${err.message}`);
     }
   }
 };
 await Promise.all(Array.from({ length: Math.min(CONCURRENCY, todo.length) }, worker));
+if (authFailed) {
+  // Covers are optional: stop looking them up, but let the rest of the daily update run.
+  console.error(
+    "::warning::SteamGridDB refused the API key (HTTP 401/403). Cover lookups stopped; check the STEAMGRIDDB_API_KEY secret.",
+  );
+}
 
 for (const port of catalogue.ports) {
   const entry = covers[port.id];
@@ -100,7 +120,7 @@ for (const port of catalogue.ports) {
 }
 
 const coversText = `${JSON.stringify(covers, null, 2)}\n`;
-if (todo.length > 0) writeFileSync(COVERS_PATH, coversText);
+if (looked > 0) writeFileSync(COVERS_PATH, coversText);
 
 const nextCatalogueText = `${JSON.stringify(catalogue, null, 2)}\n`;
 if (nextCatalogueText !== catalogueText) {

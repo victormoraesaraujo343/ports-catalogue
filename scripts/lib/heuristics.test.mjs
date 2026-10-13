@@ -24,9 +24,31 @@ test("mapPlatform maps known labels case-insensitively", () => {
   assert.equal(mapPlatform("Arcade"), "arcade");
 });
 
+test("mapPlatform understands the loose labels used in awesome-decomp-games", () => {
+  assert.equal(mapPlatform("ps"), "ps1");
+  assert.equal(mapPlatform("PlayStation"), "ps1");
+  assert.equal(mapPlatform("PlayStation 2"), "ps2");
+  assert.equal(mapPlatform("PlayStation 3"), "ps3");
+  assert.equal(mapPlatform("PlayStation 4"), "ps4");
+  assert.equal(mapPlatform("xbox360"), "xbox360");
+  assert.equal(mapPlatform("Xbox360"), "xbox360");
+  assert.equal(mapPlatform("og xbox"), "xbox");
+  assert.equal(mapPlatform("Nintendo 64"), "n64");
+  assert.equal(mapPlatform("GameBoy Color"), "gbc");
+  assert.equal(mapPlatform("Game Boy Advance"), "gba");
+  assert.equal(mapPlatform("Sega Mega Drive"), "genesis");
+});
+
+test("mapPlatform takes the first recognized part of a multi value", () => {
+  assert.equal(mapPlatform("N64 / GameCube"), "n64");
+  assert.equal(mapPlatform("Master System/Game Gear"), "other");
+  assert.equal(mapPlatform("Sega CD/32X"), "other");
+});
+
 test("mapPlatform falls back to other", () => {
   assert.equal(mapPlatform("ZX Spectrum"), "other");
-  assert.equal(mapPlatform("N64 / GameCube"), "other");
+  assert.equal(mapPlatform("PS Vita"), "other");
+  assert.equal(mapPlatform("Others"), "other");
   assert.equal(mapPlatform(""), "other");
   assert.equal(mapPlatform(undefined), "other");
 });
@@ -54,7 +76,7 @@ test("isCandidate rejects each excluded case", () => {
   assert.equal(isCandidate({ ...good, release: null }), false);
   assert.equal(isCandidate({ ...good, type: "tool" }), false);
   assert.equal(isCandidate({ ...good, type: "disassembly" }), false);
-  for (const platform of ["PC", "pc", "DOS", "Mobile", "", undefined]) {
+  for (const platform of ["PC", "pc", "DOS", "Mobile", "Android / iOS", "", undefined]) {
     assert.equal(isCandidate({ ...good, platform }), false, `platform ${platform}`);
   }
   for (const flag of ["archived", "old", "inactive", "browser_playable", "ai_flag"]) {
@@ -117,6 +139,47 @@ test("pickAssets falls back to a bare non-installer exe, but not a setup", () =>
 test("pickAssets treats a single unhinted zip as windows and ignores a lone .sha256 check", () => {
   assert.equal(pickAssets(names("MyGame.zip")).win32.pattern, "^MyGame\\.zip$");
   assert.equal(pickAssets(names("MyGame.zip", "MyGame.zip.sha256")).win32.pattern, "^MyGame\\.zip$");
+});
+
+test("pickAssets prefers x86-64 builds over ARM and 32-bit ones", () => {
+  const picked = pickAssets(
+    names("Game-1.0-linux-aarch64.AppImage", "Game-1.0-linux-x86_64.AppImage", "Game-Linux-ARM64.tar.gz", "pd-i686-windows.zip", "pd-x86_64-windows.zip"),
+  );
+  assert.equal(picked.linux.pattern, generalizeAssetName("Game-1.0-linux-x86_64.AppImage"));
+  assert.equal(picked.win32.pattern, generalizeAssetName("pd-x86_64-windows.zip"));
+  assert.equal(pickAssets(names("Game-Linux-ARM64.zip")).linux.pattern, generalizeAssetName("Game-Linux-ARM64.zip"));
+});
+
+test("pickAssets never takes a Flatpak or AppImage bundle as the windows build", () => {
+  const picked = pickAssets(
+    names("Game-Flatpak-X64-Release.zip", "Game-AppImage-X64-Release.zip", "Game-Linux-X64-Release.zip", "Game-Windows-RelWithDebInfo.zip"),
+  );
+  assert.equal(picked.win32.pattern, generalizeAssetName("Game-Windows-RelWithDebInfo.zip"));
+  assert.equal(picked.linux.pattern, generalizeAssetName("Game-Linux-X64-Release.zip"));
+});
+
+test("pickAssets skips SDKs, servers, editors and add-ons", () => {
+  assert.deepEqual(pickAssets(names("sprite-editor-windows-x64.zip", "sprite-editor-linux-x64.tar.gz")), {});
+  assert.equal(
+    pickAssets(names("rexglue-sdk-0.9.1-win-amd64.zip", "rexglue-sdk-0.9.1-linux-amd64.zip", "SCIV-Recomp.zip")).win32.pattern,
+    "^SCIV-Recomp\\.zip$",
+  );
+  assert.equal(
+    pickAssets(names("Road-0.2.3-Windows-x64-DLSS-XeSS-addon.zip", "Road-0.2.3-Windows-x64.zip")).win32.pattern,
+    generalizeAssetName("Road-0.2.3-Windows-x64.zip"),
+  );
+});
+
+test("pickAssets prefers the plain build over a variant", () => {
+  const picked = pickAssets(names("Game-Windows-x64-NoAVX2.zip", "Game-Windows-x64.zip", "Game-widescreen-Linux-x64.tar.gz", "Game-Linux-x64.tar.gz"));
+  assert.equal(picked.win32.pattern, generalizeAssetName("Game-Windows-x64.zip"));
+  assert.equal(picked.linux.pattern, generalizeAssetName("Game-Linux-x64.tar.gz"));
+});
+
+test("pickAssets treats the only unhinted zip next to other OS builds as windows", () => {
+  const picked = pickAssets(names("Game-linux-x64-0.7.1.zip", "Game-v0.7.1.zip"));
+  assert.equal(picked.win32.pattern, generalizeAssetName("Game-v0.7.1.zip"));
+  assert.equal(pickAssets(names("Game1.zip", "Game2.zip")).win32, undefined);
 });
 
 test("pickAssets returns nothing when no asset is usable", () => {

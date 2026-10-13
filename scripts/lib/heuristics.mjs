@@ -1,48 +1,63 @@
 // Pure helpers for the self-feeding catalogue (no I/O, no dependencies).
 // Used by scripts/import-adg.mjs and scripts/fetch-covers.mjs.
 
-const PLATFORM_MAP = new Map([
-  ["ps4", "ps4"],
-  ["ps3", "ps3"],
-  ["ps2", "ps2"],
-  ["ps1", "ps1"],
-  ["psp", "psp"],
-  ["xbox 360", "xbox360"],
-  ["xbox", "xbox"],
-  ["og xbox", "xbox"],
-  ["n64", "n64"],
-  ["gamecube", "gamecube"],
-  ["wii", "wii"],
-  ["wii u", "wiiu"],
-  ["switch", "switch"],
-  ["nes", "nes"],
-  ["snes", "snes"],
-  ["game boy", "gb"],
-  ["game boy color", "gbc"],
-  ["gba", "gba"],
-  ["ds", "ds"],
-  ["3ds", "3ds"],
-  ["genesis", "genesis"],
-  ["mega drive", "genesis"],
-  ["saturn", "saturn"],
-  ["dreamcast", "dreamcast"],
-  ["arcade", "arcade"],
-]);
+// Keys are labels lowercased with spaces, dots and dashes removed ("Xbox 360" -> "xbox360").
+const PLATFORM_ALIASES = {
+  ps4: ["ps4", "playstation4"],
+  ps3: ["ps3", "playstation3"],
+  ps2: ["ps2", "playstation2"],
+  ps1: ["ps1", "ps", "psx", "psone", "playstation", "playstation1"],
+  psp: ["psp", "playstationportable"],
+  xbox360: ["xbox360", "x360"],
+  xbox: ["xbox", "ogxbox", "originalxbox"],
+  n64: ["n64", "nintendo64"],
+  gamecube: ["gamecube", "gc", "ngc", "nintendogamecube"],
+  wii: ["wii", "nintendowii"],
+  wiiu: ["wiiu", "nintendowiiu"],
+  switch: ["switch", "nintendoswitch"],
+  nes: ["nes", "famicom"],
+  snes: ["snes", "superfamicom", "supernintendo", "sfc"],
+  gb: ["gameboy", "gb"],
+  gbc: ["gameboycolor", "gameboycolour", "gbc"],
+  gba: ["gba", "gameboyadvance"],
+  ds: ["ds", "nds", "nintendods"],
+  "3ds": ["3ds", "nintendo3ds"],
+  genesis: ["genesis", "megadrive", "segagenesis", "segamegadrive"],
+  saturn: ["saturn", "segasaturn"],
+  dreamcast: ["dreamcast", "segadreamcast"],
+  arcade: ["arcade"],
+};
+const PLATFORM_MAP = new Map(
+  Object.entries(PLATFORM_ALIASES).flatMap(([platform, keys]) => keys.map((key) => [key, platform])),
+);
+const platformKey = (label) => label.toLowerCase().replace(/[\s.-]+/g, "");
 
 const CANDIDATE_TYPES = new Set(["static-recomp", "source-port", "decompilation", "engine-remake"]);
-const EXCLUDED_PLATFORMS = new Set(["pc", "dos", "mobile", ""]);
+const EXCLUDED_PLATFORMS = new Set(["pc", "dos", "mobile", "android / ios", ""]);
 const REPO_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 const IGNORED_EXTENSIONS = /\.(sha256|sha512|sig|asc|txt|json|pdb|dbg|sym|md)$/i;
 const IGNORED_NAMES = /source code|debug|symbols|src|source/i;
+// Side downloads that are not the game itself (SDKs, servers, editors, add-ons, ROM builders, ...).
+const AUXILIARY_NAMES = /sdk|\b(server|relay|lobby|addon|add-on|dlc|tools?|toolchain|editor|migrator|builder|cheats|lsp|pdb)\b/i;
 const ARCHIVE_RE = /\.(zip|7z)$/i;
 const WINDOWS_HINT = /win|windows|x64|x86_64|win64|msvc/i;
-const NOT_WINDOWS = /linux|mac|osx|darwin|android|arm64/i;
-const ANY_OS_HINT = /win|linux|mac|osx|darwin|android|arm64|x64|x86|msvc/i;
+const ARM_RE = /arm64|aarch64|armhf|armv\d|\barm\b/i;
+const NOT_WINDOWS = /linux|mac|osx|darwin|android|\bios\b|flatpak|appimage|steamos|arm64|aarch64|armhf|\barm\b/i;
+const ANY_OS_HINT = /win|linux|mac|osx|darwin|android|\bios\b|flatpak|appimage|steamos|arm64|aarch64|x64|x86|msvc/i;
+const BITS_32_RE = /i[3-6]86|x86(?![_-]?64)/i;
+const BITS_64_RE = /x64|x86[_-]64|amd64|win64|windows64|64-?bit/i;
 
-/** Maps an Awesome Decomp Games platform label to a catalogue platform. Unknown labels become "other". */
+/**
+ * Maps an Awesome Decomp Games platform label to a catalogue platform. Spacing and case are ignored;
+ * multi values ("N64 / GameCube") take the first recognized part. Unknown labels become "other".
+ */
 export function mapPlatform(adgPlatform) {
   if (typeof adgPlatform !== "string") return "other";
-  return PLATFORM_MAP.get(adgPlatform.trim().toLowerCase()) ?? "other";
+  for (const part of adgPlatform.split(/[/,&+|]/)) {
+    const platform = PLATFORM_MAP.get(platformKey(part));
+    if (platform) return platform;
+  }
+  return "other";
 }
 
 /** True when an Awesome Decomp Games entry is worth importing (section 10 rules). */
@@ -77,7 +92,28 @@ function usableAssetNames(assets) {
   return (Array.isArray(assets) ? assets : [])
     .map((asset) => asset?.name)
     .filter((name) => typeof name === "string" && name.length > 0)
-    .filter((name) => !IGNORED_EXTENSIONS.test(name) && !IGNORED_NAMES.test(name));
+    .filter((name) => !IGNORED_EXTENSIONS.test(name) && !IGNORED_NAMES.test(name) && !AUXILIARY_NAMES.test(name));
+}
+
+/**
+ * Best name by preference: x86-64 builds before ARM and 32-bit ones, then (optionally) AppImages,
+ * then the shortest name (the plain build rather than a "-widescreen" or "-NoAVX2" variant).
+ */
+function best(candidates, { preferAppImage = false } = {}) {
+  const rank = (n) => [
+    ARM_RE.test(n) ? 1 : 0,
+    BITS_32_RE.test(n) ? 1 : 0,
+    BITS_64_RE.test(n) ? 0 : 1,
+    preferAppImage && !/\.appimage$/i.test(n) ? 1 : 0,
+    n.length,
+  ];
+  const compare = (a, b) => {
+    const ra = rank(a);
+    const rb = rank(b);
+    for (let i = 0; i < ra.length; i += 1) if (ra[i] !== rb[i]) return ra[i] - rb[i];
+    return 0;
+  };
+  return [...candidates].sort(compare)[0];
 }
 
 /**
@@ -88,14 +124,20 @@ export function pickAssets(assets) {
   const names = usableAssetNames(assets);
   const result = {};
 
-  let win = names.find((n) => ARCHIVE_RE.test(n) && WINDOWS_HINT.test(n) && !NOT_WINDOWS.test(n));
-  if (!win) win = names.find((n) => /\.exe$/i.test(n) && !/setup|install/i.test(n));
-  if (!win && names.length === 1 && ARCHIVE_RE.test(names[0]) && !ANY_OS_HINT.test(names[0])) win = names[0];
+  let win = best(names.filter((n) => ARCHIVE_RE.test(n) && WINDOWS_HINT.test(n) && !NOT_WINDOWS.test(n)));
+  if (!win) win = best(names.filter((n) => /\.exe$/i.test(n) && !/setup|install/i.test(n) && !ARM_RE.test(n)));
+  if (!win) {
+    const unhinted = names.filter((n) => ARCHIVE_RE.test(n) && !ANY_OS_HINT.test(n));
+    if (unhinted.length === 1) win = unhinted[0];
+  }
   if (win) result.win32 = { pattern: generalizeAssetName(win), executable: null };
 
-  const linux =
-    names.find((n) => /\.appimage$/i.test(n)) ??
-    names.find((n) => /(\.tar\.gz|\.tar\.xz|\.tgz|\.zip)$/i.test(n) && /linux/i.test(n));
+  const linux = best(
+    names.filter(
+      (n) => /\.appimage$/i.test(n) || (/(\.tar\.gz|\.tar\.xz|\.tgz|\.zip)$/i.test(n) && /linux/i.test(n) && !/flatpak/i.test(n)),
+    ),
+    { preferAppImage: true },
+  );
   if (linux) result.linux = { pattern: generalizeAssetName(linux), executable: null };
 
   const darwin = names.find((n) => /\.zip$/i.test(n) && /mac|macos|osx|darwin/i.test(n));

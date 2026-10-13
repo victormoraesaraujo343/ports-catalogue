@@ -1,7 +1,7 @@
 {
   "$schema": "./ports-catalogue.schema.json",
   "version": 1,
-  "updatedAt": "2026-10-13T18:57:53Z",
+  "updatedAt": "2026-10-13T19:04:43Z",
   "generatedFrom": "https://github.com/SubmitGame/awesome-decomp-games",
   "ports": [
     {
@@ -47,7 +47,7 @@
     {
       "id": "2ship2harkinian-2ship2harkinian",
       "title": "The Legend of Zelda: Majora's Mask (2 Ship 2 Harkinian)",
-      "platform": "other",
+      "platform": "n64",
       "repo": "2ship2harkinian/2ship2harkinian",
       "authors": [
         "2ship2harkinian"
@@ -515,7 +515,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^BanjoRecompiled-v\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+\\.tar\\.gz$",
+          "pattern": "^BanjoRecompiled-v\\d+\\.\\d+\\.\\d+-Linux-X\\d+\\.tar\\.gz$",
           "executable": null
         },
         "darwin": {
@@ -570,6 +570,42 @@
       "stats": {
         "stars": 173,
         "pushedAt": "2026-10-12T16:51:22Z"
+      }
+    },
+    {
+      "id": "bigmak94-galaxyquest",
+      "title": "Super Mario Galaxy (GalaxyQuest (Meta Quest 3 VR))",
+      "platform": "wii",
+      "repo": "bigmak94/GalaxyQuest",
+      "authors": [
+        "bigmak94"
+      ],
+      "description": {
+        "en": "GalaxyQuest: Super Mario Galaxy in VR on Meta Quest 3, a native port built on the Petari decompilation. Bring your own game files. 100% made by AI (Claude Opus 5.5 in Claude Code)."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^GalaxyQuest-converter\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 73,
+        "pushedAt": "2026-10-03T20:24:38Z"
       }
     },
     {
@@ -631,11 +667,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^nocturnerecomp-tu-v\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
+          "pattern": "^nocturnerecomp-v\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^nocturnerecomp-tu-v\\d+\\.\\d+\\.\\d+-linux-arm\\d+\\.tar\\.gz$",
+          "pattern": "^nocturnerecomp-v\\d+\\.\\d+\\.\\d+-linux-x\\d+\\.tar\\.gz$",
           "executable": null
         }
       },
@@ -650,42 +686,6 @@
       "stats": {
         "stars": 362,
         "pushedAt": "2026-08-27T16:30:26Z"
-      }
-    },
-    {
-      "id": "birchwoodgod-halo-ce-vita",
-      "title": "Halo: Combat Evolved (Mac, Quest…)",
-      "platform": "xbox",
-      "repo": "BirchWoodGod/halo-ce-vita",
-      "authors": [
-        "BirchWoodGod"
-      ],
-      "description": {
-        "en": "Halo: Combat Evolved for the PS Vita (decomp port)"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "experimental",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "linux": {
-          "pattern": "^halo-ce-vita-server-\\d+\\.\\d+\\.\\d+-beta\\.\\d+-linux-armhf\\.tar\\.gz$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 62,
-        "pushedAt": "2026-10-12T20:46:57Z"
       }
     },
     {
@@ -1168,7 +1168,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^SnowboardKidsRecompiled-Linux-ARM\\d+\\.tar\\.gz$",
+          "pattern": "^SnowboardKidsRecompiled-Linux-X\\d+\\.tar\\.gz$",
           "executable": null
         },
         "darwin": {
@@ -1212,7 +1212,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^SnowboardKids\\d+Recompiled-Linux-ARM\\d+-Release\\.tar\\.gz$",
+          "pattern": "^SnowboardKids\\d+Recompiled-Linux-X\\d+-Release\\.tar\\.gz$",
           "executable": null
         },
         "darwin": {
@@ -1332,11 +1332,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^chupathingyce-windows-release\\.zip$",
+          "pattern": "^chupathingyce-windows\\d+-release\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^chupathingyce-linux-release\\.zip$",
+          "pattern": "^chupathingyce-linux\\d+-release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -1435,42 +1435,6 @@
       "stats": {
         "stars": 1427,
         "pushedAt": "2026-06-01T01:13:57Z"
-      }
-    },
-    {
-      "id": "ctr-tools-ctr-modsdk",
-      "title": "Crash Team Racing",
-      "platform": "ps1",
-      "repo": "CTR-tools/CTR-ModSDK",
-      "authors": [
-        "CTR-tools"
-      ],
-      "description": {
-        "en": "ModSDK - a modding toolkit to create mods for Crash Team Racing in C. This repository also houses an effort to fully decompile and reverse-engineer CTR in C."
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "partial",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^CTR-ModSDK\\.Mod\\.Collection\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 451,
-        "pushedAt": "2026-07-05T11:20:07Z"
       }
     },
     {
@@ -1724,11 +1688,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^bowling-\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
+          "pattern": "^lost-\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^bowling-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.zip$",
+          "pattern": "^lost-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -1884,7 +1848,7 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^asset-migrator-\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
+          "pattern": "^residentevil-\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
           "executable": null
         },
         "linux": {
@@ -1978,25 +1942,25 @@
       }
     },
     {
-      "id": "endercodezz-p3p3ds",
-      "title": "Shin Megami Tensei: Persona 3 Portable (P3P3DS)",
-      "platform": "psp",
-      "repo": "endercodezz/P3P3DS",
+      "id": "estebanpdn-legend-of-doom-3ds",
+      "title": "Legend of Doom (legend-of-doom-3ds)",
+      "platform": "other",
+      "repo": "EstebanPdN/legend-of-doom-3ds",
       "authors": [
-        "endercodezz"
+        "EstebanPdN"
       ],
       "description": {
-        "en": "Persona 3 Portable port for New Nintendo 3DS"
+        "en": "Legend of Doom port for New Nintendo 3DS, New Nintendo 3DS XL and New Nintendo 2DS XL, based on GZDoom 4.7.1."
       },
       "coverImageUrl": null,
       "heroImageUrl": null,
-      "status": "playable",
+      "status": "partial",
       "tested": false,
       "channel": "latest",
       "source": "auto",
       "assets": {
-        "linux": {
-          "pattern": "^P\\d+P\\d+DS-Builder-\\d+\\.\\d+\\.\\d+-linux\\.tar\\.gz$",
+        "win32": {
+          "pattern": "^legend-of-doom-\\d+ds-v\\d+\\.\\d+\\.zip$",
           "executable": null
         }
       },
@@ -2009,8 +1973,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 50,
-        "pushedAt": "2026-10-11T21:23:51Z"
+        "stars": 29,
+        "pushedAt": "2026-10-09T19:11:18Z"
       }
     },
     {
@@ -2036,7 +2000,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^Kirpich-linux-arm\\d+\\.zip$",
+          "pattern": "^Kirpich-linux-x\\d+\\.zip$",
           "executable": null
         }
       },
@@ -2130,46 +2094,6 @@
       }
     },
     {
-      "id": "fluffyquack-rexglue-exit",
-      "title": "Exit / Exit 2",
-      "platform": "xbox360",
-      "repo": "FluffyQuack/ReXGlue-EXIT",
-      "authors": [
-        "FluffyQuack"
-      ],
-      "description": {
-        "en": "EXIT 1 & 2 Statically Recompiled using ReXGlue SDK"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "partial",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^rexglue-sdk-\\d+\\.\\d+\\.\\d+-win-amd\\d+\\.zip$",
-          "executable": null
-        },
-        "linux": {
-          "pattern": "^rexglue-sdk-\\d+\\.\\d+\\.\\d+-linux-amd\\d+\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 12,
-        "pushedAt": "2026-07-07T13:53:07Z"
-      }
-    },
-    {
       "id": "fluffyquack-rexglue-soulcaliburiv",
       "title": "Soulcalibur IV",
       "platform": "xbox360",
@@ -2188,11 +2112,7 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^rexglue-sdk-\\d+\\.\\d+\\.\\d+-win-amd\\d+\\.zip$",
-          "executable": null
-        },
-        "linux": {
-          "pattern": "^rexglue-sdk-\\d+\\.\\d+\\.\\d+-linux-amd\\d+\\.zip$",
+          "pattern": "^SCIV-Recomp\\.zip$",
           "executable": null
         }
       },
@@ -2909,7 +2829,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^HarvestMoon\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+\\.zip$",
+          "pattern": "^HarvestMoon\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-X\\d+\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -2928,50 +2848,6 @@
       "stats": {
         "stars": 158,
         "pushedAt": "2026-09-25T20:53:33Z"
-      }
-    },
-    {
-      "id": "harvestwhisperer-hm64-decomp",
-      "title": "Harvest Moon 64",
-      "platform": "n64",
-      "repo": "harvestwhisperer/hm64-decomp",
-      "authors": [
-        "harvestwhisperer"
-      ],
-      "description": {
-        "en": "Harvest Moon 64 Decompilation"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "partial",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^sprite-editor-windows-x\\d+\\.zip$",
-          "executable": null
-        },
-        "linux": {
-          "pattern": "^sprite-editor-linux-x\\d+\\.tar\\.gz$",
-          "executable": null
-        },
-        "darwin": {
-          "pattern": "^sprite-editor-macos-universal\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 222,
-        "pushedAt": "2026-07-02T04:51:49Z"
       }
     },
     {
@@ -3138,10 +3014,6 @@
       "assets": {
         "win32": {
           "pattern": "^\\d+\\.\\d+\\.\\d+-game-win\\.zip$",
-          "executable": null
-        },
-        "linux": {
-          "pattern": "^\\d+\\.\\d+\\.\\d+-relay-linux-x\\d+\\.zip$",
           "executable": null
         }
       },
@@ -3373,7 +3245,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^BillyFrontier-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^BillyFrontier-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3413,7 +3285,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^Bugdom-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^Bugdom-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3453,7 +3325,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^Bugdom\\d+-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^Bugdom\\d+-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3493,7 +3365,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^CroMagRally-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^CroMagRally-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3533,7 +3405,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^MightyMike-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^MightyMike-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3573,7 +3445,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^Nanosaur\\d+-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^Nanosaur\\d+-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3613,7 +3485,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^OttoMatic-\\d+\\.\\d+\\.\\d+-linux-aarch\\d+\\.AppImage$",
+          "pattern": "^OttoMatic-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -3779,6 +3651,42 @@
       }
     },
     {
+      "id": "kaikoclanworth1-buffy-chaos-bleeds-pc",
+      "title": "Buffy the Vampire Slayer: Chaos Bleeds (buffy-chaos-bleeds-pc)",
+      "platform": "xbox",
+      "repo": "KaikoClanworth1/buffy-chaos-bleeds-pc",
+      "authors": [
+        "KaikoClanworth1"
+      ],
+      "description": {
+        "en": "Unofficial native PC port of Buffy the Vampire Slayer: Chaos Bleeds (Xbox). Bring your own disc."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^Buffy-Chaos-Bleeds-PC-v\\d+\\.\\d+\\.\\d+\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 14,
+        "pushedAt": "2026-10-02T05:14:42Z"
+      }
+    },
+    {
       "id": "kawaiibunga-mkvdcu-recomp",
       "title": "Mortal Kombat vs. DC Universe",
       "platform": "xbox360",
@@ -3905,11 +3813,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^Goemon\\d+Recompiled-AppImage-X\\d+-Release\\.zip$",
+          "pattern": "^Goemon\\d+Recompiled-Windows-RelWithDebInfo\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^Goemon\\d+Recompiled-Linux-ARM\\d+-Release\\.zip$",
+          "pattern": "^Goemon\\d+Recompiled-Linux-X\\d+-Release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -4333,11 +4241,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^MegaMan\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Flatpak-X\\d+\\.zip$",
+          "pattern": "^MegaMan\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Windows\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^MegaMan\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+\\.zip$",
+          "pattern": "^MegaMan\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-X\\d+\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -4356,46 +4264,6 @@
       "stats": {
         "stars": 265,
         "pushedAt": "2026-04-30T19:46:46Z"
-      }
-    },
-    {
-      "id": "minibandit-mkw-3ds",
-      "title": "Mario Kart Wii (MKW-3DS)",
-      "platform": "wii",
-      "repo": "MiniBandit/MKW-3DS",
-      "authors": [
-        "MiniBandit"
-      ],
-      "description": {
-        "en": "Mario Kart Wii for 3DS: a native port continued from dudewhat's original. Builds a CIA from your own disc (Mac & Windows)."
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "playable",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^MKW-\\d+DS-Builder-v\\d+\\.\\d+\\.\\d+-Windows\\.zip$",
-          "executable": null
-        },
-        "darwin": {
-          "pattern": "^MKW-\\d+DS-Builder-v\\d+\\.\\d+\\.\\d+-macOS\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 122,
-        "pushedAt": "2026-10-13T16:15:12Z"
       }
     },
     {
@@ -4525,7 +4393,7 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^MetroidNESRecomp-Europe-PAL-cycle-preview-windows-x\\d+\\.zip$",
+          "pattern": "^MetroidNESRecomp-USA-NTSC-cycle-preview-windows-x\\d+\\.zip$",
           "executable": null
         }
       },
@@ -4597,11 +4465,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^Sonic\\d+KRecomp-windows-x\\d+-v\\d+\\.\\d+\\.\\d+\\.zip$",
+          "pattern": "^Sonic\\d+Recomp-windows-x\\d+-v\\d+\\.\\d+\\.\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^Sonic\\d+KRecomp-linux-x\\d+_\\d+-v\\d+\\.\\d+\\.\\d+\\.AppImage$",
+          "pattern": "^Sonic\\d+Recomp-linux-x\\d+_\\d+-v\\d+\\.\\d+\\.\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -4709,7 +4577,7 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^SuperMarioBrosRecomp-widescreen-windows-x\\d+\\.zip$",
+          "pattern": "^SuperMarioBrosRecomp-windows-x\\d+\\.zip$",
           "executable": null
         }
       },
@@ -4760,6 +4628,42 @@
       "stats": {
         "stars": 16,
         "pushedAt": "2026-05-23T17:24:58Z"
+      }
+    },
+    {
+      "id": "nebadasswifty-masseffect-nx",
+      "title": "Mass Effect (masseffect-nx)",
+      "platform": "xbox360",
+      "repo": "nebadasSwifty/masseffect-nx",
+      "authors": [
+        "nebadasSwifty"
+      ],
+      "description": {
+        "en": "Community project. Requires your own copy of the game."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^masseffect-nx-starter\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 29,
+        "pushedAt": "2026-10-09T14:50:19Z"
       }
     },
     {
@@ -5032,6 +4936,10 @@
       "channel": "latest",
       "source": "auto",
       "assets": {
+        "win32": {
+          "pattern": "^BloodyRoar\\d+-v\\d+\\.\\d+\\.\\d+\\.zip$",
+          "executable": null
+        },
         "linux": {
           "pattern": "^BloodyRoar\\d+-linux-x\\d+-\\d+\\.\\d+\\.\\d+\\.zip$",
           "executable": null
@@ -5473,11 +5381,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^pd-i\\d+-windows\\.zip$",
+          "pattern": "^pd-x\\d+_\\d+-windows\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^pd-i\\d+-linux\\.tar\\.gz$",
+          "pattern": "^pd-x\\d+_\\d+-linux\\.tar\\.gz$",
           "executable": null
         }
       },
@@ -5693,11 +5601,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^DK\\d+Recompiled-Flatpak-X\\d+-Release-\\d+-\\d+-\\d+\\.zip$",
+          "pattern": "^DK\\d+Recompiled-Windows-Release-\\d+-\\d+-\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^DK\\d+Recompiled-Linux-ARM\\d+-Release-\\d+-\\d+-\\d+\\.zip$",
+          "pattern": "^DK\\d+Recompiled-Linux-X\\d+-Release-\\d+-\\d+-\\d+\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -5791,6 +5699,42 @@
       }
     },
     {
+      "id": "recomprando-mmrecomprando",
+      "title": "The Legend of Zelda: Majora's Mask (MMRecompRando)",
+      "platform": "n64",
+      "repo": "RecompRando/MMRecompRando",
+      "authors": [
+        "RecompRando"
+      ],
+      "description": {
+        "en": "A Majora's Mask Archipelago randomizer with an emphasis on fun and silliness. SHNIGEDY DING-DONG"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^MMRecompRando\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 46,
+        "pushedAt": "2026-08-04T03:01:06Z"
+      }
+    },
+    {
       "id": "revosucks-bm64recomp",
       "title": "Bomberman 64",
       "platform": "n64",
@@ -5809,11 +5753,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^BM\\d+Recompiled-AppImage-X\\d+-Release\\.zip$",
+          "pattern": "^BM\\d+Recompiled-Windows-RelWithDebInfo\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^BM\\d+Recompiled-Linux-ARM\\d+-Release\\.zip$",
+          "pattern": "^BM\\d+Recompiled-Linux-X\\d+-Release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -5853,11 +5797,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^CV\\d+Recompiled-AppImage-X\\d+-Release\\.zip$",
+          "pattern": "^CV\\d+Recompiled-Windows-RelWithDebInfo\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^CV\\d+Recompiled-Linux-ARM\\d+-Release\\.zip$",
+          "pattern": "^CV\\d+Recompiled-Linux-X\\d+-Release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -5948,46 +5892,6 @@
       "stats": {
         "stars": 39,
         "pushedAt": "2026-03-06T21:49:24Z"
-      }
-    },
-    {
-      "id": "rsdkmodding-rsdkv4-decompilation",
-      "title": "Sonic the Hedgehog / Sonic the Hedgehog 2",
-      "platform": "other",
-      "repo": "RSDKModding/RSDKv4-Decompilation",
-      "authors": [
-        "RSDKModding"
-      ],
-      "description": {
-        "en": "A complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4)"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "partial",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^v\\d+-windows-x\\d+\\.zip$",
-          "executable": null
-        },
-        "linux": {
-          "pattern": "^v\\d+-linux\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 1145,
-        "pushedAt": "2026-09-06T16:32:08Z"
       }
     },
     {
@@ -6201,7 +6105,7 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^RoadTripRecomp-\\d+\\.\\d+\\.\\d+-Windows-x\\d+-DLSS-XeSS-addon\\.zip$",
+          "pattern": "^RoadTripRecomp-\\d+\\.\\d+\\.\\d+-Windows-x\\d+\\.zip$",
           "executable": null
         }
       },
@@ -6281,7 +6185,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^DQ\\d+Recomp-\\d+e\\d+da\\d+-Linux-arm\\d+\\.tar\\.gz$",
+          "pattern": "^DQ\\d+Recomp-\\d+e\\d+da\\d+-Linux-x\\d+_\\d+\\.tar\\.gz$",
           "executable": null
         },
         "darwin": {
@@ -6356,6 +6260,10 @@
       "channel": "latest",
       "source": "auto",
       "assets": {
+        "win32": {
+          "pattern": "^SHPC_beta-\\d+\\.\\d+\\.\\d+\\.\\d+\\.zip$",
+          "executable": null
+        },
         "linux": {
           "pattern": "^SHPC-linux-x\\d+\\.tar\\.gz$",
           "executable": null
@@ -6509,11 +6417,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^DNZHRecompiled-\\d+\\.\\d+\\.\\d+-Flatpak-X\\d+-Release\\.zip$",
+          "pattern": "^DNZHRecompiled-\\d+\\.\\d+\\.\\d+-Windows-RelWithDebInfo\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^DNZHRecompiled-\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+-Release\\.zip$",
+          "pattern": "^DNZHRecompiled-\\d+\\.\\d+\\.\\d+-Linux-X\\d+-Release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -6553,11 +6461,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^MarioKart\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Flatpak-X\\d+-Release\\.zip$",
+          "pattern": "^MarioKart\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Windows-RelWithDebInfo\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^MarioKart\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+-Release\\.zip$",
+          "pattern": "^MarioKart\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-X\\d+-Release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -6597,11 +6505,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^Starfox\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Flatpak-X\\d+-Release\\.zip$",
+          "pattern": "^Starfox\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Windows-RelWithDebInfo\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^Starfox\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+-Release\\.zip$",
+          "pattern": "^Starfox\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-X\\d+-Release\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -6775,6 +6683,42 @@
       }
     },
     {
+      "id": "techprogabe-opencrossing-xbox",
+      "title": "Animal Crossing",
+      "platform": "gamecube",
+      "repo": "TechProGabe/OpenCrossing-Xbox",
+      "authors": [
+        "TechProGabe"
+      ],
+      "description": {
+        "en": "Native original Xbox port of Animal Crossing (GameCube decomp)"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^OpenCrossing-Xbox-v\\d+\\.\\d+\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 29,
+        "pushedAt": "2026-10-05T18:39:26Z"
+      }
+    },
+    {
       "id": "tgp482-scda-xberecomp",
       "title": "Tom Clancy's Splinter Cell: Double Agent (Xbox recomp)",
       "platform": "xbox",
@@ -6945,7 +6889,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^Dusklight-v\\d+\\.\\d+\\.\\d+-linux-arm\\d+\\.AppImage$",
+          "pattern": "^Dusklight-v\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         },
         "darwin": {
@@ -7245,7 +7189,7 @@
     {
       "id": "y0oshi-lain-psx-decompiled",
       "title": "Serial Experiments Lain",
-      "platform": "other",
+      "platform": "ps1",
       "repo": "Y0oshi/lain-psx-decompiled",
       "authors": [
         "Y0oshi"
@@ -7345,11 +7289,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^TheSimpsonsGame-Recompiled-Windows-x\\d+-NoAVX\\d+\\.zip$",
+          "pattern": "^TheSimpsonsGame-Recompiled-Windows-x\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^TheSimpsonsGame-Recompiled-Linux-x\\d+-NoAVX\\d+\\.tar\\.gz$",
+          "pattern": "^TheSimpsonsGame-Recompiled-Linux-x\\d+\\.tar\\.gz$",
           "executable": null
         }
       },
@@ -7537,7 +7481,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^Zelda\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-ARM\\d+\\.zip$",
+          "pattern": "^Zelda\\d+Recompiled-v\\d+\\.\\d+\\.\\d+-Linux-X\\d+\\.zip$",
           "executable": null
         },
         "darwin": {
@@ -7653,7 +7597,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^reblue-\\d+\\.\\d+\\.\\d+-aarch\\d+\\.AppImage$",
+          "pattern": "^reblue-\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
           "executable": null
         },
         "darwin": {
@@ -7697,7 +7641,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^SpaceChannel\\d+-v\\d+\\.\\d+\\.\\d+-preview\\.\\d+-Linux-ARM\\d+\\.tar\\.gz$",
+          "pattern": "^SpaceChannel\\d+-v\\d+\\.\\d+\\.\\d+-preview\\.\\d+-Linux-X\\d+\\.tar\\.gz$",
           "executable": null
         },
         "darwin": {
