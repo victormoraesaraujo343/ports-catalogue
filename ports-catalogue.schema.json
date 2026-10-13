@@ -1,13 +1,18 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Open ports catalogue",
-  "description": "A list of unofficial native PC ports of console games. Lists only; contains no game data.",
+  "description": "A list of unofficial native PC ports of console games. Lists only; contains no game data. ports-catalogue.json is generated daily from curated.json and awesome-decomp-games; curated.json uses the same entry shape without updatedAt.",
   "type": "object",
-  "required": ["version", "updatedAt", "ports"],
+  "required": ["version", "ports"],
   "properties": {
     "$schema": { "type": "string" },
     "version": { "const": 1 },
     "updatedAt": { "type": "string", "format": "date-time" },
+    "generatedFrom": {
+      "description": "Source of the automatic entries.",
+      "type": "string",
+      "format": "uri"
+    },
     "ports": {
       "type": "array",
       "items": { "$ref": "#/$defs/port" }
@@ -46,8 +51,8 @@
           "minLength": 1
         },
         "executable": {
-          "description": "Path relative to the extracted folder, or the bare asset file name.",
-          "type": "string",
+          "description": "Path relative to the extracted folder, or the bare asset file name. null means the client detects the executable after extraction.",
+          "type": ["string", "null"],
           "minLength": 1
         }
       },
@@ -55,7 +60,7 @@
     },
     "port": {
       "type": "object",
-      "required": ["id", "title", "platform", "repo", "description", "assets", "game"],
+      "required": ["id", "title", "platform", "repo", "source", "description", "assets", "game"],
       "properties": {
         "id": {
           "description": "Stable slug, unique within the catalogue.",
@@ -65,12 +70,21 @@
         "title": { "type": "string", "minLength": 1 },
         "platform": {
           "type": "string",
-          "enum": ["ps4", "ps3", "ps2", "ps1", "psp", "xbox360", "xbox", "n64", "gamecube", "wii", "switch", "other"]
+          "enum": [
+            "ps4", "ps3", "ps2", "ps1", "psp", "xbox360", "xbox", "n64", "gamecube", "wii", "switch",
+            "nes", "snes", "gb", "gbc", "gba", "ds", "3ds", "wiiu", "genesis", "saturn", "dreamcast", "arcade",
+            "other"
+          ]
         },
         "repo": {
           "description": "GitHub owner/name.",
           "type": "string",
           "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+        },
+        "source": {
+          "description": "\"curated\" entries come from curated.json; \"auto\" entries are imported from awesome-decomp-games.",
+          "type": "string",
+          "enum": ["curated", "auto"]
         },
         "authors": { "type": "array", "items": { "type": "string" } },
         "description": { "$ref": "#/$defs/localizedText" },
@@ -83,7 +97,7 @@
         },
         "channel": { "type": "string", "enum": ["latest", "prerelease"] },
         "assets": {
-          "description": "Keyed by Node process.platform.",
+          "description": "Keyed by Node process.platform. May be empty.",
           "type": "object",
           "propertyNames": { "enum": ["win32", "linux", "darwin"] },
           "additionalProperties": { "$ref": "#/$defs/asset" }
