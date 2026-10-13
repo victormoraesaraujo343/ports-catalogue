@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Open ports catalogue",
+  "description": "A list of unofficial native PC ports of console games. Lists only; contains no game data.",
+  "type": "object",
+  "required": ["version", "updatedAt", "ports"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "version": { "const": 1 },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "ports": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/port" }
+    }
+  },
+  "$defs": {
+    "stringList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "localizedText": {
+      "description": "Map of locale to text. \"en\" is required.",
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "localizedList": {
+      "description": "Map of locale to list of strings. \"en\" is required.",
+      "type": "object",
+      "required": ["en"],
+      "properties": {
+        "en": { "$ref": "#/$defs/stringList" }
+      },
+      "additionalProperties": { "$ref": "#/$defs/stringList" }
+    },
+    "asset": {
+      "type": "object",
+      "required": ["pattern", "executable"],
+      "properties": {
+        "pattern": {
+          "description": "RegExp source matched against the release asset name, case-insensitive.",
+          "type": "string",
+          "minLength": 1
+        },
+        "executable": {
+          "description": "Path relative to the extracted folder, or the bare asset file name.",
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "port": {
+      "type": "object",
+      "required": ["id", "title", "platform", "repo", "description", "assets", "game"],
+      "properties": {
+        "id": {
+          "description": "Stable slug, unique within the catalogue.",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "title": { "type": "string", "minLength": 1 },
+        "platform": {
+          "type": "string",
+          "enum": ["ps4", "ps3", "ps2", "ps1", "psp", "xbox360", "xbox", "n64", "gamecube", "wii", "switch", "other"]
+        },
+        "repo": {
+          "description": "GitHub owner/name.",
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+        },
+        "authors": { "type": "array", "items": { "type": "string" } },
+        "description": { "$ref": "#/$defs/localizedText" },
+        "coverImageUrl": { "type": ["string", "null"], "format": "uri" },
+        "heroImageUrl": { "type": ["string", "null"], "format": "uri" },
+        "status": { "type": "string", "enum": ["playable", "partial", "experimental"] },
+        "tested": {
+          "description": "The maintainer verified the port end to end.",
+          "type": "boolean"
+        },
+        "channel": { "type": "string", "enum": ["latest", "prerelease"] },
+        "assets": {
+          "description": "Keyed by Node process.platform.",
+          "type": "object",
+          "propertyNames": { "enum": ["win32", "linux", "darwin"] },
+          "additionalProperties": { "$ref": "#/$defs/asset" }
+        },
+        "game": {
+          "type": "object",
+          "required": ["format", "requiredFiles"],
+          "properties": {
+            "format": { "type": "string", "enum": ["folder", "iso", "folder-or-iso"] },
+            "requiredFiles": { "$ref": "#/$defs/stringList" },
+            "titleIds": { "$ref": "#/$defs/stringList" },
+            "notes": {
+              "oneOf": [{ "$ref": "#/$defs/localizedText" }, { "type": "null" }]
+            }
+          }
+        },
+        "requirements": {
+          "oneOf": [{ "$ref": "#/$defs/localizedList" }, { "type": "null" }]
+        },
+        "setupHint": {
+          "oneOf": [{ "$ref": "#/$defs/localizedText" }, { "type": "null" }]
+        },
+        "stats": {
+          "description": "Refreshed by CI. Optional.",
+          "oneOf": [
+            {
+              "type": "object",
+              "required": ["stars", "pushedAt"],
+              "properties": {
+                "stars": { "type": "integer", "minimum": 0 },
+                "pushedAt": { "type": "string", "format": "date-time" }
+              }
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    }
+  }
+}
