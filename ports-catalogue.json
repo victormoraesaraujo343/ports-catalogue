@@ -1,7 +1,7 @@
 {
   "$schema": "./ports-catalogue.schema.json",
   "version": 1,
-  "updatedAt": "2026-10-26T12:58:36Z",
+  "updatedAt": "2026-10-27T03:05:32Z",
   "generatedFrom": "https://github.com/SubmitGame/awesome-decomp-games",
   "ports": [
     {
@@ -36,7 +36,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 118,
+        "stars": 125,
         "pushedAt": "2026-10-20T08:48:28Z"
       }
     },
@@ -120,8 +120,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2381,
+        "stars": 2382,
         "pushedAt": "2026-10-24T14:42:15Z"
+      }
+    },
+    {
+      "id": "aabrole-huntersrecomp",
+      "title": "Metroid Prime Hunters (HuntersRecomp (AYN Thor))",
+      "platform": "ds",
+      "repo": "aabrole/HuntersRecomp",
+      "authors": [
+        "aabrole"
+      ],
+      "description": {
+        "en": "Metroid Prime Hunters recomp for the AYN Thor: native dual-screen Android port with twin-stick Prime controls and HD GLES rendering"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^HuntersRecomp-v\\d+\\.\\d+\\.\\d+-thor-arm\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 41,
+        "pushedAt": "2026-09-06T00:54:13Z"
       }
     },
     {
@@ -160,7 +196,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 18,
         "pushedAt": "2026-10-16T03:23:32Z"
       }
     },
@@ -197,7 +233,7 @@
       "setupHint": null,
       "stats": {
         "stars": 818,
-        "pushedAt": "2026-10-26T01:31:15Z"
+        "pushedAt": "2026-10-27T01:46:32Z"
       }
     },
     {
@@ -456,7 +492,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 15,
         "pushedAt": "2026-10-02T14:42:34Z"
       }
     },
@@ -500,7 +536,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 29,
+        "stars": 30,
         "pushedAt": "2026-10-02T11:06:01Z"
       }
     },
@@ -572,8 +608,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 69,
+        "stars": 70,
         "pushedAt": "2026-10-19T21:26:01Z"
+      }
+    },
+    {
+      "id": "andrewnakas-skate3-android",
+      "title": "Skate 3",
+      "platform": "xbox360",
+      "repo": "andrewnakas/skate3-android",
+      "authors": [
+        "andrewnakas"
+      ],
+      "description": {
+        "en": "Skate 3 on Android: the app shell around the native recompilation. Bring your own disc image."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^Skate\\d+-Android-v\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 46,
+        "pushedAt": "2026-09-24T15:52:34Z"
       }
     },
     {
@@ -616,7 +688,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 14,
         "pushedAt": "2026-10-22T04:23:57Z"
       }
     },
@@ -728,8 +800,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 145,
-        "pushedAt": "2026-10-22T00:00:39Z"
+        "stars": 166,
+        "pushedAt": "2026-10-26T17:49:25Z"
       }
     },
     {
@@ -777,6 +849,42 @@
       }
     },
     {
+      "id": "aureliob-banjorecomp-android",
+      "title": "Banjo-Kazooie (Banjo: Recompiled [Android Port])",
+      "platform": "n64",
+      "repo": "AurelioB/BanjoRecomp-Android",
+      "authors": [
+        "AurelioB"
+      ],
+      "description": {
+        "en": "Android Port of Banjo-Kazooie made using N64: Recompiled"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^BanjoRecompiled-v\\d+\\.\\d+\\.\\d+-Android-ARM\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 112,
+        "pushedAt": "2026-07-13T21:55:41Z"
+      }
+    },
+    {
       "id": "banjorecomp-banjorecomp",
       "title": "Banjo-Kazooie (BanjoRecomp)",
       "platform": "n64",
@@ -816,7 +924,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2090,
+        "stars": 2095,
         "pushedAt": "2026-09-25T18:57:08Z"
       }
     },
@@ -852,7 +960,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 16,
         "pushedAt": "2026-10-25T12:45:45Z"
       }
     },
@@ -888,7 +996,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 214,
+        "stars": 216,
         "pushedAt": "2026-10-24T09:38:26Z"
       }
     },
@@ -913,6 +1021,10 @@
         "win32": {
           "pattern": "^GalaxyQuest-converter\\.zip$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^GalaxyQuest\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -924,7 +1036,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 119,
+        "stars": 120,
         "pushedAt": "2026-10-19T21:36:29Z"
       }
     },
@@ -953,6 +1065,10 @@
         "linux": {
           "pattern": "^eternalsonata-v\\d+\\.\\d+\\.\\d+-linux-amd\\d+\\.tar\\.gz$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^eternalsonata-v\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -964,8 +1080,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 164,
-        "pushedAt": "2026-10-24T00:08:21Z"
+        "stars": 168,
+        "pushedAt": "2026-10-27T01:45:48Z"
       }
     },
     {
@@ -1008,7 +1124,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 215,
+        "stars": 218,
         "pushedAt": "2026-10-03T21:52:59Z"
       }
     },
@@ -1052,7 +1168,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 984,
+        "stars": 989,
         "pushedAt": "2026-10-21T03:46:06Z"
       }
     },
@@ -1113,7 +1229,7 @@
         "pt-BR": "Em Game & effects, escolha a pasta do jogo (a que tem o eboot.bin) e depois clique em PLAY."
       },
       "stats": {
-        "stars": 4662,
+        "stars": 4712,
         "pushedAt": "2026-10-23T21:30:46Z"
       }
     },
@@ -1557,7 +1673,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 76,
+        "stars": 75,
         "pushedAt": "2026-10-12T15:22:21Z"
       }
     },
@@ -1595,6 +1711,78 @@
       "stats": {
         "stars": 77,
         "pushedAt": "2026-10-23T01:46:01Z"
+      }
+    },
+    {
+      "id": "codepdbh-nfs-carbon-360-android-recomp",
+      "title": "Need for Speed: Carbon",
+      "platform": "xbox360",
+      "repo": "codepdbh/NFS-CARBON-360-ANDROID-RECOMP",
+      "authors": [
+        "codepdbh"
+      ],
+      "description": {
+        "en": "Experimental static recompilation of Need for Speed Carbon for Xbox 360 using ReXGlue. Windows x64 prototype, analysis fixes and build instructions."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^NFSCarbon-Android-v\\d+\\.\\d+\\.\\d+-arm\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 106,
+        "pushedAt": "2026-10-22T14:10:29Z"
+      }
+    },
+    {
+      "id": "codepdbh-nfsmw-android",
+      "title": "Need for Speed: Most Wanted",
+      "platform": "xbox360",
+      "repo": "codepdbh/nfsmw-android",
+      "authors": [
+        "codepdbh"
+      ],
+      "description": {
+        "en": "Community project. Requires your own copy of the game."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^NFSMW-Android-Evolved-v\\d+\\.\\d+\\.\\d+-arm\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 262,
+        "pushedAt": "2026-10-26T20:14:33Z"
       }
     },
     {
@@ -1673,7 +1861,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1487,
+        "stars": 1490,
         "pushedAt": "2026-10-24T19:58:34Z"
       }
     },
@@ -1941,7 +2129,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 159,
+        "stars": 162,
         "pushedAt": "2026-09-21T22:54:01Z"
       }
     },
@@ -1990,6 +2178,42 @@
       }
     },
     {
+      "id": "dorpxp-driftdroid",
+      "title": "Mario Kart Wii",
+      "platform": "wii",
+      "repo": "dorPXP/driftdroid",
+      "authors": [
+        "dorPXP"
+      ],
+      "description": {
+        "en": "A native Android port of Mario Kart Wii and Retro Rewind. Fast, easy."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^DriftDroid-v\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 112,
+        "pushedAt": "2026-10-09T23:04:53Z"
+      }
+    },
+    {
       "id": "dr-89-time-crisis-vr",
       "title": "Time Crisis (Time Crisis VR)",
       "platform": "arcade",
@@ -2010,6 +2234,10 @@
         "win32": {
           "pattern": "^TimeCrisisVR-v\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^TimeCrisisVR-v\\d+\\.\\d+\\.\\d+-quest\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -2021,7 +2249,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 82,
+        "stars": 83,
         "pushedAt": "2026-10-20T16:14:23Z"
       }
     },
@@ -2057,7 +2285,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 45,
+        "stars": 46,
         "pushedAt": "2026-10-17T05:57:35Z"
       }
     },
@@ -2093,7 +2321,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 121,
+        "stars": 132,
         "pushedAt": "2026-10-26T12:52:32Z"
       }
     },
@@ -2129,7 +2357,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 153,
+        "stars": 155,
         "pushedAt": "2026-09-30T11:19:02Z"
       }
     },
@@ -2169,7 +2397,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 169,
+        "stars": 170,
         "pushedAt": "2026-10-24T16:47:15Z"
       }
     },
@@ -2209,8 +2437,80 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 158,
+        "stars": 159,
         "pushedAt": "2026-10-23T20:27:23Z"
+      }
+    },
+    {
+      "id": "edeegg-legends-recomp",
+      "title": "Rayman Legends",
+      "platform": "xbox360",
+      "repo": "edeegg/Legends-Recomp",
+      "authors": [
+        "edeegg"
+      ],
+      "description": {
+        "en": "Rayman Legends recomp (RexGlue SDK based)"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^app-release\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 14,
+        "pushedAt": "2026-10-15T16:31:08Z"
+      }
+    },
+    {
+      "id": "edwin2929-sma3-recomp-android",
+      "title": "Yoshi's Island: Super Mario Advance 3 (SMA3 Recomp Android – Yoshi's Island: Super Mario Advance 3 PC port)",
+      "platform": "gba",
+      "repo": "Edwin2929/sma3-recomp-android.",
+      "authors": [
+        "Edwin2929"
+      ],
+      "description": {
+        "en": "Community project. Requires your own copy of the game."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^sma\\d+-recomp-\\d+\\.\\d+\\.\\d+-beta-arm\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 17,
+        "pushedAt": "2026-10-25T08:49:25Z"
       }
     },
     {
@@ -2245,8 +2545,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
-        "pushedAt": "2026-10-26T10:23:32Z"
+        "stars": 15,
+        "pushedAt": "2026-10-26T19:44:24Z"
       }
     },
     {
@@ -2353,7 +2653,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 57,
+        "stars": 62,
         "pushedAt": "2026-10-25T22:17:23Z"
       }
     },
@@ -2433,7 +2733,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 239,
+        "stars": 240,
         "pushedAt": "2026-10-25T21:35:44Z"
       }
     },
@@ -2478,6 +2778,42 @@
       }
     },
     {
+      "id": "eukaryot-sonic3air",
+      "title": "Sonic 3 & Knuckles",
+      "platform": "genesis",
+      "repo": "Eukaryot/sonic3air",
+      "authors": [
+        "Eukaryot"
+      ],
+      "description": {
+        "en": "Source and data to build Sonic 3 A.I.R. (Angel Island Revisited) and the Oxygen Engine"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^sonic\\d+air_game\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 669,
+        "pushedAt": "2026-10-24T12:21:31Z"
+      }
+    },
+    {
       "id": "expansionpak-moderngekko",
       "title": "Kirby's Return to Dream Land (Kirby Wii Recomp)",
       "platform": "wii",
@@ -2513,7 +2849,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 179,
+        "stars": 180,
         "pushedAt": "2026-09-17T02:30:47Z"
       }
     },
@@ -2549,7 +2885,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 30,
+        "stars": 31,
         "pushedAt": "2026-07-07T15:11:50Z"
       }
     },
@@ -2609,7 +2945,7 @@
         "pt-BR": "Arraste seu ISO para o launcher (ou escolha o ISO), confirme a posse do jogo e depois clique em Verificar e montar."
       },
       "stats": {
-        "stars": 908,
+        "stars": 914,
         "pushedAt": "2026-10-25T13:54:08Z"
       }
     },
@@ -2645,7 +2981,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
+        "stars": 18,
         "pushedAt": "2026-10-25T20:20:00Z"
       }
     },
@@ -2722,7 +3058,7 @@
       "setupHint": null,
       "stats": {
         "stars": 23,
-        "pushedAt": "2026-10-26T03:39:36Z"
+        "pushedAt": "2026-10-26T20:13:14Z"
       }
     },
     {
@@ -2757,7 +3093,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
+        "stars": 23,
         "pushedAt": "2026-09-10T20:23:53Z"
       }
     },
@@ -2829,8 +3165,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 51,
-        "pushedAt": "2026-10-26T07:52:55Z"
+        "stars": 59,
+        "pushedAt": "2026-10-26T22:48:45Z"
       }
     },
     {
@@ -2869,8 +3205,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 188,
-        "pushedAt": "2026-10-24T02:10:49Z"
+        "stars": 193,
+        "pushedAt": "2026-10-26T23:02:49Z"
       }
     },
     {
@@ -2934,8 +3270,8 @@
         "pt-BR": "Abra o God of War III.exe e escolha a pasta do jogo (a que tem o eboot.bin)."
       },
       "stats": {
-        "stars": 4179,
-        "pushedAt": "2026-10-26T12:29:51Z"
+        "stars": 4219,
+        "pushedAt": "2026-10-27T00:24:05Z"
       }
     },
     {
@@ -2978,7 +3314,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 446,
+        "stars": 450,
         "pushedAt": "2026-10-08T17:50:33Z"
       }
     },
@@ -3126,7 +3462,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 36,
+        "stars": 37,
         "pushedAt": "2026-10-23T16:31:33Z"
       }
     },
@@ -3198,7 +3534,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 14,
         "pushedAt": "2026-10-22T20:24:34Z"
       }
     },
@@ -3318,7 +3654,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 861,
+        "stars": 864,
         "pushedAt": "2026-10-25T10:17:44Z"
       }
     },
@@ -3362,8 +3698,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 528,
-        "pushedAt": "2026-10-23T17:21:47Z"
+        "stars": 530,
+        "pushedAt": "2026-10-27T01:49:20Z"
       }
     },
     {
@@ -3406,7 +3742,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 522,
+        "stars": 525,
         "pushedAt": "2026-10-22T17:46:56Z"
       }
     },
@@ -3495,6 +3831,42 @@
       }
     },
     {
+      "id": "hdmaniak-dishsoap",
+      "title": "The Dishwasher: Dead Samurai (DishSoap)",
+      "platform": "xbox360",
+      "repo": "Hdmaniak/DishSoap",
+      "authors": [
+        "Hdmaniak"
+      ],
+      "description": {
+        "en": "Community project. Requires your own copy of the game."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^dishwasher-public-arm\\d+-\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 11,
+        "pushedAt": "2026-10-21T17:02:19Z"
+      }
+    },
+    {
       "id": "hedge-dev-unleashedrecomp",
       "title": "Sonic Unleashed (Unleashed Recompiled)",
       "platform": "xbox360",
@@ -3526,7 +3898,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5273,
+        "stars": 5281,
         "pushedAt": "2026-06-29T11:05:43Z"
       }
     },
@@ -3598,7 +3970,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 39,
+        "stars": 40,
         "pushedAt": "2026-10-26T07:20:35Z"
       }
     },
@@ -3634,8 +4006,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 50,
-        "pushedAt": "2026-10-25T18:25:05Z"
+        "stars": 53,
+        "pushedAt": "2026-10-26T21:16:29Z"
       }
     },
     {
@@ -3670,8 +4042,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 173,
-        "pushedAt": "2026-10-26T12:32:26Z"
+        "stars": 186,
+        "pushedAt": "2026-10-27T00:23:07Z"
       }
     },
     {
@@ -3742,8 +4114,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 69,
-        "pushedAt": "2026-10-22T21:52:52Z"
+        "stars": 70,
+        "pushedAt": "2026-10-26T22:37:00Z"
       }
     },
     {
@@ -3778,7 +4150,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 29,
+        "stars": 30,
         "pushedAt": "2026-09-13T21:05:58Z"
       }
     },
@@ -3814,7 +4186,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 52,
+        "stars": 54,
         "pushedAt": "2026-10-19T15:11:36Z"
       }
     },
@@ -3851,7 +4223,7 @@
       "setupHint": null,
       "stats": {
         "stars": 54,
-        "pushedAt": "2026-10-26T12:22:52Z"
+        "pushedAt": "2026-10-26T20:25:20Z"
       }
     },
     {
@@ -3886,8 +4258,80 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 26,
         "pushedAt": "2026-10-20T21:48:49Z"
+      }
+    },
+    {
+      "id": "izzy2lost-perfect-dark",
+      "title": "Perfect Dark (Perfect Dark Port [Android])",
+      "platform": "n64",
+      "repo": "izzy2lost/perfect_dark",
+      "authors": [
+        "izzy2lost"
+      ],
+      "description": {
+        "en": "Android Port!! work in progress port of n64decomp/perfect_dark to modern platforms"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^app-release\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 106,
+        "pushedAt": "2026-08-27T17:15:18Z"
+      }
+    },
+    {
+      "id": "izzy2lost-starship",
+      "title": "Star Fox 64 (Starship [Android Port])",
+      "platform": "n64",
+      "repo": "izzy2lost/Starship",
+      "authors": [
+        "izzy2lost"
+      ],
+      "description": {
+        "en": "SF64 Android Port"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^starship-v\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 112,
+        "pushedAt": "2026-08-04T03:22:42Z"
       }
     },
     {
@@ -3998,7 +4442,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3274,
+        "stars": 3275,
         "pushedAt": "2026-10-17T14:33:08Z"
       }
     },
@@ -4038,8 +4482,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 41,
-        "pushedAt": "2026-10-26T09:35:15Z"
+        "stars": 49,
+        "pushedAt": "2026-10-26T22:26:26Z"
       }
     },
     {
@@ -4074,8 +4518,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 108,
-        "pushedAt": "2026-10-26T10:52:31Z"
+        "stars": 114,
+        "pushedAt": "2026-10-27T03:01:38Z"
       }
     },
     {
@@ -4390,7 +4834,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 39,
+        "stars": 42,
         "pushedAt": "2026-10-24T01:39:15Z"
       }
     },
@@ -4426,7 +4870,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
+        "stars": 43,
         "pushedAt": "2026-10-23T14:14:12Z"
       }
     },
@@ -4498,7 +4942,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-10-18T21:35:25Z"
       }
     },
@@ -4606,7 +5050,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 47,
+        "stars": 48,
         "pushedAt": "2026-10-22T13:04:36Z"
       }
     },
@@ -4763,7 +5207,43 @@
       "setupHint": null,
       "stats": {
         "stars": 303,
-        "pushedAt": "2026-10-26T02:45:40Z"
+        "pushedAt": "2026-10-26T22:12:10Z"
+      }
+    },
+    {
+      "id": "lancesweatpants-strikers-quest-mr",
+      "title": "Super Mario Strikers (Quest 3 Strikers)",
+      "platform": "gamecube",
+      "repo": "LanceSweatpants/Strikers-Quest-MR",
+      "authors": [
+        "LanceSweatpants"
+      ],
+      "description": {
+        "en": "Super Mario Strikers running natively on Meta Quest 3 as mixed reality: a hologram pitch on your table, big screen, stadium VR, and online 1v1 with room codes. Free alpha. No game files included."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^QuestStrikers-alpha\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 30,
+        "pushedAt": "2026-10-21T00:05:46Z"
       }
     },
     {
@@ -4798,7 +5278,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 294,
+        "stars": 297,
         "pushedAt": "2026-10-25T22:12:05Z"
       }
     },
@@ -4821,11 +5301,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^Darkwatch-Darker-Edition-\\d+\\.\\d+-Windows-x\\d+\\.zip$",
+          "pattern": "^Darkwatch-Darker-Edition-\\d+\\.\\d+\\.\\d+-Windows-x\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^Darkwatch-Darker-Edition-\\d+\\.\\d+-Linux-Proton-Experimental\\.tar\\.gz$",
+          "pattern": "^Darkwatch-Darker-Edition-\\d+\\.\\d+\\.\\d+-Linux-Proton-Experimental\\.tar\\.gz$",
           "executable": null
         }
       },
@@ -4838,8 +5318,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 129,
-        "pushedAt": "2026-10-25T18:23:31Z"
+        "stars": 132,
+        "pushedAt": "2026-10-26T20:50:48Z"
+      }
+    },
+    {
+      "id": "linkzenic-zelda64recomp-android",
+      "title": "The Legend of Zelda: Majora's Mask (Zelda64 Recompiled [Android])",
+      "platform": "n64",
+      "repo": "linkzenic/Zelda64Recomp-Android",
+      "authors": [
+        "linkzenic"
+      ],
+      "description": {
+        "en": "Android port of Zelda64 Recompiled"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^Zelda\\d+-Recompiled-Android-App-\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 45,
+        "pushedAt": "2026-07-29T16:38:13Z"
       }
     },
     {
@@ -4863,6 +5379,10 @@
         "win32": {
           "pattern": "^SacredStonesRecomp-\\d+\\.\\d+\\.\\d+-win\\d+\\.zip$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^SacredStonesRecomp-\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -4874,7 +5394,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
+        "stars": 23,
         "pushedAt": "2026-10-17T22:03:45Z"
       }
     },
@@ -4946,7 +5466,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-08-30T15:15:13Z"
       }
     },
@@ -5062,7 +5582,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
+        "stars": 12,
         "pushedAt": "2026-10-22T06:07:12Z"
       }
     },
@@ -5138,7 +5658,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 185,
+        "stars": 201,
         "pushedAt": "2026-10-26T09:32:16Z"
       }
     },
@@ -5166,6 +5686,10 @@
         },
         "linux": {
           "pattern": "^tmc-usa-linux-\\d+-\\d+-\\d+ac\\.zip$",
+          "executable": null
+        },
+        "android": {
+          "pattern": "^app-arm\\d+-v\\d+a-release\\.apk$",
           "executable": null
         }
       },
@@ -5302,7 +5826,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1729,
+        "stars": 1734,
         "pushedAt": "2026-07-24T21:18:52Z"
       }
     },
@@ -5330,6 +5854,10 @@
         },
         "linux": {
           "pattern": "^tails-adventure-v\\d+\\.\\d+\\.\\d+-\\d+-linux-amd\\d+\\.tar\\.xz$",
+          "executable": null
+        },
+        "android": {
+          "pattern": "^tails-adventure-v\\d+\\.\\d+\\.\\d+-\\d+-android\\.apk$",
           "executable": null
         }
       },
@@ -5386,7 +5914,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 277,
+        "stars": 278,
         "pushedAt": "2026-04-30T20:35:04Z"
       }
     },
@@ -5494,7 +6022,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 13,
         "pushedAt": "2026-10-06T02:59:10Z"
       }
     },
@@ -5566,7 +6094,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 14,
         "pushedAt": "2026-10-19T19:24:44Z"
       }
     },
@@ -5675,7 +6203,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-10-18T20:43:54Z"
+        "pushedAt": "2026-10-27T03:04:57Z"
       }
     },
     {
@@ -5894,7 +6422,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 31,
+        "stars": 32,
         "pushedAt": "2026-10-18T20:44:05Z"
       }
     },
@@ -5966,7 +6494,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 43,
+        "stars": 44,
         "pushedAt": "2026-10-23T07:24:55Z"
       }
     },
@@ -5995,6 +6523,10 @@
         "linux": {
           "pattern": "^SuperMarioLand\\d+Recomp-linux-\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^SuperMarioLand\\d+Recomp-android-arm\\d+-v\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -6006,7 +6538,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-10-19T02:57:58Z"
       }
     },
@@ -6042,7 +6574,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
+        "stars": 21,
         "pushedAt": "2026-05-23T17:24:58Z"
       }
     },
@@ -6078,8 +6610,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 27,
-        "pushedAt": "2026-10-26T09:34:30Z"
+        "stars": 46,
+        "pushedAt": "2026-10-27T00:43:31Z"
       }
     },
     {
@@ -6122,8 +6654,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 41,
-        "pushedAt": "2026-10-21T11:42:49Z"
+        "stars": 42,
+        "pushedAt": "2026-10-26T17:54:34Z"
       }
     },
     {
@@ -6154,6 +6686,10 @@
         },
         "darwin": {
           "pattern": "^StarCraft\\d+-\\d+\\.\\d+\\.\\d+-launcher-macos-arm\\d+\\.zip$",
+          "executable": null
+        },
+        "android": {
+          "pattern": "^StarCraft\\d+-\\d+\\.\\d+\\.\\d+-launcher-android-arm\\d+\\.apk$",
           "executable": null
         }
       },
@@ -6202,7 +6738,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 37,
+        "stars": 39,
         "pushedAt": "2026-10-09T14:50:22Z"
       }
     },
@@ -6310,7 +6846,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 36,
+        "stars": 37,
         "pushedAt": "2026-10-24T16:56:27Z"
       }
     },
@@ -6346,7 +6882,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 11,
         "pushedAt": "2026-10-13T13:27:18Z"
       }
     },
@@ -6418,7 +6954,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 88,
+        "stars": 91,
         "pushedAt": "2026-10-18T08:05:48Z"
       }
     },
@@ -6454,7 +6990,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 17,
         "pushedAt": "2026-10-23T18:16:01Z"
       }
     },
@@ -6526,7 +7062,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 54,
+        "stars": 56,
         "pushedAt": "2026-10-23T19:13:53Z"
       }
     },
@@ -6562,7 +7098,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 49,
+        "stars": 51,
         "pushedAt": "2026-10-23T17:39:55Z"
       }
     },
@@ -6598,7 +7134,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 883,
+        "stars": 884,
         "pushedAt": "2026-03-16T22:58:36Z"
       }
     },
@@ -6621,11 +7157,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^DOA\\d+-\\d+\\.\\d+-Alpha\\.zip$",
+          "pattern": "^DOA\\d+-\\d+\\.\\d+\\.\\d+-Alpha\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^DOA\\d+-\\d+\\.\\d+-Alpha-Linux\\.tar\\.gz$",
+          "pattern": "^DOA\\d+-\\d+\\.\\d+\\.\\d+-Alpha-Linux\\.tar\\.gz$",
           "executable": null
         }
       },
@@ -6638,8 +7174,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
-        "pushedAt": "2026-10-24T19:28:46Z"
+        "stars": 20,
+        "pushedAt": "2026-10-26T23:38:26Z"
       }
     },
     {
@@ -6678,7 +7214,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 80,
+        "stars": 82,
         "pushedAt": "2026-10-13T00:41:10Z"
       }
     },
@@ -6750,7 +7286,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 64,
+        "stars": 65,
         "pushedAt": "2026-10-06T13:13:24Z"
       }
     },
@@ -6934,8 +7470,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3616,
-        "pushedAt": "2026-10-24T19:17:24Z"
+        "stars": 3617,
+        "pushedAt": "2026-10-26T20:53:46Z"
       }
     },
     {
@@ -6970,7 +7506,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 116,
+        "stars": 124,
         "pushedAt": "2026-10-24T12:24:01Z"
       }
     },
@@ -6995,6 +7531,10 @@
         "linux": {
           "pattern": "^OpenRAC\\.Launcher_\\d+\\.\\d+\\.\\d+_amd\\d+\\.AppImage$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^OpenRAC\\.Launcher_\\d+\\.\\d+\\.\\d+_android-arm\\d+-debug\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -7006,7 +7546,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 40,
+        "stars": 43,
         "pushedAt": "2026-10-26T07:47:42Z"
       }
     },
@@ -7046,8 +7586,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 142,
-        "pushedAt": "2026-10-26T00:13:45Z"
+        "stars": 144,
+        "pushedAt": "2026-10-27T00:31:54Z"
       }
     },
     {
@@ -7086,7 +7626,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2083,
+        "stars": 2087,
         "pushedAt": "2026-08-13T05:58:19Z"
       }
     },
@@ -7166,8 +7706,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 44,
-        "pushedAt": "2026-10-26T12:52:39Z"
+        "stars": 56,
+        "pushedAt": "2026-10-26T23:51:39Z"
       }
     },
     {
@@ -7206,8 +7746,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 32,
-        "pushedAt": "2026-10-25T18:35:11Z"
+        "stars": 34,
+        "pushedAt": "2026-10-26T23:00:02Z"
       }
     },
     {
@@ -7362,8 +7902,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 102,
-        "pushedAt": "2026-10-26T10:37:09Z"
+        "stars": 106,
+        "pushedAt": "2026-10-26T23:44:00Z"
       }
     },
     {
@@ -7398,7 +7938,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 79,
+        "stars": 80,
         "pushedAt": "2026-10-26T00:27:57Z"
       }
     },
@@ -7434,8 +7974,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 265,
-        "pushedAt": "2026-10-26T09:47:23Z"
+        "stars": 267,
+        "pushedAt": "2026-10-27T02:26:19Z"
       }
     },
     {
@@ -7507,7 +8047,7 @@
       "setupHint": null,
       "stats": {
         "stars": 84,
-        "pushedAt": "2026-10-25T23:14:18Z"
+        "pushedAt": "2026-10-26T22:31:20Z"
       }
     },
     {
@@ -7622,7 +8162,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 547,
+        "stars": 548,
         "pushedAt": "2026-09-30T00:21:10Z"
       }
     },
@@ -7730,7 +8270,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 188,
+        "stars": 191,
         "pushedAt": "2026-10-25T13:50:04Z"
       }
     },
@@ -7846,8 +8386,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
-        "pushedAt": "2026-10-25T17:31:59Z"
+        "stars": 15,
+        "pushedAt": "2026-10-26T15:50:56Z"
       }
     },
     {
@@ -7970,7 +8510,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 211,
+        "stars": 213,
         "pushedAt": "2026-10-12T22:52:46Z"
       }
     },
@@ -8006,8 +8546,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 45,
+        "stars": 46,
         "pushedAt": "2026-03-06T21:49:24Z"
+      }
+    },
+    {
+      "id": "sampreeth004-nfs-carbon-recomp",
+      "title": "Need for Speed: Carbon",
+      "platform": "xbox360",
+      "repo": "Sampreeth004/nfs-carbon-recomp",
+      "authors": [
+        "Sampreeth004"
+      ],
+      "description": {
+        "en": "Static recompilation of Need for Speed: Carbon (Xbox 360) to native C++ via the ReXGlue SDK"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^nfs-carbon-\\d+\\.\\d+\\.\\d+-debug\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 55,
+        "pushedAt": "2026-10-08T05:42:47Z"
       }
     },
     {
@@ -8042,8 +8618,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 429,
-        "pushedAt": "2026-10-26T02:34:55Z"
+        "stars": 441,
+        "pushedAt": "2026-10-26T16:35:29Z"
+      }
+    },
+    {
+      "id": "sansnope-unleashedrecomp-android",
+      "title": "Sonic Unleashed",
+      "platform": "xbox360",
+      "repo": "SansNope/UnleashedRecomp-Android",
+      "authors": [
+        "SansNope"
+      ],
+      "description": {
+        "en": "Unofficial Android port of Unleashed Recompiled, built with Anthropic's Fable 5 AI under human direction, device testing and debugging. Artifacts, freezes and audio issues possible. SPECIAL THANKS to everyone testing and reporting."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^UnleashedRecomp_\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 232,
+        "pushedAt": "2026-10-14T02:24:43Z"
       }
     },
     {
@@ -8082,7 +8694,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 53,
         "pushedAt": "2026-10-26T02:26:27Z"
       }
     },
@@ -8183,6 +8795,10 @@
         "linux": {
           "pattern": "^oracle-of-ages-v\\d+\\.\\d+\\.\\d+-linux-x\\d+\\.tar\\.gz$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^oracle-of-ages-v\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -8219,6 +8835,10 @@
         "win32": {
           "pattern": "^RoadTripRecomp-\\d+\\.\\d+\\.\\d+-Windows-x\\d+\\.zip$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^RoadTripRecomp-\\d+\\.\\d+\\.\\d+-Android-arm\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -8230,7 +8850,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 19,
         "pushedAt": "2026-10-21T10:12:40Z"
       }
     },
@@ -8271,7 +8891,7 @@
       "setupHint": null,
       "stats": {
         "stars": 63,
-        "pushedAt": "2026-10-13T12:18:44Z"
+        "pushedAt": "2026-10-26T21:34:16Z"
       }
     },
     {
@@ -8314,7 +8934,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 86,
+        "stars": 88,
         "pushedAt": "2026-10-23T21:42:07Z"
       }
     },
@@ -8350,8 +8970,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 58,
-        "pushedAt": "2026-10-26T01:55:20Z"
+        "stars": 65,
+        "pushedAt": "2026-10-26T20:28:24Z"
       }
     },
     {
@@ -8390,8 +9010,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 27,
-        "pushedAt": "2026-10-26T11:28:03Z"
+        "stars": 41,
+        "pushedAt": "2026-10-26T18:56:58Z"
       }
     },
     {
@@ -8558,7 +9178,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 177,
+        "stars": 181,
         "pushedAt": "2026-10-25T09:36:39Z"
       }
     },
@@ -8594,7 +9214,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4919,
+        "stars": 4923,
         "pushedAt": "2026-10-02T23:58:23Z"
       }
     },
@@ -8678,7 +9298,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 194,
+        "stars": 195,
         "pushedAt": "2025-11-03T00:08:08Z"
       }
     },
@@ -8766,7 +9386,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 399,
+        "stars": 401,
         "pushedAt": "2026-08-11T17:36:21Z"
       }
     },
@@ -9034,7 +9654,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 57,
+        "stars": 58,
         "pushedAt": "2026-10-24T21:59:55Z"
       }
     },
@@ -9071,7 +9691,7 @@
       "setupHint": null,
       "stats": {
         "stars": 30,
-        "pushedAt": "2026-10-23T23:59:56Z"
+        "pushedAt": "2026-10-26T13:35:29Z"
       }
     },
     {
@@ -9142,7 +9762,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 760,
+        "stars": 769,
         "pushedAt": "2026-10-25T17:58:10Z"
       }
     },
@@ -9258,7 +9878,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 126,
+        "stars": 128,
         "pushedAt": "2026-10-19T20:24:15Z"
       }
     },
@@ -9287,6 +9907,10 @@
         "linux": {
           "pattern": "^ReCompiledSteel-linux-x\\d+-\\d+\\.\\d+\\.\\d+\\.tar\\.gz$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^ReCompiledSteel-android-arm\\d+-\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -9298,7 +9922,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 11,
         "pushedAt": "2026-10-20T18:59:53Z"
       }
     },
@@ -9331,6 +9955,10 @@
         "darwin": {
           "pattern": "^Dusklight-v\\d+\\.\\d+\\.\\d+-macos-arm\\d+\\.zip$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^Dusklight-v\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -9342,7 +9970,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6086,
+        "stars": 6096,
         "pushedAt": "2026-10-26T04:50:53Z"
       }
     },
@@ -9419,6 +10047,10 @@
         "darwin": {
           "pattern": "^Gen\\d+Recomped-\\d+\\.\\d+\\.\\d+-macos\\.zip$",
           "executable": null
+        },
+        "android": {
+          "pattern": "^Gen\\d+Recomped-\\d+\\.\\d+\\.\\d+-android\\.apk$",
+          "executable": null
         }
       },
       "game": {
@@ -9431,7 +10063,7 @@
       "setupHint": null,
       "stats": {
         "stars": 419,
-        "pushedAt": "2026-10-26T01:01:05Z"
+        "pushedAt": "2026-10-26T17:25:34Z"
       }
     },
     {
@@ -9471,7 +10103,7 @@
       "setupHint": null,
       "stats": {
         "stars": 25,
-        "pushedAt": "2026-10-26T07:55:03Z"
+        "pushedAt": "2026-10-26T22:48:48Z"
       }
     },
     {
@@ -9630,7 +10262,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 382,
+        "stars": 385,
         "pushedAt": "2026-10-11T21:15:48Z"
       }
     },
@@ -9702,7 +10334,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 19,
         "pushedAt": "2026-10-23T10:06:45Z"
       }
     },
@@ -9814,8 +10446,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 621,
-        "pushedAt": "2026-10-26T03:14:58Z"
+        "stars": 626,
+        "pushedAt": "2026-10-26T23:20:56Z"
       }
     },
     {
@@ -9858,7 +10490,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 7530,
+        "stars": 7537,
         "pushedAt": "2026-09-25T18:57:57Z"
       }
     },
@@ -9894,7 +10526,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 31,
+        "stars": 33,
         "pushedAt": "2026-09-30T20:12:09Z"
       }
     },
@@ -9934,8 +10566,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 44,
-        "pushedAt": "2026-10-25T20:15:14Z"
+        "stars": 50,
+        "pushedAt": "2026-10-27T01:38:32Z"
       }
     },
     {
@@ -10014,7 +10646,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 850,
+        "stars": 857,
         "pushedAt": "2026-10-09T14:10:43Z"
       }
     },
@@ -10060,6 +10692,42 @@
       "stats": {
         "stars": 23,
         "pushedAt": "2026-10-18T08:12:59Z"
+      }
+    },
+    {
+      "id": "zwaetschge-acgc-android-port",
+      "title": "Animal Crossing (ACGC-Android-Port)",
+      "platform": "gamecube",
+      "repo": "zwaetschge/ACGC-Android-Port",
+      "authors": [
+        "zwaetschge"
+      ],
+      "description": {
+        "en": "Android port of the Animal Crossing (GameCube) PC port, built with Z.ai, OpenAI Codex and Claude – bring your own disc; HD textures and translations are fetched/generated in the app"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "android": {
+          "pattern": "^ACGC-Android-v\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 39,
+        "pushedAt": "2026-10-06T11:38:43Z"
       }
     }
   ]
