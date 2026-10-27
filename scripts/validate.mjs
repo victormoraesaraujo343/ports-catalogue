@@ -19,7 +19,7 @@ const STATUSES = ["playable", "partial", "experimental"];
 const CHANNELS = ["latest", "prerelease"];
 const FORMATS = ["folder", "iso", "folder-or-iso"];
 const SOURCES = ["curated", "auto"];
-const OSES = ["win32", "linux", "darwin"];
+const OSES = ["win32", "linux", "darwin", "android"];
 const ID_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REPO_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 

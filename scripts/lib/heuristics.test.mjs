@@ -182,6 +182,50 @@ test("pickAssets treats the only unhinted zip next to other OS builds as windows
   assert.equal(pickAssets(names("Game1.zip", "Game2.zip")).win32, undefined);
 });
 
+test("pickAssets prefers an arm64 APK over x86 and armv7 ones", () => {
+  const picked = pickAssets(names("app-x86_64-release.apk", "app-armeabi-v7a-release.apk", "app-arm64-v8a-release.apk"));
+  assert.equal(picked.android.pattern, generalizeAssetName("app-arm64-v8a-release.apk"));
+  assert.equal(picked.android.executable, null);
+  assert.equal(pickAssets(names("game-aarch64.apk", "game-universal.apk")).android.pattern, generalizeAssetName("game-aarch64.apk"));
+});
+
+test("pickAssets picks a universal APK over a bare one, and a bare one over x86-only", () => {
+  assert.equal(pickAssets(names("game.apk", "game-universal.apk")).android.pattern, generalizeAssetName("game-universal.apk"));
+  assert.equal(pickAssets(names("game.apk", "game-x86_64.apk")).android.pattern, generalizeAssetName("game.apk"));
+});
+
+test("pickAssets skips debug APKs when a release APK exists", () => {
+  assert.equal(
+    pickAssets(names("game-arm64-v8a-debug.apk", "game-arm64-v8a-release.apk")).android.pattern,
+    generalizeAssetName("game-arm64-v8a-release.apk"),
+  );
+  assert.equal(
+    pickAssets(names("game-universal-debug.apk", "game-universal-release.apk")).android.pattern,
+    generalizeAssetName("game-universal-release.apk"),
+  );
+  assert.equal(pickAssets(names("game-debug.apk")).android.pattern, generalizeAssetName("game-debug.apk"));
+});
+
+test("pickAssets never picks an APK for win32, linux or darwin", () => {
+  const picked = pickAssets(
+    names("game-arm64-v8a-release.apk", "game-universal.apk", "Game-Windows-x64.zip", "Game-Linux-x64.tar.gz", "Game-macOS.zip"),
+  );
+  assert.equal(picked.win32.pattern, generalizeAssetName("Game-Windows-x64.zip"));
+  assert.equal(picked.linux.pattern, generalizeAssetName("Game-Linux-x64.tar.gz"));
+  assert.equal(picked.darwin.pattern, generalizeAssetName("Game-macOS.zip"));
+  assert.equal(picked.android.pattern, generalizeAssetName("game-arm64-v8a-release.apk"));
+  assert.deepEqual(pickAssets(names("game-arm64-v8a-release.apk")).win32, undefined);
+  assert.deepEqual(pickAssets(names("game-arm64-v8a-release.apk")).linux, undefined);
+  assert.deepEqual(pickAssets(names("game-arm64-v8a-release.apk")).darwin, undefined);
+});
+
+test("pickAssets keeps a release that has only an APK, and yields only android", () => {
+  assert.deepEqual(pickAssets(names("game-release.apk")), {
+    android: { pattern: generalizeAssetName("game-release.apk"), executable: null },
+  });
+  assert.deepEqual(pickAssets(names("game-x86.apk", "game-armv7.apk")), {});
+});
+
 test("pickAssets returns nothing when no asset is usable", () => {
   assert.deepEqual(pickAssets(names("notes.txt", "Game.dmg")), {});
   assert.deepEqual(pickAssets([]), {});

@@ -97,9 +97,9 @@
         },
         "channel": { "type": "string", "enum": ["latest", "prerelease"] },
         "assets": {
-          "description": "Keyed by Node process.platform. May be empty.",
+          "description": "Keyed by Node process.platform (win32, linux, darwin), plus android for an APK. May be empty.",
           "type": "object",
-          "propertyNames": { "enum": ["win32", "linux", "darwin"] },
+          "propertyNames": { "enum": ["win32", "linux", "darwin", "android"] },
           "additionalProperties": { "$ref": "#/$defs/asset" }
         },
         "game": {

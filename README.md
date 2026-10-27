@@ -24,7 +24,7 @@ Cover and hero images come from [SteamGridDB](https://www.steamgriddb.com/) when
 - `source`: `curated` or `auto`.
 - `description`, `requirements`, `setupHint`, `game.notes`: objects keyed by locale. `en` is required; `pt-BR` is optional.
 - `status` (`playable`, `partial`, `experimental`), `tested` (maintainer verified it end to end), `channel` (`latest` or `prerelease`).
-- `assets`: per OS (`win32`, `linux`, `darwin`), a `pattern` regex for the release asset name and an `executable` inside it. `executable` may be `null`, which means "detect it after extraction".
+- `assets`: per OS (`win32`, `linux`, `darwin`, and `android` for an APK, detected automatically), a `pattern` regex for the release asset name and an `executable` inside it. `executable` may be `null`, which means "detect it after extraction".
 - `game`: `format` (`folder`, `iso`, `folder-or-iso`), `requiredFiles`, optional `titleIds`.
 - `stats`: stars and last push date, or `null`.
 

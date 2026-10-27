@@ -116,9 +116,31 @@ function best(candidates, { preferAppImage = false } = {}) {
   return [...candidates].sort(compare)[0];
 }
 
+const APK_RE = /\.apk$/i;
+const APK_ARM64_RE = /arm64|aarch64|arm64-v8a/i;
+const APK_UNIVERSAL_RE = /universal/i;
+const APK_BAD_ABI_RE = /x86|amd64|i[3-6]86|armeabi|armv7|arm32|armhf/i;
+const APK_DEBUG_RE = /debug/i;
+
+/**
+ * Picks one Android APK. Order: arm64 builds, then universal, then names with no ABI hint.
+ * x86-only and 32-bit ARM builds are never picked. Debug builds are used only when no release build fits.
+ */
+function pickApk(assets) {
+  const compatible = (Array.isArray(assets) ? assets : [])
+    .map((asset) => asset?.name)
+    .filter((name) => typeof name === "string" && APK_RE.test(name) && !AUXILIARY_NAMES.test(name))
+    .filter((name) => APK_ARM64_RE.test(name) || APK_UNIVERSAL_RE.test(name) || !APK_BAD_ABI_RE.test(name));
+  const release = compatible.filter((name) => !APK_DEBUG_RE.test(name));
+  const pool = release.length > 0 ? release : compatible;
+  const tier = (name) => (APK_ARM64_RE.test(name) ? 0 : APK_UNIVERSAL_RE.test(name) ? 1 : 2);
+  return [...pool].sort((a, b) => tier(a) - tier(b) || a.length - b.length)[0];
+}
+
 /**
  * Picks one asset per OS from a GitHub release's assets ([{ name }]).
- * Returns e.g. { win32: { pattern, executable: null }, linux: { ... } }; OSes with no match are absent.
+ * Returns e.g. { win32: { pattern, executable: null }, linux: { ... }, android: { ... } }; OSes with no match are absent.
+ * Android (key "android") is an APK; no other OS rule can match an .apk, so those picks are unchanged by it.
  */
 export function pickAssets(assets) {
   const names = usableAssetNames(assets);
@@ -142,6 +164,9 @@ export function pickAssets(assets) {
 
   const darwin = names.find((n) => /\.zip$/i.test(n) && /mac|macos|osx|darwin/i.test(n));
   if (darwin) result.darwin = { pattern: generalizeAssetName(darwin), executable: null };
+
+  const apk = pickApk(assets);
+  if (apk) result.android = { pattern: generalizeAssetName(apk), executable: null };
 
   return result;
 }
