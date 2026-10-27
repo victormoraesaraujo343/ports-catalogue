@@ -31,10 +31,11 @@ const KEYWORD_RE =
  * tools, or launchers that bundle ports). Checked on name, description and topics after stripNegations.
  */
 const DENY_RE =
-  /decompiler|recompiler|compiler|launcher|front-?end|emulat|toolkit|\btools?\b|\bsdk\b|installer|mod ?manager|modding|patcher|template|reverse[ -]engineer|apk (decompil|analy|inspect|tool|editor)|apk ?tool|spyware|attendance|\bgym\b|battery|shader|framework|\bstudy\b|roblox|discord|chatbox|vibe|proxy|pad fixes|fixes for|universal (pad|controller)|recomp\w* tools?/i;
+  /decompiler|recompiler|compiler|launcher|front-?end|emula|toolkit|\btools?\b|\bsdk\b|installer|mod ?manager|modding|patcher|template|reverse[ -]engineer|apk (decompil|analy|inspect|tool|editor)|apk ?tool|spyware|attendance|\bgym\b|battery|shader|framework|\bstudy\b|roblox|discord|chatbox|vibe|proxy|pad fixes|fixes for|universal (pad|controller)|recomp\w* tools?/i;
 
-/** "not an emulator" and similar negations are not an emulator. Removed before the deny check. */
-const NEGATED_EMULATOR_RE = /\b(not|no|isn'?t|without|non)[- ](an? |the )?emulat\w*/gi;
+/** "not an emulator", "sem emulador", "no emulation" are negations, not an emulator. Removed before the deny check. */
+const NEGATED_EMULATOR_RE =
+  /\b(not|no|isn'?t|without|non|sem|sin|não é|no es)[- ]+(um |uma |o |a |un |una |an? |the )?emula\w*/gi;
 
 /** VR and Meta Quest builds are not the phone build. Checked on name, description and the picked APK name. */
 const VR_RE = /(^|[^a-z])vr(?![a-z])|quest|oculus|\bpico\b|\bvive\b|\bpsvr\b|openxr/i;
@@ -97,6 +98,11 @@ export function stripNegations(text) {
   return String(text ?? "").replace(NEGATED_EMULATOR_RE, " ");
 }
 
+/** True when text names a tool, launcher, frontend or emulator (the deny-list). Negations are not denied. */
+export function isDeniedText(text) {
+  return DENY_RE.test(stripNegations(text));
+}
+
 /** True when the pushed date is within the last 12 months of `nowMs`. */
 export function isRecent(pushedAt, nowMs = Date.now()) {
   const pushed = Date.parse(pushedAt);
@@ -126,14 +132,22 @@ export function repoVerdict(meta, nowMs = Date.now(), { keyword = true } = {}) {
 }
 
 /**
- * Latest usable release, mirroring the importer: among the 5 most recent non-draft releases, the first
- * stable one, else the first prerelease. Returns { release, channel } or null.
+ * The release an Android APK is taken from. Among the 10 most recent non-draft releases: the first stable
+ * release with an APK accepted by pickAssets (a stable release without one does not hide an older stable one
+ * with one); else the first prerelease with one. A VR or Quest APK does not count.
+ * Returns { release, channel, name, android } or null. channel is "latest" for a stable release.
  */
-export function pickRelease(releases) {
-  const recent = (Array.isArray(releases) ? releases : []).slice(0, 5).filter((r) => r && !r.draft);
-  const stable = recent.find((r) => !r.prerelease);
-  if (stable) return { release: stable, channel: "latest" };
-  if (recent[0]) return { release: recent[0], channel: "prerelease" };
+export function pickApkRelease(releases) {
+  const recent = (Array.isArray(releases) ? releases : []).slice(0, 10).filter((r) => r && !r.draft);
+  const withApk = (release) => {
+    const apk = androidFromRelease(release);
+    if (!apk || isVrText(apk.name)) return null;
+    return { release, channel: release.prerelease ? "prerelease" : "latest", ...apk };
+  };
+  for (const release of [...recent.filter((r) => !r.prerelease), ...recent.filter((r) => r.prerelease)]) {
+    const found = withApk(release);
+    if (found) return found;
+  }
   return null;
 }
 
@@ -194,12 +208,19 @@ export function cleanTitle({ name, description }) {
   return fromName.length >= 2 ? fromName : clean(name);
 }
 
+/**
+ * "android e pc", "pc and android", "android/pc", "android (arm64) e pc": there PC is a port target, not the
+ * origin of the game, so that "pc" is not read as a PC token. Generic phrase, not game-specific.
+ */
+const PC_TARGET_RE =
+  /\bandroid\b[^.\n]{0,24}?(?:\s(?:e|and|or|ou)\s|[\/&,])\s*pc\b|\bpc\b\s*(?:\s(?:e|and|or|ou)\s|[\/&,])\s*[^.\n]{0,24}?\bandroid\b/gi;
+
 /** Platform of a repo from its name, description and topics. Console tokens first, then "pc", else "other". */
 export function detectPlatform(meta) {
   const text = repoText(meta);
   for (const [platform, re] of PLATFORM_TOKENS) if (re.test(text)) return platform;
-  const withoutPcPort = text.replace(/\bpc[- ]port\b/gi, " ");
-  if (PC_TOKEN_RE.test(withoutPcPort)) return "pc";
+  const withoutPcTarget = text.replace(PC_TARGET_RE, " ").replace(/\bpc[- ]port\b/gi, " ");
+  if (PC_TOKEN_RE.test(withoutPcTarget)) return "pc";
   return "other";
 }
 

@@ -19,14 +19,12 @@ import {
   SOURCE_FORK,
   SOURCE_SEARCH,
   TOPIC_QUERIES,
-  androidFromRelease,
   buildGithubEntry,
   cleanTitle,
   detectPlatform,
   forkSearchQuery,
-  isVrText,
   ownersOf,
-  pickRelease,
+  pickApkRelease,
   repoText,
   repoVerdict,
   sameCoreName,
@@ -103,7 +101,7 @@ async function listOwnerRepos(owner) {
 }
 
 async function fetchReleases(repo) {
-  const res = await ghGet(`https://api.github.com/repos/${repo}/releases?per_page=5`);
+  const res = await ghGet(`https://api.github.com/repos/${repo}/releases?per_page=10`);
   if (res.status === 404) return [];
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
@@ -137,11 +135,9 @@ async function entryFor(meta, { source, keyword, inherit }) {
     if (err instanceof FatalError) throw err;
     return count(`${source}: lookup error`), null;
   }
-  const picked = pickRelease(releases);
-  if (!picked) return count(`${source}: no release`), null;
-  const apk = androidFromRelease(picked.release);
+  if (releases.length === 0) return count(`${source}: no release`), null;
+  const apk = pickApkRelease(releases);
   if (!apk) return count(`${source}: no APK`), null;
-  if (isVrText(apk.name)) return count(`${source}: VR APK`), null;
   return buildGithubEntry({
     owner: meta.owner.login,
     name: meta.name,
@@ -151,7 +147,7 @@ async function entryFor(meta, { source, keyword, inherit }) {
     title: inherit?.title ?? cleanTitle({ name: meta.name, description: meta.description }),
     platform: inherit?.platform ?? detectPlatform(meta),
     source,
-    channel: picked.channel,
+    channel: apk.channel,
     android: apk.android,
   });
 }

@@ -11,7 +11,8 @@ import {
   forkSearchQuery,
   isRecent,
   ownersOf,
-  pickRelease,
+  pickApkRelease,
+  isDeniedText,
   repoVerdict,
   sameCoreName,
   stripNegations,
@@ -63,6 +64,22 @@ test("R1 denies tools, launchers, emulators and APK utilities that match the key
   for (const repo of denied) assert.equal(repoVerdict(meta(repo), NOW), "denied", repo.name);
 });
 
+test("the deny-list catches emulators, frontends and launchers, in English, Portuguese and Spanish", () => {
+  assert.equal(isDeniedText("All in one emulator on Android!"), true);
+  assert.equal(isDeniedText("A frontend for ports"), true);
+  assert.equal(isDeniedText("Launcher for Android ports"), true);
+  assert.equal(isDeniedText("Emulador multiplataforma para Android"), true);
+  assert.equal(isDeniedText("Emulación de consolas en Android"), true);
+});
+
+test("negations keep console ports that merely say they are not an emulator", () => {
+  assert.equal(isDeniedText("Port de jogo de N64 sem emulador de CPU"), false);
+  assert.equal(isDeniedText("Port nativo do jogo, no emulation"), false);
+  assert.equal(isDeniedText("Native port, without emulation, Xbox 360 game"), false);
+  assert.equal(isDeniedText("Juego sin emulador, recompilado"), false);
+  assert.equal(isDeniedText("Não é um emulador, é um port nativo"), false);
+});
+
 test("R1 does not deny a port that says it is not an emulator", () => {
   const text = "Xbox 360 game statically recompiled to x64 (not an emulator). 4K, FSR.";
   assert.equal(repoVerdict(meta({ name: "gow2-recomp", description: text }), NOW), "ok");
@@ -83,16 +100,46 @@ test("R1 rejects archived, stale and keyword-less repos", () => {
   assert.equal(repoVerdict(meta({ name: "notes-android", description: "A notes app" }), NOW, { keyword: false }), "ok");
 });
 
-test("pickRelease skips drafts, prefers a stable release among the 5 newest, else a prerelease", () => {
-  const stable = { tag_name: "v1", draft: false, prerelease: false };
-  const pre = { tag_name: "v2-beta", draft: false, prerelease: true };
-  const draft = { tag_name: "v3", draft: true, prerelease: false };
-  assert.deepEqual(pickRelease([draft, pre, stable]), { release: stable, channel: "latest" });
-  assert.deepEqual(pickRelease([draft, pre]), { release: pre, channel: "prerelease" });
-  assert.equal(pickRelease([draft]), null);
-  assert.equal(pickRelease([]), null);
-  const sixth = { tag_name: "old", draft: false, prerelease: false };
-  assert.deepEqual(pickRelease([pre, pre, pre, pre, pre, sixth]), { release: pre, channel: "prerelease" });
+const apkAsset = (name) => ({ name });
+const rel = (tag, assets, over = {}) => ({ tag_name: tag, draft: false, prerelease: false, assets, ...over });
+const ARM = apkAsset("game-arm64-v8a-release.apk");
+
+test("pickApkRelease: an older stable release with an APK is used when the newest has only desktop builds", () => {
+  const releases = [rel("v0.4", [apkAsset("Game-Windows.zip")]), rel("v0.2", [ARM])];
+  const found = pickApkRelease(releases);
+  assert.equal(found.release.tag_name, "v0.2");
+  assert.equal(found.name, "game-arm64-v8a-release.apk");
+  assert.equal(found.channel, "latest");
+});
+
+test("pickApkRelease: a newest release with no assets does not hide an APK in an older one", () => {
+  const found = pickApkRelease([rel("v0.6", []), rel("v0.13", [ARM])]);
+  assert.equal(found.release.tag_name, "v0.13");
+  assert.equal(found.channel, "latest");
+});
+
+test("pickApkRelease: a stable release is preferred over a prerelease, a prerelease is the fallback", () => {
+  const pre = rel("v1-beta", [ARM], { prerelease: true });
+  assert.deepEqual(
+    pickApkRelease([pre, rel("v0.9", [ARM])]).release.tag_name,
+    "v0.9",
+  );
+  const only = pickApkRelease([rel("v2-rc", [ARM], { prerelease: true }), rel("v1", [])]);
+  assert.equal(only.release.tag_name, "v2-rc");
+  assert.equal(only.channel, "prerelease");
+});
+
+test("pickApkRelease: drafts, releases beyond the 10 most recent, and VR APKs do not count", () => {
+  assert.equal(pickApkRelease([rel("v3", [ARM], { draft: true })]), null);
+  const eleven = Array.from({ length: 10 }, (_, i) => rel(`v${i}`, [])).concat([rel("old", [ARM])]);
+  assert.equal(pickApkRelease(eleven), null);
+  assert.equal(pickApkRelease([rel("v1", [apkAsset("Game-Quest-arm64.apk")])]), null);
+  assert.equal(pickApkRelease([]), null);
+});
+
+test("pickApkRelease: picks from the APK-bearing release, not from desktop-only ones", () => {
+  const found = pickApkRelease([rel("v5", [apkAsset("Game-Linux.tar.gz")]), rel("v4", [apkAsset("Game-Windows.zip")]), rel("v3", [ARM])]);
+  assert.equal(found.release.tag_name, "v3");
 });
 
 test("androidFromRelease finds the APK and its asset name, and ignores releases without one", () => {
@@ -192,6 +239,16 @@ test("ownersOf lists each owner of an Android entry once, case-insensitively", (
 
 test("pickAssets still gives an APK to the github helpers' tests", () => {
   assert.ok(pickAssets([{ name: "g-arm64.apk" }]).android);
+});
+
+test("detectPlatform does not read a PC port target as PC origin", () => {
+  const naruto = "Naruto Shippuden: Ultimate Ninja Storm 2 - port nativo para Android (ARM64) e PC";
+  assert.notEqual(detectPlatform({ name: "naruto-storm-2-port-nativo", description: naruto }), "pc");
+  assert.equal(detectPlatform({ name: "x", description: "port for Android and PC" }), "other");
+  assert.equal(detectPlatform({ name: "x", description: "pc e android" }), "other");
+  assert.equal(detectPlatform({ name: "x", description: "android/pc build" }), "other");
+  assert.equal(detectPlatform({ name: "x", description: "Android and PC, Xbox 360 game" }), "xbox360");
+  assert.equal(detectPlatform({ name: "x", description: "Windows and Linux port" }), "pc");
 });
 
 test("cleanTitle drops a generic lead-in from the description head", () => {
