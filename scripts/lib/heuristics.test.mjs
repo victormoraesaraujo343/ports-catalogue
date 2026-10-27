@@ -291,17 +291,17 @@ test("classifyAdgPlatform keeps console labels ungated", () => {
   assert.deepEqual(classifyAdgPlatform("Sega CD/32X"), { platform: "other", gated: false });
 });
 
-test("classifyAdgPlatform gives original computer games platform pc, and other non-console games other, both gated", () => {
-  for (const label of ["PC", "DOS", "Apple II"]) {
+test("classifyAdgPlatform gates PC and DOS (platform pc) and Mobile, Android / iOS and blank (platform other)", () => {
+  for (const label of ["PC", "DOS"]) {
     assert.deepEqual(classifyAdgPlatform(label), { platform: "pc", gated: true }, label);
   }
-  for (const label of ["Mobile", "Android / iOS", "", undefined, "Browser"]) {
+  for (const label of ["Mobile", "Android / iOS", "", undefined]) {
     assert.deepEqual(classifyAdgPlatform(label), { platform: "other", gated: true }, String(label));
   }
 });
 
-test("classifyAdgPlatform keeps legacy labels as they were: other, not gated (Mac, Others, Amiga, unknown, Commodore)", () => {
-  for (const label of ["Mac", "Others", "Other", "Amiga", "Commodore 64/8-bit", "unknown"]) {
+test("classifyAdgPlatform keeps every other non-console label as today: platform other, not gated", () => {
+  for (const label of ["Mac", "Others", "Other", "Amiga", "Commodore 64/8-bit", "unknown", "Apple II", "PC-98", "Browser", "MS-DOS"]) {
     assert.deepEqual(classifyAdgPlatform(label), { platform: "other", gated: false }, label);
   }
 });

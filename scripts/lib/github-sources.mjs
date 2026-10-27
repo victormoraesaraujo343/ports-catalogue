@@ -136,12 +136,13 @@ export function repoVerdict(meta, nowMs = Date.now(), { keyword = true } = {}) {
  * release with an APK accepted by pickAssets (a stable release without one does not hide an older stable one
  * with one); else the first prerelease with one. A VR or Quest APK does not count.
  * Returns { release, channel, name, android } or null. channel is "latest" for a stable release.
+ * VR and Quest APKs are skipped unless allowVr is set (console and legacy ADG entries keep their VR picks).
  */
-export function pickApkRelease(releases) {
+export function pickApkRelease(releases, { allowVr = false } = {}) {
   const recent = (Array.isArray(releases) ? releases : []).slice(0, 10).filter((r) => r && !r.draft);
   const withApk = (release) => {
     const apk = androidFromRelease(release);
-    if (!apk || isVrText(apk.name)) return null;
+    if (!apk || (!allowVr && isVrText(apk.name))) return null;
     return { release, channel: release.prerelease ? "prerelease" : "latest", ...apk };
   };
   for (const release of [...recent.filter((r) => !r.prerelease), ...recent.filter((r) => r.prerelease)]) {

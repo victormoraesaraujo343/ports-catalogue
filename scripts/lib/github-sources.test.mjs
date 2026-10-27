@@ -129,6 +129,12 @@ test("pickApkRelease: a stable release is preferred over a prerelease, a prerele
   assert.equal(only.channel, "prerelease");
 });
 
+test("pickApkRelease: VR APKs are picked only when allowVr is set (console and legacy ADG entries)", () => {
+  const vr = [rel("v2", [apkAsset("Game-Quest.apk")]), rel("v1", [ARM])];
+  assert.equal(pickApkRelease(vr).release.tag_name, "v1");
+  assert.equal(pickApkRelease([rel("v2", [apkAsset("Game-Quest.apk")])], { allowVr: true }).release.tag_name, "v2");
+});
+
 test("pickApkRelease: drafts, releases beyond the 10 most recent, and VR APKs do not count", () => {
   assert.equal(pickApkRelease([rel("v3", [ARM], { draft: true })]), null);
   const eleven = Array.from({ length: 10 }, (_, i) => rel(`v${i}`, [])).concat([rel("old", [ARM])]);

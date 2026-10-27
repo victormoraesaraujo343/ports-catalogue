@@ -184,7 +184,7 @@ async function main() {
     // Android build: the most recent release (among 10) with an APK. Desktop picks stay as before, from the latest release.
     let apk;
     try {
-      apk = pickApkRelease(await fetchReleaseList(game.repo));
+      apk = pickApkRelease(await fetchReleaseList(game.repo), { allowVr: !classification.gated });
     } catch (err) {
       if (err instanceof FatalError) throw err;
       stats.skippedErrors += 1;

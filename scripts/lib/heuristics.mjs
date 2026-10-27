@@ -33,14 +33,10 @@ const PLATFORM_MAP = new Map(
 const platformKey = (label) => label.toLowerCase().replace(/[\s.-]+/g, "");
 
 const CANDIDATE_TYPES = new Set(["static-recomp", "source-port", "decompilation", "engine-remake"]);
-// Labels of original computer games (DOS, Mac, Amiga, ...). They become platform "pc".
-const COMPUTER_LABELS = new Set([
-  "pc", "dos", "msdos", "pc98", "windows", "linux", "appleii", "apple2", "zxspectrum", "spectrum", "msx",
-]);
-// Labels whose entries stay as they were (platform "other", desktop assets kept, no APK needed).
-const LEGACY_LABELS = new Set(["mac", "macos", "osx", "amiga", "commodore64", "c64", "others", "other", "unknown"]);
-// Labels of non-console, non-computer games (mobile, browser, unknown). They become platform "other".
-const NON_CONSOLE_LABELS = new Set(["", "mobile", "android", "ios", "androidios", "browser", "web"]);
+// Gated labels: PC and DOS become platform "pc"; Mobile, Android / iOS and blank become platform "other".
+// Only these are gated (kept only with an Android APK). Any other non-console label keeps today's behaviour.
+const GATED_PC_LABELS = new Set(["pc", "dos"]);
+const GATED_OTHER_LABELS = new Set(["", "mobile", "android", "ios", "androidios"]);
 const REPO_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 const IGNORED_EXTENSIONS = /\.(sha256|sha512|sig|asc|txt|json|pdb|dbg|sym|md)$/i;
 const IGNORED_NAMES = /source code|debug|symbols|src|source/i;
@@ -81,9 +77,8 @@ export function classifyAdgPlatform(label) {
   for (const part of parts) {
     if (PLATFORM_MAP.has(part)) return { platform: PLATFORM_MAP.get(part), gated: false };
   }
-  if (parts.some((part) => LEGACY_LABELS.has(part))) return { platform: "other", gated: false };
-  if (parts.some((part) => COMPUTER_LABELS.has(part))) return { platform: "pc", gated: true };
-  if (parts.every((part) => NON_CONSOLE_LABELS.has(part))) return { platform: "other", gated: true };
+  if (parts.some((part) => GATED_PC_LABELS.has(part))) return { platform: "pc", gated: true };
+  if (parts.every((part) => GATED_OTHER_LABELS.has(part))) return { platform: "other", gated: true };
   return { platform: "other", gated: false };
 }
 
