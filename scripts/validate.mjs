@@ -13,12 +13,12 @@ const DEFAULT_PATHS = [resolve(ROOT, "ports-catalogue.json"), resolve(ROOT, "cur
 const PLATFORMS = [
   "ps4", "ps3", "ps2", "ps1", "psp", "xbox360", "xbox", "n64", "gamecube", "wii", "switch",
   "nes", "snes", "gb", "gbc", "gba", "ds", "3ds", "wiiu", "genesis", "saturn", "dreamcast", "arcade",
-  "other",
+  "pc", "other",
 ];
 const STATUSES = ["playable", "partial", "experimental"];
 const CHANNELS = ["latest", "prerelease"];
 const FORMATS = ["folder", "iso", "folder-or-iso"];
-const SOURCES = ["curated", "auto"];
+const SOURCES = ["curated", "auto", "github-search", "github-fork", "github-author"];
 const OSES = ["win32", "linux", "darwin", "android"];
 const ID_RE = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const REPO_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
@@ -77,6 +77,7 @@ function validateFile(path) {
     else if (isCurated && port.source !== "curated") errors.push(`${label}.source: curated.json entries must be "curated"`);
 
     if (port.authors !== undefined && !isStringList(port.authors)) errors.push(`${label}.authors: must be a list of strings`);
+    if (port.aiFlag !== undefined && typeof port.aiFlag !== "boolean") errors.push(`${label}.aiFlag: must be true or false`);
 
     checkLocalized(`${label}.description`, port.description);
 

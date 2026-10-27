@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Open ports catalogue",
-  "description": "A list of unofficial native PC ports of console games. Lists only; contains no game data. ports-catalogue.json is generated daily from curated.json and awesome-decomp-games; curated.json uses the same entry shape without updatedAt.",
+  "description": "A list of unofficial native ports of console games, plus Android ports of other games. Lists only; contains no game data. ports-catalogue.json is generated daily from curated.json, awesome-decomp-games and GitHub search; curated.json uses the same entry shape without updatedAt.",
   "type": "object",
   "required": ["version", "ports"],
   "properties": {
@@ -73,7 +73,7 @@
           "enum": [
             "ps4", "ps3", "ps2", "ps1", "psp", "xbox360", "xbox", "n64", "gamecube", "wii", "switch",
             "nes", "snes", "gb", "gbc", "gba", "ds", "3ds", "wiiu", "genesis", "saturn", "dreamcast", "arcade",
-            "other"
+            "pc", "other"
           ]
         },
         "repo": {
@@ -82,9 +82,13 @@
           "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
         },
         "source": {
-          "description": "\"curated\" entries come from curated.json; \"auto\" entries are imported from awesome-decomp-games.",
+          "description": "\"curated\" entries come from curated.json; \"auto\" entries are imported from awesome-decomp-games; \"github-search\" entries come from GitHub keyword and topic search; \"github-fork\" entries are Android forks of catalogued ports; \"github-author\" entries are other repos of the same authors.",
           "type": "string",
-          "enum": ["curated", "auto"]
+          "enum": ["curated", "auto", "github-search", "github-fork", "github-author"]
+        },
+        "aiFlag": {
+          "description": "True when awesome-decomp-games marks the project as AI-generated. Absent otherwise.",
+          "type": "boolean"
         },
         "authors": { "type": "array", "items": { "type": "string" } },
         "description": { "$ref": "#/$defs/localizedText" },

@@ -1,12 +1,16 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
+  adgAssetsFor,
+  aiFlagField,
+  classifyAdgPlatform,
   cleanTitleForSearch,
   generalizeAssetName,
   isCandidate,
   mapPlatform,
   mergeCatalogue,
   pickAssets,
+  slugify,
   statusFromPlayability,
 } from "./heuristics.mjs";
 
@@ -76,10 +80,7 @@ test("isCandidate rejects each excluded case", () => {
   assert.equal(isCandidate({ ...good, release: null }), false);
   assert.equal(isCandidate({ ...good, type: "tool" }), false);
   assert.equal(isCandidate({ ...good, type: "disassembly" }), false);
-  for (const platform of ["PC", "pc", "DOS", "Mobile", "Android / iOS", "", undefined]) {
-    assert.equal(isCandidate({ ...good, platform }), false, `platform ${platform}`);
-  }
-  for (const flag of ["archived", "old", "inactive", "browser_playable", "ai_flag"]) {
+  for (const flag of ["archived", "old", "inactive", "browser_playable"]) {
     assert.equal(isCandidate({ ...good, [flag]: true }), false, flag);
   }
   assert.equal(isCandidate({ ...good, ratings: { playability: 2 } }), false);
@@ -266,4 +267,57 @@ test("mergeCatalogue sorts by id and suffixes colliding ids", () => {
     ["zelda-2", "e/z"],
     ["zelda-3", "f/z"],
   ]);
+});
+
+test("isCandidate keeps AI-flagged and non-console entries (they are gated later, not here)", () => {
+  assert.equal(isCandidate({ ...good, ai_flag: true }), true);
+  for (const platform of ["PC", "DOS", "Mobile", "Android / iOS", "", undefined]) {
+    assert.equal(isCandidate({ ...good, platform }), true, `platform ${platform}`);
+  }
+});
+
+test("aiFlagField tags AI-flagged ADG entries and omits the key otherwise", () => {
+  assert.deepEqual(aiFlagField({ ai_flag: true }), { aiFlag: true });
+  assert.deepEqual(aiFlagField({ ai_flag: false }), {});
+  assert.deepEqual(aiFlagField({}), {});
+  assert.deepEqual(aiFlagField(undefined), {});
+});
+
+test("classifyAdgPlatform keeps console labels ungated", () => {
+  assert.deepEqual(classifyAdgPlatform("N64"), { platform: "n64", gated: false });
+  assert.deepEqual(classifyAdgPlatform("N64 / GameCube"), { platform: "n64", gated: false });
+  assert.deepEqual(classifyAdgPlatform("Xbox 360"), { platform: "xbox360", gated: false });
+  assert.deepEqual(classifyAdgPlatform("Virtual Boy"), { platform: "other", gated: false });
+  assert.deepEqual(classifyAdgPlatform("Sega CD/32X"), { platform: "other", gated: false });
+});
+
+test("classifyAdgPlatform gives original computer games platform pc, and other non-console games other, both gated", () => {
+  for (const label of ["PC", "DOS", "Mac", "Amiga", "Commodore 64/8-bit", "Apple II"]) {
+    assert.deepEqual(classifyAdgPlatform(label), { platform: "pc", gated: true }, label);
+  }
+  for (const label of ["Mobile", "Android / iOS", "", undefined, "Others", "Other", "Browser"]) {
+    assert.deepEqual(classifyAdgPlatform(label), { platform: "other", gated: true }, String(label));
+  }
+});
+
+test("adgAssetsFor skips non-console entries without an APK and keeps only the APK for those with one", () => {
+  const gated = classifyAdgPlatform("PC");
+  const desktopOnly = pickAssets([{ name: "Game-Windows-x64.zip" }, { name: "Game-Linux-x64.tar.gz" }]);
+  assert.equal(adgAssetsFor(gated, desktopOnly), null);
+  const withApk = pickAssets([{ name: "Game-Windows-x64.zip" }, { name: "game-arm64-v8a-release.apk" }]);
+  assert.deepEqual(Object.keys(adgAssetsFor(gated, withApk)), ["android"]);
+  assert.deepEqual(adgAssetsFor(gated, withApk).android, withApk.android);
+});
+
+test("adgAssetsFor keeps desktop assets of console entries and skips entries with none", () => {
+  const console = classifyAdgPlatform("PS1");
+  const picked = pickAssets([{ name: "Game-Windows-x64.zip" }]);
+  assert.deepEqual(adgAssetsFor(console, picked), picked);
+  assert.equal(adgAssetsFor(console, {}), null);
+});
+
+test("slugify makes lowercase slugs of at most 64 characters", () => {
+  assert.equal(slugify("Ocarina of Time: 3D!"), "ocarina-of-time-3d");
+  assert.equal(slugify(""), "");
+  assert.equal(slugify("a".repeat(80)).length, 64);
 });

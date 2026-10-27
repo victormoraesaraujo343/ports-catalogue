@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: node --test scripts/lib/heuristics.test.mjs
+      - run: node --test scripts/lib/*.test.mjs
       - run: node scripts/validate.mjs curated.json
 
   update:
@@ -35,6 +35,10 @@ jobs:
           node-version: 20
       - name: Import awesome-decomp-games
         run: node scripts/import-adg.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Import GitHub sources
+        run: node scripts/import-github.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Fetch covers

@@ -7,12 +7,15 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { resolve } from "node:path";
+import { androidFromRelease, isVrText } from "./lib/github-sources.mjs";
 import {
-  cleanTitleForSearch,
+  adgAssetsFor,
+  aiFlagField,
+  classifyAdgPlatform,
   isCandidate,
-  mapPlatform,
   mergeCatalogue,
   pickAssets,
+  slugify,
   statusFromPlayability,
 } from "./lib/heuristics.mjs";
 
@@ -36,15 +39,6 @@ const ghHeaders = {
 class FatalError extends Error {}
 
 const clean = (value) => String(value ?? "").replace(/\s+/g, " ").trim();
-
-function slugify(value) {
-  return clean(value)
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .slice(0, 64)
-    .replace(/-+$/, "");
-}
 
 function readJson(path, fallback) {
   if (!existsSync(path)) return fallback;
@@ -95,7 +89,7 @@ async function mapLimit(items, limit, fn) {
   return results;
 }
 
-function buildAutoEntry(game, release, channel, covers) {
+function buildAutoEntry(game, channel, covers, classification, assets) {
   const [owner, name] = game.repo.split("/");
   const title = clean(game.title) || name;
   const id = slugify(game.id) || slugify(title) || slugify(name) || "port";
@@ -105,7 +99,7 @@ function buildAutoEntry(game, release, channel, covers) {
   return {
     id,
     title,
-    platform: mapPlatform(game.platform),
+    platform: classification.platform,
     repo: game.repo,
     authors: [owner],
     description: {
@@ -119,7 +113,8 @@ function buildAutoEntry(game, release, channel, covers) {
     tested: false,
     channel,
     source: "auto",
-    assets: pickAssets(release.assets),
+    ...aiFlagField(game),
+    assets,
     game: { format: "folder-or-iso", requiredFiles: [], titleIds: [], notes: null },
     requirements: null,
     setupHint: null,
@@ -168,12 +163,21 @@ async function main() {
       stats.skippedNoRelease += 1;
       return;
     }
-    if (Object.keys(pickAssets(found.release.assets)).length === 0) {
+    // Non-console games are kept only with an Android APK (see adgAssetsFor).
+    const classification = classifyAdgPlatform(game.platform);
+    const apk = androidFromRelease(found.release);
+    // VR and Meta Quest builds are not the phone build: a non-console game is skipped when its APK or title says VR.
+    if (classification.gated && apk && (isVrText(apk.name) || isVrText(`${game.title} ${game.description}`))) {
+      stats.skippedNoAsset += 1;
+      return;
+    }
+    const assets = adgAssetsFor(classification, pickAssets(found.release.assets));
+    if (!assets) {
       stats.skippedNoAsset += 1;
       return;
     }
     stats.withAssets += 1;
-    auto.push(buildAutoEntry(game, found.release, found.channel, covers));
+    auto.push(buildAutoEntry(game, found.channel, covers, classification, assets));
   });
 
   if (toFetch.length > 0 && stats.skippedErrors / toFetch.length > MAX_ERROR_RATE) {

@@ -33,7 +33,13 @@ const PLATFORM_MAP = new Map(
 const platformKey = (label) => label.toLowerCase().replace(/[\s.-]+/g, "");
 
 const CANDIDATE_TYPES = new Set(["static-recomp", "source-port", "decompilation", "engine-remake"]);
-const EXCLUDED_PLATFORMS = new Set(["pc", "dos", "mobile", "android / ios", ""]);
+// Labels of original computer games (DOS, Mac, Amiga, ...). They become platform "pc".
+const COMPUTER_LABELS = new Set([
+  "pc", "dos", "msdos", "pc98", "windows", "linux", "mac", "macos", "osx",
+  "amiga", "commodore64", "c64", "appleii", "apple2", "zxspectrum", "spectrum", "msx",
+]);
+// Labels of non-console, non-computer games (mobile, browser, unknown). They become platform "other".
+const NON_CONSOLE_LABELS = new Set(["", "mobile", "android", "ios", "androidios", "browser", "web", "others", "other", "unknown"]);
 const REPO_RE = /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/;
 const IGNORED_EXTENSIONS = /\.(sha256|sha512|sig|asc|txt|json|pdb|dbg|sym|md)$/i;
 const IGNORED_NAMES = /source code|debug|symbols|src|source/i;
@@ -60,16 +66,69 @@ export function mapPlatform(adgPlatform) {
   return "other";
 }
 
-/** True when an Awesome Decomp Games entry is worth importing (section 10 rules). */
+/**
+ * Classifies an Awesome Decomp Games platform label.
+ * Returns { platform, gated }. Console labels (and other consoles such as "Virtual Boy") are not gated.
+ * Gated entries are non-console games: they are imported only with an Android APK (see adgAssetsFor),
+ * with platform "pc" for original computer games and "other" for everything else.
+ */
+export function classifyAdgPlatform(label) {
+  const parts = String(label ?? "")
+    .split(/[/,&+|]/)
+    .map(platformKey)
+    .filter(Boolean);
+  for (const part of parts) {
+    if (PLATFORM_MAP.has(part)) return { platform: PLATFORM_MAP.get(part), gated: false };
+  }
+  if (parts.some((part) => COMPUTER_LABELS.has(part))) return { platform: "pc", gated: true };
+  if (parts.every((part) => NON_CONSOLE_LABELS.has(part))) return { platform: "other", gated: true };
+  return { platform: "other", gated: false };
+}
+
+/**
+ * Assets to keep for an Awesome Decomp Games entry, or null when the entry must be skipped.
+ * Gated (non-console) entries need an Android APK and keep only that asset, so the desktop
+ * catalogue does not change for them. Other entries keep their desktop assets as before.
+ */
+export function adgAssetsFor(classification, assets) {
+  if (classification.gated) return assets.android ? { android: assets.android } : null;
+  return Object.keys(assets).length > 0 ? assets : null;
+}
+
+/** Only the Android asset, for the entries that come from the GitHub sources. */
+export function androidOnly(assets) {
+  return assets?.android ? { android: assets.android } : {};
+}
+
+/** Extra catalogue fields for an Awesome Decomp Games entry: { aiFlag: true } when ADG marks it AI-generated, else {}. */
+export function aiFlagField(entry) {
+  return entry?.ai_flag ? { aiFlag: true } : {};
+}
+
+/**
+ * True when an Awesome Decomp Games entry is worth importing (section 10 rules).
+ * Platform is not checked here: non-console entries are gated later by classifyAdgPlatform and adgAssetsFor.
+ * AI-flagged entries are kept and tagged with aiFlagField.
+ */
 export function isCandidate(entry) {
   if (!entry || typeof entry !== "object") return false;
   if (typeof entry.repo !== "string" || !REPO_RE.test(entry.repo)) return false;
   if (!entry.release) return false;
   if (!CANDIDATE_TYPES.has(entry.type)) return false;
-  const platform = String(entry.platform ?? "").trim().toLowerCase();
-  if (EXCLUDED_PLATFORMS.has(platform)) return false;
-  if (entry.archived || entry.old || entry.inactive || entry.browser_playable || entry.ai_flag) return false;
+  if (entry.archived || entry.old || entry.inactive || entry.browser_playable) return false;
   return Number(entry.ratings?.playability) >= 3;
+}
+
+/** Lowercase slug: letters and digits, dashes between words, at most 64 characters. */
+export function slugify(value) {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "")
+    .slice(0, 64)
+    .replace(/-+$/, "");
 }
 
 /** Playability rating (1-5) to catalogue status. */
