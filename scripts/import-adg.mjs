@@ -55,7 +55,16 @@ function normalizeGames(source) {
 }
 
 async function getJson(url) {
-  const res = await fetch(url, { headers: ghHeaders, signal: AbortSignal.timeout(15_000) });
+  let res;
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      res = await fetch(url, { headers: ghHeaders, signal: AbortSignal.timeout(15_000) });
+      break;
+    } catch (err) {
+      if (attempt >= 3) throw new FatalError(`network error after ${attempt} tries: ${err.message}`);
+      await new Promise((done) => setTimeout(done, attempt * 5000));
+    }
+  }
   if (res.status === 403 || res.status === 429) {
     throw new FatalError(`GitHub rate limit or access refused (HTTP ${res.status}) on ${new URL(url).pathname}`);
   }

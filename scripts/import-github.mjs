@@ -54,6 +54,18 @@ const count = (key) => reasons.set(key, (reasons.get(key) ?? 0) + 1);
 
 let lastSearchAt = 0;
 
+/** fetch with up to 3 tries on a network error (connection reset, timeout). HTTP errors are returned, not retried here. */
+async function fetchWithRetry(url) {
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      return await fetch(url, { headers: ghHeaders, signal: AbortSignal.timeout(20_000) });
+    } catch (err) {
+      if (attempt >= 3) throw new FatalError(`network error after ${attempt} tries on ${new URL(url).pathname}: ${err.message}`);
+      await sleep(attempt * 5000);
+    }
+  }
+}
+
 /** GET with the search pace. A 403 or 429 is retried once after the advertised wait, then it is fatal. */
 async function ghGet(url, { search = false } = {}) {
   if (search) {
@@ -61,7 +73,7 @@ async function ghGet(url, { search = false } = {}) {
     if (wait > 0) await sleep(wait);
     lastSearchAt = Date.now();
   }
-  const send = () => fetch(url, { headers: ghHeaders, signal: AbortSignal.timeout(20_000) });
+  const send = () => fetchWithRetry(url);
   let res = await send();
   if (res.status === 403 || res.status === 429) {
     const retryAfter = Number(res.headers.get("retry-after")) || 60;
