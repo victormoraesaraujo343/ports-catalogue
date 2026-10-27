@@ -8,6 +8,8 @@ This repository contains **no game data**. Each entry links to a port's own GitH
 
 `ports-catalogue.json` is **generated** every day by `.github/workflows/update-catalogue.yml`. Do not edit it by hand; the next run overwrites it.
 
+The Android APK comes from the newest of the 10 latest releases that has one: porters often ship Android and desktop builds in separate releases, so the newest release may not have it.
+
 It is built from these sources, in precedence order (curated first):
 
 - **Curated entries** live in `curated.json` (see below).

@@ -269,3 +269,8 @@ test("R1 rejects VR builds with glued names and VR headset names", () => {
   assert.equal(repoVerdict(meta({ name: "quake3pico", description: "recomp port for Pico 4" }), NOW), "vr");
   assert.equal(repoVerdict(meta({ name: "vrcade-recomp", description: "recomp port" }), NOW), "ok");
 });
+
+test("a real port that mentions its shader pipeline is not denied as a tool", () => {
+  assert.equal(isDeniedText("sonic-r-android Native Android port with a new shader pipeline"), false);
+  assert.equal(isDeniedText("retro-shaders Shader pack collection"), true);
+});

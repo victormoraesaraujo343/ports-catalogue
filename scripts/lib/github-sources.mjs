@@ -31,7 +31,7 @@ const KEYWORD_RE =
  * tools, or launchers that bundle ports). Checked on name, description and topics after stripNegations.
  */
 const DENY_RE =
-  /decompiler|recompiler|compiler|launcher|front-?end|emula|toolkit|\btools?\b|\bsdk\b|installer|mod ?manager|modding|patcher|template|reverse[ -]engineer|apk (decompil|analy|inspect|tool|editor)|apk ?tool|spyware|attendance|\bgym\b|battery|shader|framework|\bstudy\b|roblox|discord|chatbox|vibe|proxy|pad fixes|fixes for|universal (pad|controller)|recomp\w* tools?/i;
+  /decompiler|recompiler|compiler|launcher|front-?end|emula|toolkit|\btools?\b|\bsdk\b|installer|mod ?manager|modding|patcher|template|reverse[ -]engineer|apk (decompil|analy|inspect|tool|editor)|apk ?tool|spyware|attendance|\bgym\b|battery|shader ?(pack|preset|collection)s?|framework|\bstudy\b|roblox|discord|chatbox|vibe|proxy|pad fixes|fixes for|universal (pad|controller)|recomp\w* tools?/i;
 
 /** "not an emulator", "sem emulador", "no emulation" are negations, not an emulator. Removed before the deny check. */
 const NEGATED_EMULATOR_RE =
