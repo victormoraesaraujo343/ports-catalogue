@@ -1,7 +1,7 @@
 {
   "$schema": "./ports-catalogue.schema.json",
   "version": 1,
-  "updatedAt": "2026-11-03T14:38:25Z",
+  "updatedAt": "2026-11-04T14:58:34Z",
   "generatedFrom": "https://github.com/SubmitGame/awesome-decomp-games",
   "ports": [
     {
@@ -37,7 +37,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 95,
+        "stars": 97,
         "pushedAt": "2026-10-20T15:30:36Z"
       }
     },
@@ -74,7 +74,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 120,
+        "stars": 123,
         "pushedAt": "2026-10-20T08:31:27Z"
       }
     },
@@ -111,7 +111,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 113,
+        "stars": 116,
         "pushedAt": "2026-10-19T20:50:43Z"
       }
     },
@@ -147,7 +147,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 192,
+        "stars": 196,
         "pushedAt": "2026-10-31T09:44:37Z"
       }
     },
@@ -231,7 +231,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2422,
+        "stars": 2424,
         "pushedAt": "2026-11-03T00:30:25Z"
       }
     },
@@ -354,7 +354,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 11,
         "pushedAt": "2026-10-26T15:53:49Z"
       }
     },
@@ -403,7 +403,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 581,
+        "stars": 582,
         "pushedAt": "2026-10-20T23:52:18Z"
       }
     },
@@ -444,7 +444,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 518,
+        "stars": 519,
         "pushedAt": "2026-10-20T00:26:50Z"
       }
     },
@@ -516,7 +516,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
+        "stars": 43,
         "pushedAt": "2026-09-06T00:54:13Z"
       }
     },
@@ -542,6 +542,10 @@
         "win32": {
           "pattern": "^wipeout-windows\\.zip$",
           "executable": null
+        },
+        "linux": {
+          "pattern": "^wipeout-x\\d+_\\d+\\.AppImage$",
+          "executable": null
         }
       },
       "game": {
@@ -553,8 +557,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 217,
-        "pushedAt": "2026-11-03T13:31:08Z"
+        "stars": 227,
+        "pushedAt": "2026-11-04T08:45:14Z"
       }
     },
     {
@@ -590,7 +594,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 25,
         "pushedAt": "2026-10-19T23:59:35Z"
       }
     },
@@ -627,7 +631,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 8,
+        "stars": 9,
         "pushedAt": "2026-10-21T09:08:44Z"
       }
     },
@@ -664,7 +668,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 32,
+        "stars": 34,
         "pushedAt": "2026-10-20T04:39:00Z"
       }
     },
@@ -701,7 +705,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
+        "stars": 23,
         "pushedAt": "2026-10-20T02:22:12Z"
       }
     },
@@ -814,8 +818,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1704,
-        "pushedAt": "2026-11-02T23:00:17Z"
+        "stars": 1723,
+        "pushedAt": "2026-11-04T00:54:19Z"
       }
     },
     {
@@ -855,7 +859,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 192,
+        "stars": 191,
         "pushedAt": "2026-10-15T03:44:22Z"
       }
     },
@@ -927,7 +931,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2973,
+        "stars": 2974,
         "pushedAt": "2025-01-15T18:47:51Z"
       }
     },
@@ -1000,7 +1004,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 141,
+        "stars": 143,
         "pushedAt": "2026-10-15T23:48:16Z"
       }
     },
@@ -1044,7 +1048,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
+        "stars": 24,
         "pushedAt": "2026-10-02T14:41:05Z"
       }
     },
@@ -1089,7 +1093,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 9,
+        "stars": 10,
         "pushedAt": "2026-10-02T15:45:24Z"
       }
     },
@@ -1358,7 +1362,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 19,
         "pushedAt": "2026-10-02T14:41:01Z"
       }
     },
@@ -2149,7 +2153,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 44,
+        "stars": 43,
         "pushedAt": "2026-10-28T18:15:32Z"
       }
     },
@@ -2194,7 +2198,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 48,
+        "stars": 47,
         "pushedAt": "2026-11-01T15:40:43Z"
       }
     },
@@ -2235,8 +2239,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6,
-        "pushedAt": "2026-11-01T10:30:26Z"
+        "stars": 7,
+        "pushedAt": "2026-11-03T22:43:03Z"
       }
     },
     {
@@ -2272,8 +2276,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 50,
-        "pushedAt": "2026-10-31T16:03:01Z"
+        "stars": 56,
+        "pushedAt": "2026-11-03T19:26:01Z"
       }
     },
     {
@@ -2344,7 +2348,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 92,
+        "stars": 93,
         "pushedAt": "2026-10-19T21:26:01Z"
       }
     },
@@ -2453,7 +2457,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 193,
+        "stars": 194,
         "pushedAt": "2026-10-20T23:08:41Z"
       }
     },
@@ -2489,7 +2493,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 49,
+        "stars": 53,
         "pushedAt": "2026-10-24T17:19:09Z"
       }
     },
@@ -2533,8 +2537,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
-        "pushedAt": "2026-11-01T20:17:07Z"
+        "stars": 26,
+        "pushedAt": "2026-11-03T21:02:02Z"
       }
     },
     {
@@ -2578,7 +2582,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 534,
+        "stars": 539,
         "pushedAt": "2026-10-31T22:00:19Z"
       }
     },
@@ -2615,7 +2619,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
+        "stars": 18,
         "pushedAt": "2026-10-18T22:00:57Z"
       }
     },
@@ -2691,7 +2695,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
+        "stars": 24,
         "pushedAt": "2026-10-25T22:24:43Z"
       }
     },
@@ -2768,7 +2772,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
+        "stars": 22,
         "pushedAt": "2026-11-03T02:00:42Z"
       }
     },
@@ -2805,7 +2809,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 217,
+        "stars": 219,
         "pushedAt": "2026-10-31T10:59:29Z"
       }
     },
@@ -2926,8 +2930,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1466,
-        "pushedAt": "2026-11-03T05:15:57Z"
+        "stars": 1500,
+        "pushedAt": "2026-11-04T13:20:54Z"
       }
     },
     {
@@ -2963,8 +2967,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 131,
-        "pushedAt": "2026-11-03T02:17:13Z"
+        "stars": 134,
+        "pushedAt": "2026-11-04T11:41:02Z"
       }
     },
     {
@@ -3000,7 +3004,7 @@
       "setupHint": null,
       "stats": {
         "stars": 6,
-        "pushedAt": "2026-11-03T06:24:42Z"
+        "pushedAt": "2026-11-04T14:03:02Z"
       }
     },
     {
@@ -3043,7 +3047,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2115,
+        "stars": 2118,
         "pushedAt": "2026-09-25T18:57:08Z"
       }
     },
@@ -3079,7 +3083,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
+        "stars": 24,
         "pushedAt": "2026-11-03T06:51:21Z"
       }
     },
@@ -3115,7 +3119,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 21,
+        "stars": 22,
         "pushedAt": "2026-11-02T19:12:25Z"
       }
     },
@@ -3152,7 +3156,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 220,
+        "stars": 225,
         "pushedAt": "2026-10-29T20:44:40Z"
       }
     },
@@ -3189,7 +3193,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 731,
+        "stars": 740,
         "pushedAt": "2026-11-02T22:42:12Z"
       }
     },
@@ -3225,8 +3229,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 238,
-        "pushedAt": "2026-11-02T20:32:30Z"
+        "stars": 239,
+        "pushedAt": "2026-11-03T21:43:54Z"
       }
     },
     {
@@ -3457,7 +3461,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 23,
         "pushedAt": "2026-10-21T14:56:10Z"
       }
     },
@@ -3494,7 +3498,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 19,
         "pushedAt": "2026-10-27T22:55:46Z"
       }
     },
@@ -3538,8 +3542,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 187,
-        "pushedAt": "2026-10-29T01:21:11Z"
+        "stars": 188,
+        "pushedAt": "2026-11-03T22:53:55Z"
       }
     },
     {
@@ -3583,7 +3587,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 408,
+        "stars": 412,
         "pushedAt": "2026-11-02T22:17:56Z"
       }
     },
@@ -3627,7 +3631,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 255,
+        "stars": 257,
         "pushedAt": "2026-11-02T19:55:23Z"
       }
     },
@@ -3671,7 +3675,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1058,
+        "stars": 1066,
         "pushedAt": "2026-11-03T02:45:56Z"
       }
     },
@@ -3745,7 +3749,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
+        "stars": 12,
         "pushedAt": "2026-10-30T02:31:09Z"
       }
     },
@@ -3843,7 +3847,7 @@
         "pt-BR": "Em Game & effects, escolha a pasta do jogo (a que tem o eboot.bin) e depois clique em PLAY."
       },
       "stats": {
-        "stars": 5087,
+        "stars": 5112,
         "pushedAt": "2026-11-02T19:33:26Z"
       }
     },
@@ -4044,7 +4048,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 91,
+        "stars": 92,
         "pushedAt": "2026-11-02T18:15:36Z"
       }
     },
@@ -4093,7 +4097,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4102,
+        "stars": 4106,
         "pushedAt": "2026-11-02T20:01:03Z"
       }
     },
@@ -4134,8 +4138,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 68,
-        "pushedAt": "2026-11-03T04:06:03Z"
+        "stars": 69,
+        "pushedAt": "2026-11-04T06:41:40Z"
       }
     },
     {
@@ -4170,7 +4174,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3435,
+        "stars": 3436,
         "pushedAt": "2026-09-12T12:22:23Z"
       }
     },
@@ -4214,7 +4218,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 20,
         "pushedAt": "2026-10-22T20:39:25Z"
       }
     },
@@ -4251,7 +4255,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 77,
+        "stars": 76,
         "pushedAt": "2026-11-02T06:53:18Z"
       }
     },
@@ -4287,7 +4291,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 34,
+        "stars": 35,
         "pushedAt": "2026-10-28T02:54:41Z"
       }
     },
@@ -4363,7 +4367,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 192,
+        "stars": 193,
         "pushedAt": "2026-08-05T12:24:05Z"
       }
     },
@@ -4400,7 +4404,7 @@
       "setupHint": null,
       "stats": {
         "stars": 433,
-        "pushedAt": "2026-11-03T13:12:21Z"
+        "pushedAt": "2026-11-04T14:53:16Z"
       }
     },
     {
@@ -4437,7 +4441,7 @@
       "setupHint": null,
       "stats": {
         "stars": 1302,
-        "pushedAt": "2026-11-03T06:40:33Z"
+        "pushedAt": "2026-11-04T13:34:09Z"
       }
     },
     {
@@ -4537,7 +4541,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^SnowboardKidsRecompiled-Linux-X\\d+\\.tar\\.gz$",
+          "pattern": "^SnowboardKidsRecompiled-AppImage-X\\d+\\.AppImage$",
           "executable": null
         },
         "darwin": {
@@ -4554,7 +4558,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 33,
+        "stars": 32,
         "pushedAt": "2026-10-31T03:13:00Z"
       }
     },
@@ -4687,8 +4691,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 224,
-        "pushedAt": "2026-11-03T12:19:48Z"
+        "stars": 227,
+        "pushedAt": "2026-11-04T14:46:04Z"
       }
     },
     {
@@ -4725,7 +4729,7 @@
       "setupHint": null,
       "stats": {
         "stars": 2,
-        "pushedAt": "2026-11-02T04:45:17Z"
+        "pushedAt": "2026-11-04T14:27:46Z"
       }
     },
     {
@@ -4762,7 +4766,7 @@
       "setupHint": null,
       "stats": {
         "stars": 3,
-        "pushedAt": "2026-11-01T14:39:47Z"
+        "pushedAt": "2026-11-04T13:52:54Z"
       }
     },
     {
@@ -4802,7 +4806,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 553,
+        "stars": 555,
         "pushedAt": "2026-11-02T02:14:22Z"
       }
     },
@@ -4843,7 +4847,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 735,
+        "stars": 738,
         "pushedAt": "2026-11-01T02:01:20Z"
       }
     },
@@ -5034,8 +5038,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13456,
-        "pushedAt": "2026-11-03T13:59:11Z"
+        "stars": 13460,
+        "pushedAt": "2026-11-04T07:59:44Z"
       }
     },
     {
@@ -5183,7 +5187,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 31,
         "pushedAt": "2026-10-30T14:25:54Z"
       }
     },
@@ -5219,7 +5223,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 288,
+        "stars": 292,
         "pushedAt": "2026-10-27T14:06:34Z"
       }
     },
@@ -5255,7 +5259,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 122,
+        "stars": 124,
         "pushedAt": "2026-10-30T14:48:27Z"
       }
     },
@@ -5291,7 +5295,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 86,
+        "stars": 87,
         "pushedAt": "2026-10-30T14:51:25Z"
       }
     },
@@ -5327,7 +5331,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 332,
+        "stars": 341,
         "pushedAt": "2026-10-30T14:48:49Z"
       }
     },
@@ -5399,7 +5403,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
+        "stars": 25,
         "pushedAt": "2026-11-03T09:04:20Z"
       }
     },
@@ -5436,7 +5440,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 31,
         "pushedAt": "2026-10-24T01:41:14Z"
       }
     },
@@ -5480,7 +5484,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1512,
+        "stars": 1515,
         "pushedAt": "2026-11-02T04:02:55Z"
       }
     },
@@ -5545,7 +5549,7 @@
       "status": "experimental",
       "tested": false,
       "channel": "latest",
-      "source": "github-search",
+      "source": "github-author",
       "assets": {
         "android": {
           "pattern": "^CrashTwinsanity-PortNativo-v\\d+\\.\\d+\\.\\d+-arm\\d+\\.apk$",
@@ -5634,8 +5638,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 168,
-        "pushedAt": "2026-11-02T19:27:53Z"
+        "stars": 169,
+        "pushedAt": "2026-11-04T00:44:44Z"
       }
     },
     {
@@ -5674,7 +5678,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 138,
+        "stars": 137,
         "pushedAt": "2026-11-03T02:36:29Z"
       }
     },
@@ -5715,8 +5719,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 214,
+        "stars": 215,
         "pushedAt": "2026-10-21T01:00:14Z"
+      }
+    },
+    {
+      "id": "dad-n-me",
+      "title": "Dad N Me",
+      "platform": "other",
+      "repo": "Frostie77/Dad-n-Me",
+      "authors": [
+        "Frostie77"
+      ],
+      "description": {
+        "en": "A Native Android Port of the violent Flash game Dad 'n ME."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-author",
+      "assets": {
+        "android": {
+          "pattern": "^Dad-n-Me-v\\d+\\.\\d+\\.\\d+-Android\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 1,
+        "pushedAt": "2026-11-04T14:48:53Z"
       }
     },
     {
@@ -5756,7 +5796,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 171,
+        "stars": 172,
         "pushedAt": "2026-10-28T11:27:47Z"
       }
     },
@@ -5797,8 +5837,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 115,
-        "pushedAt": "2026-11-03T14:04:06Z"
+        "stars": 126,
+        "pushedAt": "2026-11-04T05:53:50Z"
       }
     },
     {
@@ -5874,7 +5914,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 23,
         "pushedAt": "2026-09-17T15:32:11Z"
       }
     },
@@ -5914,7 +5954,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 15,
         "pushedAt": "2026-09-19T19:29:24Z"
       }
     },
@@ -5955,7 +5995,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 84,
+        "stars": 83,
         "pushedAt": "2026-09-17T17:12:05Z"
       }
     },
@@ -5996,7 +6036,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 99,
+        "stars": 98,
         "pushedAt": "2026-10-15T09:45:27Z"
       }
     },
@@ -6118,7 +6158,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 12,
+        "stars": 13,
         "pushedAt": "2026-10-30T22:32:30Z"
       }
     },
@@ -6226,7 +6266,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 54,
         "pushedAt": "2026-11-02T21:49:48Z"
       }
     },
@@ -6262,7 +6302,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1286,
+        "stars": 1287,
         "pushedAt": "2026-10-18T15:17:45Z"
       }
     },
@@ -6339,7 +6379,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3882,
+        "stars": 3893,
         "pushedAt": "2026-10-28T23:56:07Z"
       }
     },
@@ -6483,7 +6523,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
+        "stars": 25,
         "pushedAt": "2026-11-03T11:01:41Z"
       }
     },
@@ -6556,8 +6596,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 9980,
-        "pushedAt": "2026-10-31T14:09:09Z"
+        "stars": 9984,
+        "pushedAt": "2026-11-03T23:24:43Z"
       }
     },
     {
@@ -6579,7 +6619,7 @@
       "source": "github-fork",
       "assets": {
         "android": {
-          "pattern": "^GoldenBalloon-V\\d+\\.\\d+debug\\.apk$",
+          "pattern": "^GoldenBalloon_V\\d+\\.\\d+\\.\\d+\\.apk$",
           "executable": null
         }
       },
@@ -6593,7 +6633,7 @@
       "setupHint": null,
       "stats": {
         "stars": 3,
-        "pushedAt": "2026-10-23T22:07:34Z"
+        "pushedAt": "2026-11-03T18:12:04Z"
       }
     },
     {
@@ -6713,7 +6753,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 335,
+        "stars": 334,
         "pushedAt": "2026-11-03T07:38:19Z"
       }
     },
@@ -6831,7 +6871,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 12,
+        "stars": 11,
         "pushedAt": "2026-10-27T23:10:03Z"
       }
     },
@@ -6913,7 +6953,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6,
+        "stars": 7,
         "pushedAt": "2026-10-23T14:53:48Z"
       }
     },
@@ -7148,8 +7188,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 127,
-        "pushedAt": "2026-11-03T13:55:18Z"
+        "stars": 135,
+        "pushedAt": "2026-11-04T01:23:36Z"
       }
     },
     {
@@ -7220,8 +7260,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4,
-        "pushedAt": "2026-11-03T13:30:40Z"
+        "stars": 9,
+        "pushedAt": "2026-11-03T15:23:03Z"
       }
     },
     {
@@ -7296,8 +7336,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 8,
-        "pushedAt": "2026-11-03T13:56:18Z"
+        "stars": 9,
+        "pushedAt": "2026-11-04T14:48:31Z"
       }
     },
     {
@@ -7373,8 +7413,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 751,
-        "pushedAt": "2026-11-03T05:25:19Z"
+        "stars": 769,
+        "pushedAt": "2026-11-04T01:38:52Z"
       }
     },
     {
@@ -7409,7 +7449,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 173,
+        "stars": 176,
         "pushedAt": "2026-10-31T23:23:16Z"
       }
     },
@@ -7485,7 +7525,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 13,
         "pushedAt": "2026-11-02T17:00:03Z"
       }
     },
@@ -7534,8 +7574,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 39,
-        "pushedAt": "2026-11-03T11:08:35Z"
+        "stars": 40,
+        "pushedAt": "2026-11-04T13:43:38Z"
       }
     },
     {
@@ -7574,7 +7614,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 176,
+        "stars": 179,
         "pushedAt": "2026-10-31T16:52:46Z"
       }
     },
@@ -7615,7 +7655,7 @@
       "setupHint": null,
       "stats": {
         "stars": 189,
-        "pushedAt": "2026-10-23T20:27:23Z"
+        "pushedAt": "2026-11-04T12:01:23Z"
       }
     },
     {
@@ -7695,7 +7735,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 19,
         "pushedAt": "2026-10-15T16:31:08Z"
       }
     },
@@ -7804,7 +7844,7 @@
       "setupHint": null,
       "stats": {
         "stars": 26,
-        "pushedAt": "2026-11-01T07:36:55Z"
+        "pushedAt": "2026-11-04T02:40:34Z"
       }
     },
     {
@@ -8113,8 +8153,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 284,
-        "pushedAt": "2026-11-03T12:50:05Z"
+        "stars": 285,
+        "pushedAt": "2026-11-03T20:29:52Z"
       }
     },
     {
@@ -8186,7 +8226,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 23,
         "pushedAt": "2026-10-03T08:09:37Z"
       }
     },
@@ -8222,8 +8262,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 80,
-        "pushedAt": "2026-10-25T22:17:23Z"
+        "stars": 83,
+        "pushedAt": "2026-11-04T02:33:34Z"
       }
     },
     {
@@ -8300,7 +8340,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 38,
+        "stars": 37,
         "pushedAt": "2026-10-31T15:46:52Z"
       }
     },
@@ -8336,7 +8376,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 83,
+        "stars": 85,
         "pushedAt": "2026-10-21T10:01:17Z"
       }
     },
@@ -8377,7 +8417,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
+        "stars": 19,
         "pushedAt": "2026-10-23T20:28:34Z"
       }
     },
@@ -8457,7 +8497,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 251,
+        "stars": 252,
         "pushedAt": "2026-10-31T18:03:13Z"
       }
     },
@@ -8533,7 +8573,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 678,
+        "stars": 680,
         "pushedAt": "2026-10-24T12:21:31Z"
       }
     },
@@ -8645,7 +8685,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 25,
+        "stars": 27,
         "pushedAt": "2026-11-02T17:00:23Z"
       }
     },
@@ -8759,8 +8799,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4549,
-        "pushedAt": "2026-11-03T14:08:00Z"
+        "stars": 4582,
+        "pushedAt": "2026-11-04T10:43:48Z"
       }
     },
     {
@@ -8832,8 +8872,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 392,
-        "pushedAt": "2026-11-03T13:54:05Z"
+        "stars": 400,
+        "pushedAt": "2026-11-04T14:54:01Z"
       }
     },
     {
@@ -8913,7 +8953,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 144,
+        "stars": 143,
         "pushedAt": "2026-10-23T16:52:05Z"
       }
     },
@@ -8950,7 +8990,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 69,
+        "stars": 70,
         "pushedAt": "2026-10-30T16:10:04Z"
       }
     },
@@ -8987,7 +9027,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 830,
+        "stars": 837,
         "pushedAt": "2026-10-30T21:16:59Z"
       }
     },
@@ -9071,8 +9111,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1538,
-        "pushedAt": "2026-11-02T17:39:24Z"
+        "stars": 1547,
+        "pushedAt": "2026-11-04T00:15:02Z"
       }
     },
     {
@@ -9131,8 +9171,8 @@
         "pt-BR": "Arraste seu ISO para o launcher (ou escolha o ISO), confirme a posse do jogo e depois clique em Verificar e montar."
       },
       "stats": {
-        "stars": 990,
-        "pushedAt": "2026-11-03T02:57:24Z"
+        "stars": 998,
+        "pushedAt": "2026-11-04T04:55:36Z"
       }
     },
     {
@@ -9168,7 +9208,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 46,
+        "stars": 45,
         "pushedAt": "2026-11-01T12:37:24Z"
       }
     },
@@ -9204,8 +9244,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
-        "pushedAt": "2026-11-02T19:17:44Z"
+        "stars": 12,
+        "pushedAt": "2026-11-03T19:33:18Z"
       }
     },
     {
@@ -9249,7 +9289,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 908,
+        "stars": 913,
         "pushedAt": "2026-11-03T01:36:47Z"
       }
     },
@@ -9326,7 +9366,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 100,
+        "stars": 108,
         "pushedAt": "2026-11-03T10:45:25Z"
       }
     },
@@ -9394,7 +9434,7 @@
           "executable": null
         },
         "android": {
-          "pattern": "^bigodao_\\d+\\.\\d+_arm\\d+\\.apk$",
+          "pattern": "^Bigodao-\\d+\\.\\d+-release\\.apk$",
           "executable": null
         }
       },
@@ -9407,8 +9447,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
-        "pushedAt": "2026-11-01T04:11:06Z"
+        "stars": 27,
+        "pushedAt": "2026-11-04T05:25:26Z"
       }
     },
     {
@@ -9483,7 +9523,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-11-01T14:34:22Z"
       }
     },
@@ -9593,7 +9633,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 85,
+        "stars": 86,
         "pushedAt": "2026-10-21T15:21:20Z"
       }
     },
@@ -9666,7 +9706,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 701,
+        "stars": 705,
         "pushedAt": "2026-10-19T04:57:14Z"
       }
     },
@@ -9703,7 +9743,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 102,
+        "stars": 103,
         "pushedAt": "2026-11-01T22:51:07Z"
       }
     },
@@ -9739,7 +9779,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 135,
+        "stars": 136,
         "pushedAt": "2026-11-02T17:35:43Z"
       }
     },
@@ -9775,7 +9815,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 646,
+        "stars": 647,
         "pushedAt": "2026-11-02T21:39:15Z"
       }
     },
@@ -9820,8 +9860,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 146,
-        "pushedAt": "2026-11-03T07:10:20Z"
+        "stars": 153,
+        "pushedAt": "2026-11-04T06:10:50Z"
       }
     },
     {
@@ -9861,7 +9901,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 231,
+        "stars": 234,
         "pushedAt": "2026-10-26T23:02:49Z"
       }
     },
@@ -9926,8 +9966,8 @@
         "pt-BR": "Abra o God of War III.exe e escolha a pasta do jogo (a que tem o eboot.bin)."
       },
       "stats": {
-        "stars": 4549,
-        "pushedAt": "2026-11-03T14:08:00Z"
+        "stars": 4582,
+        "pushedAt": "2026-11-04T10:43:48Z"
       }
     },
     {
@@ -10006,7 +10046,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 481,
+        "stars": 483,
         "pushedAt": "2026-10-30T17:57:22Z"
       }
     },
@@ -10043,7 +10083,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 9,
         "pushedAt": "2026-10-21T00:57:20Z"
       }
     },
@@ -10120,8 +10160,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 450,
-        "pushedAt": "2026-11-02T22:52:47Z"
+        "stars": 471,
+        "pushedAt": "2026-11-04T13:19:29Z"
       }
     },
     {
@@ -10157,7 +10197,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 207,
+        "stars": 209,
         "pushedAt": "2026-10-26T21:59:45Z"
       }
     },
@@ -10202,7 +10242,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 191,
+        "stars": 193,
         "pushedAt": "2026-11-02T10:21:03Z"
       }
     },
@@ -10351,7 +10391,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 51,
+        "stars": 54,
         "pushedAt": "2026-10-31T15:11:38Z"
       }
     },
@@ -10430,7 +10470,7 @@
       "setupHint": null,
       "stats": {
         "stars": 55,
-        "pushedAt": "2026-11-03T13:40:34Z"
+        "pushedAt": "2026-11-03T16:52:02Z"
       }
     },
     {
@@ -10505,7 +10545,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 27,
         "pushedAt": "2026-10-28T20:33:03Z"
       }
     },
@@ -10546,8 +10586,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 54,
-        "pushedAt": "2026-11-03T13:15:11Z"
+        "stars": 55,
+        "pushedAt": "2026-11-03T20:47:43Z"
       }
     },
     {
@@ -10582,7 +10622,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
+        "stars": 18,
         "pushedAt": "2026-10-31T18:08:44Z"
       }
     },
@@ -10619,7 +10659,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
+        "stars": 21,
         "pushedAt": "2026-09-08T19:40:41Z"
       }
     },
@@ -10655,7 +10695,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 55,
         "pushedAt": "2026-10-31T03:31:48Z"
       }
     },
@@ -10695,7 +10735,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 67,
+        "stars": 68,
         "pushedAt": "2026-10-30T13:26:40Z"
       }
     },
@@ -10772,8 +10812,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 91,
-        "pushedAt": "2026-11-02T15:17:56Z"
+        "stars": 92,
+        "pushedAt": "2026-11-03T16:42:41Z"
       }
     },
     {
@@ -10844,8 +10884,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 40,
-        "pushedAt": "2026-11-03T00:00:22Z"
+        "stars": 42,
+        "pushedAt": "2026-11-04T09:50:06Z"
       }
     },
     {
@@ -10885,7 +10925,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 198,
+        "stars": 201,
         "pushedAt": "2026-11-01T13:20:02Z"
       }
     },
@@ -10921,7 +10961,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 80,
+        "stars": 83,
         "pushedAt": "2026-11-03T11:53:43Z"
       }
     },
@@ -11006,7 +11046,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 884,
+        "stars": 887,
         "pushedAt": "2026-10-27T07:44:34Z"
       }
     },
@@ -11050,7 +11090,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 540,
+        "stars": 541,
         "pushedAt": "2026-11-03T14:10:25Z"
       }
     },
@@ -11139,7 +11179,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5832,
+        "stars": 5842,
         "pushedAt": "2026-11-01T20:58:28Z"
       }
     },
@@ -11224,7 +11264,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2130,
+        "stars": 2131,
         "pushedAt": "2026-09-15T21:17:12Z"
       }
     },
@@ -11345,7 +11385,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 167,
+        "stars": 170,
         "pushedAt": "2026-10-24T03:01:09Z"
       }
     },
@@ -11386,7 +11426,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1050,
+        "stars": 1069,
         "pushedAt": "2026-10-28T02:39:34Z"
       }
     },
@@ -11427,7 +11467,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 536,
+        "stars": 543,
         "pushedAt": "2026-10-27T15:04:33Z"
       }
     },
@@ -11535,7 +11575,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5331,
+        "stars": 5337,
         "pushedAt": "2026-06-29T11:05:43Z"
       }
     },
@@ -11576,8 +11616,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 146,
-        "pushedAt": "2026-11-03T07:18:25Z"
+        "stars": 148,
+        "pushedAt": "2026-11-04T09:57:21Z"
       }
     },
     {
@@ -11612,7 +11652,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 34,
+        "stars": 36,
         "pushedAt": "2026-10-13T03:41:11Z"
       }
     },
@@ -11760,8 +11800,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 143,
-        "pushedAt": "2026-11-02T17:30:34Z"
+        "stars": 157,
+        "pushedAt": "2026-11-04T05:50:42Z"
       }
     },
     {
@@ -11796,8 +11836,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 48,
-        "pushedAt": "2026-11-02T18:53:15Z"
+        "stars": 54,
+        "pushedAt": "2026-11-03T19:47:29Z"
       }
     },
     {
@@ -11832,8 +11872,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 107,
-        "pushedAt": "2026-11-01T19:55:16Z"
+        "stars": 110,
+        "pushedAt": "2026-11-04T03:30:45Z"
       }
     },
     {
@@ -11869,8 +11909,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 606,
-        "pushedAt": "2026-11-03T08:26:13Z"
+        "stars": 611,
+        "pushedAt": "2026-11-04T08:39:45Z"
       }
     },
     {
@@ -11906,8 +11946,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 73,
-        "pushedAt": "2026-11-03T07:40:29Z"
+        "stars": 74,
+        "pushedAt": "2026-11-03T22:51:09Z"
       }
     },
     {
@@ -11943,8 +11983,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 64,
-        "pushedAt": "2026-11-01T22:02:34Z"
+        "stars": 71,
+        "pushedAt": "2026-11-04T12:11:44Z"
       }
     },
     {
@@ -11981,7 +12021,7 @@
       "setupHint": null,
       "stats": {
         "stars": 83,
-        "pushedAt": "2026-11-03T13:58:52Z"
+        "pushedAt": "2026-11-03T15:11:27Z"
       }
     },
     {
@@ -12016,7 +12056,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 228,
+        "stars": 230,
         "pushedAt": "2026-10-30T01:37:40Z"
       }
     },
@@ -12052,7 +12092,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 158,
+        "stars": 159,
         "pushedAt": "2026-05-27T00:42:07Z"
       }
     },
@@ -12126,7 +12166,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 84,
+        "stars": 87,
         "pushedAt": "2026-11-03T01:08:24Z"
       }
     },
@@ -12163,8 +12203,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
-        "pushedAt": "2026-11-03T14:14:46Z"
+        "stars": 125,
+        "pushedAt": "2026-11-04T12:08:05Z"
       }
     },
     {
@@ -12426,7 +12466,7 @@
       "setupHint": null,
       "stats": {
         "stars": 21,
-        "pushedAt": "2026-11-03T14:15:25Z"
+        "pushedAt": "2026-11-03T16:26:58Z"
       }
     },
     {
@@ -12465,8 +12505,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 60,
-        "pushedAt": "2026-11-03T08:57:24Z"
+        "stars": 65,
+        "pushedAt": "2026-11-03T17:38:27Z"
       }
     },
     {
@@ -12502,7 +12542,7 @@
       "setupHint": null,
       "stats": {
         "stars": 20,
-        "pushedAt": "2026-11-02T14:28:46Z"
+        "pushedAt": "2026-11-03T16:41:00Z"
       }
     },
     {
@@ -12616,8 +12656,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1086,
-        "pushedAt": "2026-10-30T03:55:34Z"
+        "stars": 1088,
+        "pushedAt": "2026-11-04T04:30:32Z"
       }
     },
     {
@@ -12652,7 +12692,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 34,
+        "stars": 35,
         "pushedAt": "2026-10-22T04:15:07Z"
       }
     },
@@ -13044,7 +13084,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 189,
+        "stars": 190,
         "pushedAt": "2026-11-01T18:04:56Z"
       }
     },
@@ -13202,8 +13242,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 27,
-        "pushedAt": "2026-11-03T05:34:03Z"
+        "stars": 29,
+        "pushedAt": "2026-11-04T05:34:42Z"
       }
     },
     {
@@ -13244,7 +13284,7 @@
       "setupHint": null,
       "stats": {
         "stars": 182,
-        "pushedAt": "2026-11-03T02:31:14Z"
+        "pushedAt": "2026-11-04T01:44:48Z"
       }
     },
     {
@@ -13316,7 +13356,7 @@
       "setupHint": null,
       "stats": {
         "stars": 42,
-        "pushedAt": "2026-11-03T13:52:12Z"
+        "pushedAt": "2026-11-04T12:05:49Z"
       }
     },
     {
@@ -13351,8 +13391,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 70,
-        "pushedAt": "2026-11-03T14:25:49Z"
+        "stars": 74,
+        "pushedAt": "2026-11-03T23:54:11Z"
       }
     },
     {
@@ -13622,8 +13662,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 172,
-        "pushedAt": "2026-11-03T03:46:54Z"
+        "stars": 195,
+        "pushedAt": "2026-11-04T04:56:14Z"
       }
     },
     {
@@ -13695,8 +13735,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 163,
-        "pushedAt": "2026-11-03T14:28:52Z"
+        "stars": 170,
+        "pushedAt": "2026-11-04T14:40:52Z"
       }
     },
     {
@@ -13740,7 +13780,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 213,
+        "stars": 215,
         "pushedAt": "2026-11-01T18:41:15Z"
       }
     },
@@ -14060,7 +14100,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 65,
+        "stars": 66,
         "pushedAt": "2026-11-02T18:02:01Z"
       }
     },
@@ -14101,7 +14141,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 233,
+        "stars": 234,
         "pushedAt": "2026-11-02T18:02:18Z"
       }
     },
@@ -14142,7 +14182,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 199,
+        "stars": 200,
         "pushedAt": "2026-10-31T07:03:33Z"
       }
     },
@@ -14187,7 +14227,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 103,
+        "stars": 104,
         "pushedAt": "2026-10-29T14:51:01Z"
       }
     },
@@ -14228,7 +14268,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 183,
+        "stars": 186,
         "pushedAt": "2026-11-01T18:03:28Z"
       }
     },
@@ -14264,7 +14304,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 54,
         "pushedAt": "2026-10-23T14:14:12Z"
       }
     },
@@ -14373,8 +14413,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
-        "pushedAt": "2026-10-29T01:38:03Z"
+        "stars": 117,
+        "pushedAt": "2026-11-04T04:48:34Z"
       }
     },
     {
@@ -14418,8 +14458,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 530,
-        "pushedAt": "2026-11-02T18:29:53Z"
+        "stars": 529,
+        "pushedAt": "2026-11-03T16:19:49Z"
       }
     },
     {
@@ -14458,7 +14498,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 50,
+        "stars": 51,
         "pushedAt": "2026-11-03T05:39:31Z"
       }
     },
@@ -14494,7 +14534,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 15,
         "pushedAt": "2026-11-03T05:45:40Z"
       }
     },
@@ -14543,8 +14583,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 226,
-        "pushedAt": "2026-11-02T15:41:03Z"
+        "stars": 232,
+        "pushedAt": "2026-11-04T13:37:41Z"
       }
     },
     {
@@ -14615,7 +14655,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 8,
+        "stars": 9,
         "pushedAt": "2026-10-17T02:19:40Z"
       }
     },
@@ -14692,7 +14732,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 47,
+        "stars": 49,
         "pushedAt": "2026-10-02T05:14:46Z"
       }
     },
@@ -14730,7 +14770,7 @@
       "setupHint": null,
       "stats": {
         "stars": 163,
-        "pushedAt": "2026-11-01T03:00:18Z"
+        "pushedAt": "2026-11-04T06:18:52Z"
       }
     },
     {
@@ -14778,7 +14818,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 131,
+        "stars": 130,
         "pushedAt": "2026-11-01T18:42:46Z"
       }
     },
@@ -14850,8 +14890,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2142,
-        "pushedAt": "2026-11-02T14:15:02Z"
+        "stars": 2145,
+        "pushedAt": "2026-11-03T16:19:10Z"
       }
     },
     {
@@ -14931,8 +14971,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 56,
-        "pushedAt": "2026-11-02T12:32:23Z"
+        "stars": 61,
+        "pushedAt": "2026-11-03T22:05:30Z"
       }
     },
     {
@@ -14977,7 +15017,7 @@
       "setupHint": null,
       "stats": {
         "stars": 135,
-        "pushedAt": "2026-11-03T01:06:29Z"
+        "pushedAt": "2026-11-04T10:06:15Z"
       }
     },
     {
@@ -15062,8 +15102,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 7,
-        "pushedAt": "2026-10-08T07:54:30Z"
+        "stars": 8,
+        "pushedAt": "2026-11-04T11:26:48Z"
       }
     },
     {
@@ -15142,7 +15182,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 333,
+        "stars": 332,
         "pushedAt": "2026-09-19T19:36:05Z"
       }
     },
@@ -15179,8 +15219,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 72,
-        "pushedAt": "2026-10-27T23:30:41Z"
+        "stars": 80,
+        "pushedAt": "2026-11-03T22:21:24Z"
       }
     },
     {
@@ -15252,7 +15292,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 174,
+        "stars": 176,
         "pushedAt": "2026-10-06T02:41:57Z"
       }
     },
@@ -15441,7 +15481,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 209,
+        "stars": 211,
         "pushedAt": "2026-10-23T20:44:10Z"
       }
     },
@@ -15478,7 +15518,7 @@
       "setupHint": null,
       "stats": {
         "stars": 116,
-        "pushedAt": "2026-11-03T11:01:30Z"
+        "pushedAt": "2026-11-03T20:53:54Z"
       }
     },
     {
@@ -15514,7 +15554,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 337,
+        "stars": 341,
         "pushedAt": "2026-11-02T22:41:40Z"
       }
     },
@@ -15555,7 +15595,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 87,
+        "stars": 88,
         "pushedAt": "2026-11-03T13:26:58Z"
       }
     },
@@ -15595,8 +15635,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 181,
-        "pushedAt": "2026-11-02T16:13:31Z"
+        "stars": 192,
+        "pushedAt": "2026-11-04T01:50:50Z"
       }
     },
     {
@@ -15636,7 +15676,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 86,
+        "stars": 85,
         "pushedAt": "2026-10-26T21:14:35Z"
       }
     },
@@ -15677,8 +15717,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 108,
-        "pushedAt": "2026-10-26T19:01:18Z"
+        "stars": 109,
+        "pushedAt": "2026-11-04T00:55:21Z"
       }
     },
     {
@@ -15714,7 +15754,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 357,
+        "stars": 358,
         "pushedAt": "2026-09-02T22:18:50Z"
       }
     },
@@ -15751,7 +15791,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 184,
+        "stars": 185,
         "pushedAt": "2026-10-03T19:32:00Z"
       }
     },
@@ -15791,7 +15831,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 25,
         "pushedAt": "2026-10-17T22:03:45Z"
       }
     },
@@ -15836,7 +15876,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2370,
+        "stars": 2390,
         "pushedAt": "2026-10-24T13:56:17Z"
       }
     },
@@ -15873,8 +15913,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 317,
-        "pushedAt": "2026-10-28T11:03:41Z"
+        "stars": 321,
+        "pushedAt": "2026-11-04T10:03:51Z"
       }
     },
     {
@@ -16021,7 +16061,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 21,
+        "stars": 20,
         "pushedAt": "2026-10-24T21:21:53Z"
       }
     },
@@ -16062,7 +16102,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 117,
+        "stars": 133,
         "pushedAt": "2026-11-03T10:16:12Z"
       }
     },
@@ -16099,7 +16139,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 115,
+        "stars": 119,
         "pushedAt": "2026-10-30T15:46:33Z"
       }
     },
@@ -16139,7 +16179,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 18,
         "pushedAt": "2026-10-28T20:58:32Z"
       }
     },
@@ -16212,7 +16252,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 209,
+        "stars": 213,
         "pushedAt": "2026-10-28T22:20:43Z"
       }
     },
@@ -16434,8 +16474,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 227,
-        "pushedAt": "2026-11-03T12:18:12Z"
+        "stars": 229,
+        "pushedAt": "2026-11-04T02:07:37Z"
       }
     },
     {
@@ -16552,7 +16592,7 @@
       "setupHint": null,
       "stats": {
         "stars": 15,
-        "pushedAt": "2026-10-27T19:11:32Z"
+        "pushedAt": "2026-11-04T01:05:00Z"
       }
     },
     {
@@ -16600,8 +16640,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 247,
-        "pushedAt": "2026-11-03T08:46:44Z"
+        "stars": 260,
+        "pushedAt": "2026-11-04T05:17:18Z"
       }
     },
     {
@@ -16645,8 +16685,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 81,
-        "pushedAt": "2026-11-02T08:19:18Z"
+        "stars": 80,
+        "pushedAt": "2026-11-04T14:49:04Z"
       }
     },
     {
@@ -16686,7 +16726,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 79,
+        "stars": 80,
         "pushedAt": "2026-11-02T02:19:56Z"
       }
     },
@@ -16767,7 +16807,7 @@
       "setupHint": null,
       "stats": {
         "stars": 39,
-        "pushedAt": "2026-10-31T14:22:35Z"
+        "pushedAt": "2026-11-04T06:51:30Z"
       }
     },
     {
@@ -16810,7 +16850,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1783,
+        "stars": 1788,
         "pushedAt": "2026-07-24T21:18:52Z"
       }
     },
@@ -16939,7 +16979,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 282,
+        "stars": 281,
         "pushedAt": "2026-04-30T20:35:04Z"
       }
     },
@@ -16975,7 +17015,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 47,
+        "stars": 49,
         "pushedAt": "2026-10-24T04:41:47Z"
       }
     },
@@ -17086,7 +17126,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 20,
         "pushedAt": "2026-11-02T17:52:29Z"
       }
     },
@@ -17162,8 +17202,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
-        "pushedAt": "2026-11-03T00:50:35Z"
+        "stars": 45,
+        "pushedAt": "2026-11-04T13:42:53Z"
       }
     },
     {
@@ -17234,8 +17274,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
-        "pushedAt": "2026-11-03T14:32:58Z"
+        "stars": 25,
+        "pushedAt": "2026-11-04T04:05:24Z"
       }
     },
     {
@@ -17437,8 +17477,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 391,
-        "pushedAt": "2026-11-03T11:42:21Z"
+        "stars": 433,
+        "pushedAt": "2026-11-04T02:21:28Z"
       }
     },
     {
@@ -17552,7 +17592,7 @@
       "setupHint": null,
       "stats": {
         "stars": 26,
-        "pushedAt": "2026-11-02T22:46:38Z"
+        "pushedAt": "2026-11-03T23:48:52Z"
       }
     },
     {
@@ -17596,7 +17636,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 77,
+        "stars": 78,
         "pushedAt": "2026-11-03T07:22:51Z"
       }
     },
@@ -17641,8 +17681,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 85,
-        "pushedAt": "2026-11-03T07:27:18Z"
+        "stars": 88,
+        "pushedAt": "2026-11-04T01:20:20Z"
       }
     },
     {
@@ -17686,8 +17726,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 78,
-        "pushedAt": "2026-11-03T07:16:47Z"
+        "stars": 80,
+        "pushedAt": "2026-11-04T01:02:50Z"
       }
     },
     {
@@ -17763,7 +17803,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-11-03T07:25:33Z"
+        "pushedAt": "2026-11-04T14:37:40Z"
       }
     },
     {
@@ -17798,8 +17838,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
-        "pushedAt": "2026-10-31T00:30:49Z"
+        "stars": 20,
+        "pushedAt": "2026-11-03T15:03:30Z"
       }
     },
     {
@@ -17835,8 +17875,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 608,
-        "pushedAt": "2026-11-03T10:43:56Z"
+        "stars": 614,
+        "pushedAt": "2026-11-04T14:16:13Z"
       }
     },
     {
@@ -17872,7 +17912,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 98,
+        "stars": 99,
         "pushedAt": "2026-10-31T00:21:28Z"
       }
     },
@@ -18210,7 +18250,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 35,
+        "stars": 36,
         "pushedAt": "2026-11-01T04:09:42Z"
       }
     },
@@ -18475,8 +18515,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 124,
-        "pushedAt": "2026-11-03T01:19:12Z"
+        "stars": 126,
+        "pushedAt": "2026-11-03T21:44:06Z"
       }
     },
     {
@@ -18553,7 +18593,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 83,
+        "stars": 84,
         "pushedAt": "2026-10-31T00:38:08Z"
       }
     },
@@ -18591,7 +18631,7 @@
       "setupHint": null,
       "stats": {
         "stars": 225,
-        "pushedAt": "2026-11-01T22:02:26Z"
+        "pushedAt": "2026-11-03T20:56:32Z"
       }
     },
     {
@@ -18700,7 +18740,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 276,
+        "stars": 277,
         "pushedAt": "2026-11-01T17:58:24Z"
       }
     },
@@ -18851,7 +18891,7 @@
       "setupHint": null,
       "stats": {
         "stars": 25,
-        "pushedAt": "2026-11-03T14:36:04Z"
+        "pushedAt": "2026-11-03T14:39:55Z"
       }
     },
     {
@@ -18887,8 +18927,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 29,
-        "pushedAt": "2026-11-03T00:10:57Z"
+        "stars": 34,
+        "pushedAt": "2026-11-03T23:27:56Z"
       }
     },
     {
@@ -18924,7 +18964,7 @@
       "setupHint": null,
       "stats": {
         "stars": 25,
-        "pushedAt": "2026-11-03T06:07:27Z"
+        "pushedAt": "2026-11-03T23:08:14Z"
       }
     },
     {
@@ -19199,7 +19239,7 @@
       "setupHint": null,
       "stats": {
         "stars": 141,
-        "pushedAt": "2026-11-01T21:56:40Z"
+        "pushedAt": "2026-11-04T01:36:27Z"
       }
     },
     {
@@ -19277,7 +19317,7 @@
       "setupHint": null,
       "stats": {
         "stars": 80,
-        "pushedAt": "2026-11-03T04:25:53Z"
+        "pushedAt": "2026-11-03T22:50:10Z"
       }
     },
     {
@@ -19461,7 +19501,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 387,
+        "stars": 390,
         "pushedAt": "2026-10-29T23:33:51Z"
       }
     },
@@ -19538,7 +19578,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 21,
+        "stars": 20,
         "pushedAt": "2026-10-20T08:52:31Z"
       }
     },
@@ -19618,7 +19658,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 52,
+        "stars": 51,
         "pushedAt": "2026-10-26T17:54:34Z"
       }
     },
@@ -19708,7 +19748,7 @@
       "setupHint": null,
       "stats": {
         "stars": 10,
-        "pushedAt": "2026-11-03T02:59:02Z"
+        "pushedAt": "2026-11-04T04:09:56Z"
       }
     },
     {
@@ -19748,8 +19788,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 25,
-        "pushedAt": "2026-11-03T11:16:28Z"
+        "stars": 26,
+        "pushedAt": "2026-11-04T03:45:22Z"
       }
     },
     {
@@ -19789,8 +19829,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 31,
-        "pushedAt": "2026-11-03T11:09:26Z"
+        "stars": 33,
+        "pushedAt": "2026-11-04T03:34:13Z"
       }
     },
     {
@@ -19831,7 +19871,7 @@
       "setupHint": null,
       "stats": {
         "stars": 4,
-        "pushedAt": "2026-11-03T02:58:55Z"
+        "pushedAt": "2026-11-04T03:59:33Z"
       }
     },
     {
@@ -19871,8 +19911,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
-        "pushedAt": "2026-11-03T06:33:37Z"
+        "stars": 16,
+        "pushedAt": "2026-11-04T11:00:08Z"
       }
     },
     {
@@ -19913,7 +19953,7 @@
       "setupHint": null,
       "stats": {
         "stars": 10,
-        "pushedAt": "2026-11-03T02:58:58Z"
+        "pushedAt": "2026-11-04T04:04:33Z"
       }
     },
     {
@@ -19985,7 +20025,7 @@
       "setupHint": null,
       "stats": {
         "stars": 50,
-        "pushedAt": "2026-10-31T22:27:39Z"
+        "pushedAt": "2026-11-03T17:11:48Z"
       }
     },
     {
@@ -20020,8 +20060,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 86,
-        "pushedAt": "2026-10-30T18:17:21Z"
+        "stars": 88,
+        "pushedAt": "2026-11-03T17:11:51Z"
       }
     },
     {
@@ -20056,8 +20096,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 93,
-        "pushedAt": "2026-10-30T18:17:26Z"
+        "stars": 94,
+        "pushedAt": "2026-11-03T17:11:57Z"
       }
     },
     {
@@ -20093,7 +20133,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-10-30T18:17:36Z"
+        "pushedAt": "2026-11-03T17:12:01Z"
       }
     },
     {
@@ -20129,7 +20169,7 @@
       "setupHint": null,
       "stats": {
         "stars": 40,
-        "pushedAt": "2026-10-30T18:17:41Z"
+        "pushedAt": "2026-11-03T17:11:54Z"
       }
     },
     {
@@ -20165,7 +20205,7 @@
       "setupHint": null,
       "stats": {
         "stars": 23,
-        "pushedAt": "2026-10-30T18:17:31Z"
+        "pushedAt": "2026-11-03T17:12:07Z"
       }
     },
     {
@@ -20213,8 +20253,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 496,
-        "pushedAt": "2026-11-03T11:52:21Z"
+        "stars": 501,
+        "pushedAt": "2026-11-04T06:28:11Z"
       }
     },
     {
@@ -20249,7 +20289,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 47,
+        "stars": 48,
         "pushedAt": "2026-10-13T11:53:42Z"
       }
     },
@@ -20357,7 +20397,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 21,
+        "stars": 22,
         "pushedAt": "2026-10-24T13:46:00Z"
       }
     },
@@ -20542,7 +20582,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 380,
+        "stars": 381,
         "pushedAt": "2026-10-31T10:46:22Z"
       }
     },
@@ -20650,7 +20690,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 14,
         "pushedAt": "2026-10-23T18:46:46Z"
       }
     },
@@ -20722,7 +20762,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 51,
+        "stars": 52,
         "pushedAt": "2026-10-23T18:22:54Z"
       }
     },
@@ -20830,8 +20870,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 258,
-        "pushedAt": "2026-11-02T02:57:48Z"
+        "stars": 266,
+        "pushedAt": "2026-11-04T12:21:42Z"
       }
     },
     {
@@ -20867,8 +20907,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 107,
-        "pushedAt": "2026-11-03T14:33:46Z"
+        "stars": 109,
+        "pushedAt": "2026-11-04T08:18:17Z"
       }
     },
     {
@@ -21164,8 +21204,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 95,
-        "pushedAt": "2026-11-03T09:04:56Z"
+        "stars": 99,
+        "pushedAt": "2026-11-04T08:26:41Z"
       }
     },
     {
@@ -21204,7 +21244,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 40,
+        "stars": 46,
         "pushedAt": "2026-11-03T02:53:06Z"
       }
     },
@@ -21249,7 +21289,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 240,
+        "stars": 244,
         "pushedAt": "2026-11-03T03:11:21Z"
       }
     },
@@ -21289,7 +21329,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 88,
+        "stars": 89,
         "pushedAt": "2026-10-13T00:41:10Z"
       }
     },
@@ -21362,7 +21402,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 234,
+        "stars": 235,
         "pushedAt": "2026-11-02T02:16:57Z"
       }
     },
@@ -21411,8 +21451,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 123,
-        "pushedAt": "2026-11-03T01:35:55Z"
+        "stars": 129,
+        "pushedAt": "2026-11-04T02:06:08Z"
       }
     },
     {
@@ -21505,8 +21545,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 224,
-        "pushedAt": "2026-11-03T13:00:56Z"
+        "stars": 235,
+        "pushedAt": "2026-11-03T18:22:04Z"
       }
     },
     {
@@ -21542,7 +21582,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 113,
+        "stars": 115,
         "pushedAt": "2026-10-23T10:43:35Z"
       }
     },
@@ -21620,7 +21660,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 319,
+        "stars": 326,
         "pushedAt": "2026-10-30T22:01:59Z"
       }
     },
@@ -21661,7 +21701,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 115,
+        "stars": 117,
         "pushedAt": "2026-10-23T22:00:55Z"
       }
     },
@@ -21710,8 +21750,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 230,
-        "pushedAt": "2026-11-03T13:43:01Z"
+        "stars": 239,
+        "pushedAt": "2026-11-04T10:28:11Z"
       }
     },
     {
@@ -21759,8 +21799,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 635,
-        "pushedAt": "2026-11-03T12:23:20Z"
+        "stars": 643,
+        "pushedAt": "2026-11-04T14:46:52Z"
       }
     },
     {
@@ -21799,7 +21839,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 63,
+        "stars": 64,
         "pushedAt": "2026-11-01T17:11:24Z"
       }
     },
@@ -21953,7 +21993,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2,
+        "stars": 3,
         "pushedAt": "2026-08-30T21:47:47Z"
       }
     },
@@ -22029,8 +22069,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3629,
-        "pushedAt": "2026-11-03T06:11:01Z"
+        "stars": 3630,
+        "pushedAt": "2026-11-03T17:45:58Z"
       }
     },
     {
@@ -22106,8 +22146,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1921,
-        "pushedAt": "2026-11-03T03:22:21Z"
+        "stars": 1927,
+        "pushedAt": "2026-11-03T22:19:08Z"
       }
     },
     {
@@ -22142,7 +22182,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 148,
+        "stars": 154,
         "pushedAt": "2026-11-03T12:32:08Z"
       }
     },
@@ -22183,8 +22223,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 113,
-        "pushedAt": "2026-11-03T13:57:06Z"
+        "stars": 117,
+        "pushedAt": "2026-11-04T14:50:13Z"
       }
     },
     {
@@ -22219,8 +22259,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16538,
-        "pushedAt": "2026-11-02T21:37:44Z"
+        "stars": 16545,
+        "pushedAt": "2026-11-04T07:46:58Z"
       }
     },
     {
@@ -22292,8 +22332,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 246,
-        "pushedAt": "2026-11-03T05:12:15Z"
+        "stars": 261,
+        "pushedAt": "2026-11-04T09:58:50Z"
       }
     },
     {
@@ -22333,7 +22373,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 896,
+        "stars": 923,
         "pushedAt": "2026-11-03T11:45:40Z"
       }
     },
@@ -22485,7 +22525,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 113,
+        "stars": 118,
         "pushedAt": "2026-11-02T21:58:50Z"
       }
     },
@@ -22558,7 +22598,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 101,
+        "stars": 102,
         "pushedAt": "2026-10-24T02:14:46Z"
       }
     },
@@ -22595,7 +22635,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1332,
+        "stars": 1336,
         "pushedAt": "2026-10-29T17:39:47Z"
       }
     },
@@ -22636,7 +22676,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-10-27T19:42:15Z"
+        "pushedAt": "2026-11-03T20:03:58Z"
       }
     },
     {
@@ -22675,7 +22715,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 172,
+        "stars": 173,
         "pushedAt": "2026-11-01T14:20:36Z"
       }
     },
@@ -22716,8 +22756,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2105,
-        "pushedAt": "2026-11-03T07:08:30Z"
+        "stars": 2120,
+        "pushedAt": "2026-11-04T05:51:22Z"
       }
     },
     {
@@ -22948,7 +22988,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 93,
+        "stars": 96,
         "pushedAt": "2026-11-03T01:51:04Z"
       }
     },
@@ -22992,7 +23032,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 60,
+        "stars": 61,
         "pushedAt": "2026-11-02T20:55:06Z"
       }
     },
@@ -23222,8 +23262,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 81,
-        "pushedAt": "2026-11-03T02:22:48Z"
+        "stars": 83,
+        "pushedAt": "2026-11-04T04:56:41Z"
       }
     },
     {
@@ -23298,8 +23338,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 120,
-        "pushedAt": "2026-11-03T11:09:19Z"
+        "stars": 140,
+        "pushedAt": "2026-11-04T05:25:05Z"
       }
     },
     {
@@ -23321,7 +23361,7 @@
       "source": "github-author",
       "assets": {
         "android": {
-          "pattern": "^ProjectMidas-v\\d+\\.\\d+\\.\\d+-android\\.apk$",
+          "pattern": "^ProjectMidas-v\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
           "executable": null
         }
       },
@@ -23335,7 +23375,7 @@
       "setupHint": null,
       "stats": {
         "stars": 15,
-        "pushedAt": "2026-11-03T03:06:29Z"
+        "pushedAt": "2026-11-03T19:49:37Z"
       }
     },
     {
@@ -23371,7 +23411,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 119,
+        "stars": 120,
         "pushedAt": "2026-10-13T15:54:36Z"
       }
     },
@@ -23411,7 +23451,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 91,
+        "stars": 92,
         "pushedAt": "2026-11-02T22:16:18Z"
       }
     },
@@ -23447,8 +23487,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 290,
-        "pushedAt": "2026-11-02T22:34:12Z"
+        "stars": 294,
+        "pushedAt": "2026-11-04T09:56:52Z"
       }
     },
     {
@@ -23484,7 +23524,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 60,
+        "stars": 61,
         "pushedAt": "2026-07-22T05:30:53Z"
       }
     },
@@ -23522,7 +23562,7 @@
       "setupHint": null,
       "stats": {
         "stars": 546,
-        "pushedAt": "2026-11-03T14:28:52Z"
+        "pushedAt": "2026-11-03T18:25:07Z"
       }
     },
     {
@@ -23595,8 +23635,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 92,
-        "pushedAt": "2026-11-03T10:47:57Z"
+        "stars": 93,
+        "pushedAt": "2026-11-04T01:08:37Z"
       }
     },
     {
@@ -23632,7 +23672,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2,
+        "stars": 1,
         "pushedAt": "2026-10-28T03:01:00Z"
       }
     },
@@ -23672,7 +23712,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 35,
+        "stars": 37,
         "pushedAt": "2026-10-30T18:52:25Z"
       }
     },
@@ -23713,8 +23753,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
-        "pushedAt": "2026-11-02T02:24:04Z"
+        "stars": 43,
+        "pushedAt": "2026-11-03T15:46:19Z"
       }
     },
     {
@@ -23790,7 +23830,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 63,
+        "stars": 62,
         "pushedAt": "2025-03-11T04:41:16Z"
       }
     },
@@ -23834,7 +23874,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 570,
+        "stars": 571,
         "pushedAt": "2026-09-30T00:21:10Z"
       }
     },
@@ -23906,7 +23946,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 16,
         "pushedAt": "2026-11-03T04:51:25Z"
       }
     },
@@ -23943,7 +23983,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 259,
+        "stars": 264,
         "pushedAt": "2026-11-01T14:22:14Z"
       }
     },
@@ -24167,7 +24207,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 143,
+        "stars": 142,
         "pushedAt": "2026-10-31T21:27:40Z"
       }
     },
@@ -24203,8 +24243,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 140,
-        "pushedAt": "2026-11-03T14:36:54Z"
+        "stars": 157,
+        "pushedAt": "2026-11-03T14:43:41Z"
       }
     },
     {
@@ -24244,7 +24284,7 @@
       "setupHint": null,
       "stats": {
         "stars": 22,
-        "pushedAt": "2026-11-03T14:03:20Z"
+        "pushedAt": "2026-11-03T16:36:12Z"
       }
     },
     {
@@ -24281,7 +24321,7 @@
       "setupHint": null,
       "stats": {
         "stars": 86,
-        "pushedAt": "2026-11-02T17:08:30Z"
+        "pushedAt": "2026-11-04T00:31:41Z"
       }
     },
     {
@@ -24317,8 +24357,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 12,
-        "pushedAt": "2026-11-02T16:23:55Z"
+        "stars": 16,
+        "pushedAt": "2026-11-04T03:41:02Z"
       }
     },
     {
@@ -24478,8 +24518,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
-        "pushedAt": "2026-10-25T10:58:30Z"
+        "stars": 19,
+        "pushedAt": "2026-11-03T22:43:47Z"
       }
     },
     {
@@ -24560,7 +24600,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 305,
+        "stars": 311,
         "pushedAt": "2026-11-03T06:58:59Z"
       }
     },
@@ -24596,7 +24636,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 34,
+        "stars": 35,
         "pushedAt": "2026-10-28T02:48:44Z"
       }
     },
@@ -24632,7 +24672,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 105,
+        "stars": 106,
         "pushedAt": "2026-09-23T01:10:15Z"
       }
     },
@@ -24677,7 +24717,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 103,
+        "stars": 106,
         "pushedAt": "2026-11-03T05:58:18Z"
       }
     },
@@ -24713,7 +24753,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 52,
+        "stars": 54,
         "pushedAt": "2026-03-06T21:49:24Z"
       }
     },
@@ -24750,7 +24790,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 146,
+        "stars": 148,
         "pushedAt": "2026-11-01T18:10:03Z"
       }
     },
@@ -24790,8 +24830,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 32,
-        "pushedAt": "2026-11-03T06:51:29Z"
+        "stars": 33,
+        "pushedAt": "2026-11-03T20:26:56Z"
       }
     },
     {
@@ -24814,11 +24854,11 @@
       "aiFlag": true,
       "assets": {
         "win32": {
-          "pattern": "^CTR-NitroFueled-PC-portable-v\\d+\\.\\d+\\.\\d+-windows\\.zip$",
+          "pattern": "^CTR-NitroFueled-PC-portable-v\\d+\\.\\d+-windows\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^SacredFire-v\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
+          "pattern": "^SacredFire-v\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
           "executable": null
         }
       },
@@ -24831,8 +24871,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 628,
-        "pushedAt": "2026-10-31T03:15:53Z"
+        "stars": 638,
+        "pushedAt": "2026-11-04T03:44:05Z"
       }
     },
     {
@@ -24867,7 +24907,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 58,
+        "stars": 60,
         "pushedAt": "2026-10-08T05:42:47Z"
       }
     },
@@ -24903,8 +24943,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 480,
+        "stars": 484,
         "pushedAt": "2026-10-31T19:45:56Z"
+      }
+    },
+    {
+      "id": "san-francisco-rush-2049",
+      "title": "San Francisco Rush 2049",
+      "platform": "dreamcast",
+      "repo": "Cris9870/rush2049-recomp",
+      "authors": [
+        "Cris9870"
+      ],
+      "description": {
+        "en": "San Francisco Rush 2049 (Dreamcast) nativo para PC y Android por recompilación estática — usa tu propio disco / native PC & Android port via static recompilation, bring your own disc"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-search",
+      "assets": {
+        "android": {
+          "pattern": "^Rush\\d+-Android-\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 0,
+        "pushedAt": "2026-11-03T21:10:01Z"
       }
     },
     {
@@ -24980,7 +25056,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 88,
+        "stars": 92,
         "pushedAt": "2026-11-03T04:34:58Z"
       }
     },
@@ -25020,8 +25096,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 147,
-        "pushedAt": "2026-10-30T14:40:26Z"
+        "stars": 151,
+        "pushedAt": "2026-11-04T12:43:10Z"
       }
     },
     {
@@ -25061,7 +25137,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 109,
+        "stars": 111,
         "pushedAt": "2026-10-27T00:22:25Z"
       }
     },
@@ -25102,8 +25178,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 347,
-        "pushedAt": "2026-11-02T03:20:03Z"
+        "stars": 353,
+        "pushedAt": "2026-11-04T13:16:28Z"
       }
     },
     {
@@ -25225,7 +25301,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 92,
+        "stars": 96,
         "pushedAt": "2026-10-29T03:45:19Z"
       }
     },
@@ -25266,8 +25342,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 148,
-        "pushedAt": "2026-10-31T22:31:11Z"
+        "stars": 150,
+        "pushedAt": "2026-11-04T03:17:37Z"
       }
     },
     {
@@ -25352,8 +25428,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 328,
-        "pushedAt": "2026-11-02T15:26:02Z"
+        "stars": 327,
+        "pushedAt": "2026-11-03T17:22:04Z"
       }
     },
     {
@@ -25501,7 +25577,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 58,
+        "stars": 59,
         "pushedAt": "2026-09-16T17:45:50Z"
       }
     },
@@ -25574,8 +25650,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 355,
-        "pushedAt": "2026-11-03T13:18:04Z"
+        "stars": 379,
+        "pushedAt": "2026-11-04T13:28:14Z"
       }
     },
     {
@@ -25646,7 +25722,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
+        "stars": 28,
         "pushedAt": "2026-11-01T23:17:18Z"
       }
     },
@@ -25683,7 +25759,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 52,
+        "stars": 51,
         "pushedAt": "2026-10-25T17:42:47Z"
       }
     },
@@ -25732,7 +25808,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 294,
+        "stars": 302,
         "pushedAt": "2026-11-02T16:46:02Z"
       }
     },
@@ -25768,7 +25844,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 93,
+        "stars": 95,
         "pushedAt": "2026-10-30T03:13:30Z"
       }
     },
@@ -25834,6 +25910,10 @@
           "pattern": "^oracle-of-ages-v\\d+\\.\\d+\\.\\d+-linux-x\\d+\\.tar\\.gz$",
           "executable": null
         },
+        "darwin": {
+          "pattern": "^oracle-of-ages-v\\d+\\.\\d+\\.\\d+-macos-universal\\.zip$",
+          "executable": null
+        },
         "android": {
           "pattern": "^oracle-of-ages-v\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
           "executable": null
@@ -25849,7 +25929,7 @@
       "setupHint": null,
       "stats": {
         "stars": 19,
-        "pushedAt": "2026-11-02T21:58:46Z"
+        "pushedAt": "2026-11-03T19:56:52Z"
       }
     },
     {
@@ -25871,7 +25951,7 @@
       "source": "github-author",
       "assets": {
         "android": {
-          "pattern": "^SilentHillOnline-android_\\d+\\.\\d+\\.\\d+-e\\d+e\\d+f\\d+d\\d+\\.apk$",
+          "pattern": "^SilentHillOnline-android_\\d+\\.\\d+\\.\\d+-\\d+d\\d+bc\\d+c\\d+\\.apk$",
           "executable": null
         }
       },
@@ -25885,7 +25965,7 @@
       "setupHint": null,
       "stats": {
         "stars": 1,
-        "pushedAt": "2026-11-02T16:19:16Z"
+        "pushedAt": "2026-11-04T11:32:52Z"
       }
     },
     {
@@ -26045,7 +26125,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
+        "stars": 115,
         "pushedAt": "2026-10-23T21:42:07Z"
       }
     },
@@ -26082,7 +26162,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 117,
+        "stars": 121,
         "pushedAt": "2026-10-30T19:40:19Z"
       }
     },
@@ -26118,7 +26198,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 164,
+        "stars": 165,
         "pushedAt": "2026-10-24T17:28:27Z"
       }
     },
@@ -26166,8 +26246,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 130,
-        "pushedAt": "2026-11-03T09:33:24Z"
+        "stars": 150,
+        "pushedAt": "2026-11-03T17:54:26Z"
       }
     },
     {
@@ -26242,7 +26322,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 63,
+        "stars": 64,
         "pushedAt": "2026-10-29T19:51:53Z"
       }
     },
@@ -26287,8 +26367,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 817,
-        "pushedAt": "2026-11-03T03:16:23Z"
+        "stars": 820,
+        "pushedAt": "2026-11-04T09:26:54Z"
       }
     },
     {
@@ -26529,8 +26609,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 226,
-        "pushedAt": "2026-11-01T09:25:04Z"
+        "stars": 230,
+        "pushedAt": "2026-11-04T12:59:12Z"
       }
     },
     {
@@ -26566,7 +26646,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 66,
+        "stars": 70,
         "pushedAt": "2026-11-03T06:24:16Z"
       }
     },
@@ -26602,7 +26682,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4979,
+        "stars": 4980,
         "pushedAt": "2026-10-02T23:58:23Z"
       }
     },
@@ -26704,6 +26784,10 @@
         "win32": {
           "pattern": "^UC-Windows-\\d+\\.\\d+\\.\\d+\\.zip$",
           "executable": null
+        },
+        "linux": {
+          "pattern": "^UC-Linux-\\d+\\.\\d+\\.\\d+\\.zip$",
+          "executable": null
         }
       },
       "game": {
@@ -26715,8 +26799,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 132,
-        "pushedAt": "2026-11-01T14:36:20Z"
+        "stars": 148,
+        "pushedAt": "2026-11-03T18:48:45Z"
       }
     },
     {
@@ -26752,7 +26836,7 @@
       "setupHint": null,
       "stats": {
         "stars": 16,
-        "pushedAt": "2026-11-03T14:24:00Z"
+        "pushedAt": "2026-11-04T12:26:57Z"
       }
     },
     {
@@ -26839,8 +26923,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 621,
-        "pushedAt": "2026-11-03T04:47:05Z"
+        "stars": 622,
+        "pushedAt": "2026-11-04T04:58:59Z"
       }
     },
     {
@@ -26920,7 +27004,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 117,
+        "stars": 116,
         "pushedAt": "2026-10-18T20:12:44Z"
       }
     },
@@ -26957,7 +27041,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-11-03T04:11:41Z"
       }
     },
@@ -26998,6 +27082,42 @@
       }
     },
     {
+      "id": "soulcalibur-ii",
+      "title": "Soulcalibur II",
+      "platform": "xbox",
+      "repo": "tmcleroy/soulcalibur2-recomp",
+      "authors": [
+        "tmcleroy"
+      ],
+      "description": {
+        "en": "Soulcalibur II (Xbox) as a native port for macOS, Linux/Steam Deck and Windows, with Link and Heihachi from your own discs"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-author",
+      "assets": {
+        "android": {
+          "pattern": "^Soulcalibur\\d+Recomp-android\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 111,
+        "pushedAt": "2026-11-04T08:05:53Z"
+      }
+    },
+    {
       "id": "sp-hy-opencross",
       "title": "Chrono Cross: The Radical Dreamers Edition",
       "platform": "ps1",
@@ -27030,8 +27150,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
-        "pushedAt": "2026-11-03T08:40:35Z"
+        "stars": 14,
+        "pushedAt": "2026-11-04T12:10:50Z"
       }
     },
     {
@@ -27184,7 +27304,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 371,
+        "stars": 374,
         "pushedAt": "2026-10-24T19:45:18Z"
       }
     },
@@ -27269,7 +27389,7 @@
       "setupHint": null,
       "stats": {
         "stars": 15,
-        "pushedAt": "2026-11-01T19:41:42Z"
+        "pushedAt": "2026-11-04T13:07:46Z"
       }
     },
     {
@@ -27313,8 +27433,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 305,
-        "pushedAt": "2026-11-02T22:50:40Z"
+        "stars": 306,
+        "pushedAt": "2026-11-04T11:03:27Z"
       }
     },
     {
@@ -27350,7 +27470,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 91,
+        "stars": 92,
         "pushedAt": "2026-10-19T20:26:05Z"
       }
     },
@@ -27435,7 +27555,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 92,
+        "stars": 93,
         "pushedAt": "2026-08-29T11:39:36Z"
       }
     },
@@ -27561,7 +27681,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 46,
+        "stars": 45,
         "pushedAt": "2026-08-27T13:02:48Z"
       }
     },
@@ -27634,7 +27754,7 @@
       "setupHint": null,
       "stats": {
         "stars": 71,
-        "pushedAt": "2026-10-29T18:09:18Z"
+        "pushedAt": "2026-11-04T09:48:06Z"
       }
     },
     {
@@ -27741,7 +27861,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4,
+        "stars": 5,
         "pushedAt": "2026-10-24T10:10:52Z"
       }
     },
@@ -27778,8 +27898,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2160,
-        "pushedAt": "2026-10-30T22:28:42Z"
+        "stars": 2178,
+        "pushedAt": "2026-11-04T11:37:04Z"
       }
     },
     {
@@ -27815,7 +27935,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 111,
+        "stars": 113,
         "pushedAt": "2026-10-11T19:24:45Z"
       }
     },
@@ -27888,8 +28008,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
-        "pushedAt": "2026-10-30T23:50:30Z"
+        "stars": 45,
+        "pushedAt": "2026-11-03T21:37:15Z"
       }
     },
     {
@@ -27928,8 +28048,44 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2811,
+        "stars": 2812,
         "pushedAt": "2026-11-02T10:29:53Z"
+      }
+    },
+    {
+      "id": "tears-of-the-kingdom",
+      "title": "Tears of the Kingdom",
+      "platform": "other",
+      "repo": "AurelioB/totk-android",
+      "authors": [
+        "AurelioB"
+      ],
+      "description": {
+        "en": "Tears of the Kingdom 1.4.3 native Android port (TotK Native): bring your own game files"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-author",
+      "assets": {
+        "android": {
+          "pattern": "^TotK-Native-\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 19,
+        "pushedAt": "2026-11-04T06:13:28Z"
       }
     },
     {
@@ -28153,7 +28309,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
+        "stars": 12,
         "pushedAt": "2026-10-10T07:57:22Z"
       }
     },
@@ -28460,7 +28616,7 @@
       "setupHint": null,
       "stats": {
         "stars": 32,
-        "pushedAt": "2026-10-26T13:35:29Z"
+        "pushedAt": "2026-11-04T01:48:13Z"
       }
     },
     {
@@ -28496,7 +28652,7 @@
       "setupHint": null,
       "stats": {
         "stars": 33,
-        "pushedAt": "2026-10-30T01:08:30Z"
+        "pushedAt": "2026-11-04T01:48:20Z"
       }
     },
     {
@@ -28573,7 +28729,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 106,
+        "stars": 107,
         "pushedAt": "2026-10-18T00:30:53Z"
       }
     },
@@ -28614,7 +28770,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 261,
+        "stars": 263,
         "pushedAt": "2026-11-02T04:45:54Z"
       }
     },
@@ -28655,7 +28811,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
+        "stars": 10,
         "pushedAt": "2026-10-30T16:44:36Z"
       }
     },
@@ -28810,7 +28966,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 181,
+        "stars": 182,
         "pushedAt": "2026-11-03T07:28:12Z"
       }
     },
@@ -28846,7 +29002,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 152,
+        "stars": 154,
         "pushedAt": "2026-10-29T15:39:54Z"
       }
     },
@@ -28882,7 +29038,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 867,
+        "stars": 876,
         "pushedAt": "2026-10-29T15:04:00Z"
       }
     },
@@ -28919,7 +29075,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 430,
+        "stars": 434,
         "pushedAt": "2026-11-01T09:48:18Z"
       }
     },
@@ -28964,7 +29120,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 256,
+        "stars": 257,
         "pushedAt": "2026-11-01T01:12:41Z"
       }
     },
@@ -29005,7 +29161,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 23,
         "pushedAt": "2026-10-06T14:56:34Z"
       }
     },
@@ -29050,7 +29206,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 47,
+        "stars": 46,
         "pushedAt": "2026-10-06T15:06:13Z"
       }
     },
@@ -29158,8 +29314,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 21,
-        "pushedAt": "2026-11-03T10:55:58Z"
+        "stars": 26,
+        "pushedAt": "2026-11-04T14:58:03Z"
       }
     },
     {
@@ -29199,8 +29355,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
-        "pushedAt": "2026-11-03T07:43:36Z"
+        "stars": 115,
+        "pushedAt": "2026-11-04T14:08:47Z"
       }
     },
     {
@@ -29236,7 +29392,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 19,
         "pushedAt": "2026-10-15T18:53:20Z"
       }
     },
@@ -29397,7 +29553,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 137,
+        "stars": 136,
         "pushedAt": "2026-10-19T20:24:15Z"
       }
     },
@@ -29474,8 +29630,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 74,
-        "pushedAt": "2026-10-29T16:04:04Z"
+        "stars": 75,
+        "pushedAt": "2026-11-04T03:27:29Z"
       }
     },
     {
@@ -29523,7 +29679,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
+        "stars": 115,
         "pushedAt": "2026-10-25T13:55:25Z"
       }
     },
@@ -29564,7 +29720,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1,
+        "stars": 2,
         "pushedAt": "2026-10-28T04:25:00Z"
       }
     },
@@ -29675,7 +29831,7 @@
       "setupHint": null,
       "stats": {
         "stars": 81,
-        "pushedAt": "2026-10-25T05:13:37Z"
+        "pushedAt": "2026-11-04T04:20:11Z"
       }
     },
     {
@@ -29723,8 +29879,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 148,
-        "pushedAt": "2026-11-03T03:34:54Z"
+        "stars": 147,
+        "pushedAt": "2026-11-04T02:45:34Z"
       }
     },
     {
@@ -29767,7 +29923,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 21,
         "pushedAt": "2026-10-20T18:59:53Z"
       }
     },
@@ -29993,42 +30149,6 @@
       }
     },
     {
-      "id": "transformers-the-game",
-      "title": "Transformers the Game",
-      "platform": "other",
-      "repo": "sindufha/transformers-the-game-recomp",
-      "authors": [
-        "sindufha"
-      ],
-      "description": {
-        "en": "Experimental Android recompilation port of Transformers: The Game. APK previews, installation guides, controls, and development status."
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "experimental",
-      "tested": false,
-      "channel": "prerelease",
-      "source": "github-author",
-      "assets": {
-        "android": {
-          "pattern": "^Transformers-The-Game-Recompiled-v\\d+\\.\\d+\\.\\d+-arm\\d+-v\\d+a\\.apk$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 10,
-        "pushedAt": "2026-10-24T01:10:58Z"
-      }
-    },
-    {
       "id": "ttom795-lbm-android",
       "title": "LEGO Batman: The Videogame",
       "platform": "pc",
@@ -30060,7 +30180,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 17,
         "pushedAt": "2026-10-26T06:31:03Z"
       }
     },
@@ -30132,8 +30252,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 194,
-        "pushedAt": "2026-11-01T19:03:05Z"
+        "stars": 204,
+        "pushedAt": "2026-11-03T22:51:05Z"
       }
     },
     {
@@ -30180,7 +30300,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6216,
+        "stars": 6227,
         "pushedAt": "2026-10-26T04:50:53Z"
       }
     },
@@ -30257,7 +30377,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6,
+        "stars": 7,
         "pushedAt": "2026-10-24T18:59:34Z"
       }
     },
@@ -30306,7 +30426,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 281,
+        "stars": 285,
         "pushedAt": "2026-11-02T23:20:47Z"
       }
     },
@@ -30398,7 +30518,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 442,
+        "stars": 443,
         "pushedAt": "2026-11-02T20:52:31Z"
       }
     },
@@ -30475,7 +30595,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
+        "stars": 21,
         "pushedAt": "2026-10-31T15:28:52Z"
       }
     },
@@ -30538,7 +30658,7 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^TotK-Setup-x\\d+_\\d+\\.AppImage$",
+          "pattern": "^TotK-Setup-x\\d+_\\d+-\\d+\\.\\d+\\.\\d+-linux\\.AppImage$",
           "executable": null
         }
       },
@@ -30551,8 +30671,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4350,
-        "pushedAt": "2026-11-03T13:41:19Z"
+        "stars": 4726,
+        "pushedAt": "2026-11-04T12:53:17Z"
       }
     },
     {
@@ -30588,8 +30708,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6008,
-        "pushedAt": "2026-11-03T08:17:52Z"
+        "stars": 6013,
+        "pushedAt": "2026-11-03T17:06:12Z"
       }
     },
     {
@@ -30670,8 +30790,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 32,
-        "pushedAt": "2026-10-31T03:29:43Z"
+        "stars": 30,
+        "pushedAt": "2026-11-03T18:14:21Z"
       }
     },
     {
@@ -30748,7 +30868,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 78,
+        "stars": 80,
         "pushedAt": "2026-10-26T20:21:06Z"
       }
     },
@@ -30825,7 +30945,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 184,
+        "stars": 195,
         "pushedAt": "2026-11-03T00:10:26Z"
       }
     },
@@ -30866,7 +30986,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 67,
+        "stars": 68,
         "pushedAt": "2026-10-26T17:53:00Z"
       }
     },
@@ -30944,8 +31064,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 212,
-        "pushedAt": "2026-11-03T04:43:35Z"
+        "stars": 219,
+        "pushedAt": "2026-11-04T09:48:19Z"
       }
     },
     {
@@ -30981,7 +31101,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 74,
+        "stars": 77,
         "pushedAt": "2026-11-02T20:29:19Z"
       }
     },
@@ -31062,7 +31182,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 177,
+        "stars": 179,
         "pushedAt": "2026-10-29T17:07:38Z"
       }
     },
@@ -31233,7 +31353,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 14,
         "pushedAt": "2026-10-27T21:49:48Z"
       }
     },
@@ -31315,7 +31435,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 41,
+        "stars": 40,
         "pushedAt": "2026-10-30T00:06:00Z"
       }
     },
@@ -31356,8 +31476,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
-        "pushedAt": "2026-10-26T16:32:05Z"
+        "stars": 10,
+        "pushedAt": "2026-11-04T01:01:17Z"
       }
     },
     {
@@ -31432,7 +31552,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1095,
+        "stars": 1096,
         "pushedAt": "2026-11-03T14:05:10Z"
       }
     },
@@ -31473,7 +31593,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 518,
+        "stars": 527,
         "pushedAt": "2026-10-31T00:19:34Z"
       }
     },
@@ -31509,8 +31629,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 572,
-        "pushedAt": "2026-11-01T20:16:30Z"
+        "stars": 575,
+        "pushedAt": "2026-11-03T20:17:37Z"
       }
     },
     {
@@ -31582,7 +31702,7 @@
       "setupHint": null,
       "stats": {
         "stars": 24,
-        "pushedAt": "2026-10-30T22:48:07Z"
+        "pushedAt": "2026-11-04T14:50:54Z"
       }
     },
     {
@@ -31665,7 +31785,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 413,
+        "stars": 412,
         "pushedAt": "2026-10-11T21:15:48Z"
       }
     },
@@ -31739,7 +31859,7 @@
       "setupHint": null,
       "stats": {
         "stars": 107,
-        "pushedAt": "2026-11-02T19:16:11Z"
+        "pushedAt": "2026-11-04T03:02:38Z"
       }
     },
     {
@@ -31775,7 +31895,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 337,
+        "stars": 340,
         "pushedAt": "2026-10-30T19:06:09Z"
       }
     },
@@ -31896,7 +32016,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 61,
+        "stars": 62,
         "pushedAt": "2026-11-02T07:17:51Z"
       }
     },
@@ -31946,7 +32066,7 @@
       "setupHint": null,
       "stats": {
         "stars": 106,
-        "pushedAt": "2026-11-03T12:17:48Z"
+        "pushedAt": "2026-11-04T07:04:30Z"
       }
     },
     {
@@ -32026,7 +32146,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 683,
+        "stars": 695,
         "pushedAt": "2026-11-03T07:14:15Z"
       }
     },
@@ -32102,8 +32222,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 699,
-        "pushedAt": "2026-11-03T13:05:13Z"
+        "stars": 706,
+        "pushedAt": "2026-11-04T13:03:03Z"
       }
     },
     {
@@ -32138,8 +32258,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 102,
-        "pushedAt": "2026-11-02T19:44:52Z"
+        "stars": 107,
+        "pushedAt": "2026-11-03T23:22:17Z"
       }
     },
     {
@@ -32255,7 +32375,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 7582,
+        "stars": 7587,
         "pushedAt": "2026-09-25T18:57:57Z"
       }
     },
@@ -32304,8 +32424,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1261,
-        "pushedAt": "2026-11-03T14:15:51Z"
+        "stars": 1276,
+        "pushedAt": "2026-11-04T14:40:58Z"
       }
     },
     {
@@ -32381,8 +32501,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 66,
-        "pushedAt": "2026-11-03T14:18:13Z"
+        "stars": 68,
+        "pushedAt": "2026-11-04T09:28:19Z"
       }
     },
     {
@@ -32462,8 +32582,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 171,
-        "pushedAt": "2026-11-03T14:34:42Z"
+        "stars": 195,
+        "pushedAt": "2026-11-03T23:50:49Z"
       }
     },
     {
@@ -32572,7 +32692,7 @@
       "setupHint": null,
       "stats": {
         "stars": 60,
-        "pushedAt": "2026-10-30T01:13:26Z"
+        "pushedAt": "2026-11-04T04:07:46Z"
       }
     },
     {
@@ -32615,7 +32735,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 892,
+        "stars": 897,
         "pushedAt": "2026-10-09T14:10:43Z"
       }
     },
@@ -32659,7 +32779,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 25,
         "pushedAt": "2026-10-18T08:12:59Z"
       }
     },
@@ -32696,7 +32816,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 159,
+        "stars": 166,
         "pushedAt": "2026-10-30T20:22:24Z"
       }
     },
@@ -32741,7 +32861,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 311,
+        "stars": 314,
         "pushedAt": "2026-11-03T13:56:50Z"
       }
     },
