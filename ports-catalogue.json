@@ -1,7 +1,7 @@
 {
   "$schema": "./ports-catalogue.schema.json",
   "version": 1,
-  "updatedAt": "2026-11-20T16:00:23Z",
+  "updatedAt": "2026-11-21T15:10:52Z",
   "generatedFrom": "https://github.com/SubmitGame/awesome-decomp-games",
   "ports": [
     {
@@ -36,7 +36,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6837,
+        "stars": 6840,
         "pushedAt": "2026-11-18T19:10:10Z"
       }
     },
@@ -72,8 +72,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6,
-        "pushedAt": "2026-11-19T13:18:35Z"
+        "stars": 7,
+        "pushedAt": "2026-11-20T20:36:49Z"
       }
     },
     {
@@ -109,7 +109,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 105,
+        "stars": 104,
         "pushedAt": "2026-10-20T15:30:36Z"
       }
     },
@@ -369,7 +369,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 932,
+        "stars": 933,
         "pushedAt": "2026-11-19T13:03:25Z"
       }
     },
@@ -413,7 +413,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2503,
+        "stars": 2506,
         "pushedAt": "2026-11-18T13:57:59Z"
       }
     },
@@ -527,7 +527,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 20,
         "pushedAt": "2026-11-17T10:17:04Z"
       }
     },
@@ -576,7 +576,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 612,
+        "stars": 615,
         "pushedAt": "2026-10-20T23:52:18Z"
       }
     },
@@ -690,7 +690,7 @@
       "setupHint": null,
       "stats": {
         "stars": 235,
-        "pushedAt": "2026-11-19T20:33:32Z"
+        "pushedAt": "2026-11-21T03:19:59Z"
       }
     },
     {
@@ -766,7 +766,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 352,
+        "stars": 354,
         "pushedAt": "2026-11-14T04:18:26Z"
       }
     },
@@ -803,7 +803,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-10-21T09:08:44Z"
       }
     },
@@ -840,7 +840,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 31,
+        "stars": 32,
         "pushedAt": "2026-10-20T02:22:12Z"
       }
     },
@@ -917,7 +917,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
+        "stars": 23,
         "pushedAt": "2026-11-15T18:07:21Z"
       }
     },
@@ -953,7 +953,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 43,
+        "stars": 45,
         "pushedAt": "2026-11-18T11:38:57Z"
       }
     },
@@ -994,8 +994,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1574,
-        "pushedAt": "2026-11-20T10:55:07Z"
+        "stars": 1610,
+        "pushedAt": "2026-11-21T14:02:48Z"
       }
     },
     {
@@ -1032,7 +1032,7 @@
       "setupHint": null,
       "stats": {
         "stars": 867,
-        "pushedAt": "2026-11-20T05:18:44Z"
+        "pushedAt": "2026-11-21T00:46:10Z"
       }
     },
     {
@@ -1104,7 +1104,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2007,
+        "stars": 2016,
         "pushedAt": "2026-11-19T18:41:07Z"
       }
     },
@@ -1186,8 +1186,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 386,
-        "pushedAt": "2026-11-20T07:36:30Z"
+        "stars": 389,
+        "pushedAt": "2026-11-20T18:29:10Z"
       }
     },
     {
@@ -1222,7 +1222,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 488,
+        "stars": 489,
         "pushedAt": "2026-10-09T02:30:20Z"
       }
     },
@@ -1330,7 +1330,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2519,
+        "stars": 2521,
         "pushedAt": "2025-02-17T17:21:50Z"
       }
     },
@@ -1367,7 +1367,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 147,
+        "stars": 148,
         "pushedAt": "2026-10-15T23:48:16Z"
       }
     },
@@ -2764,7 +2764,7 @@
     },
     {
       "id": "alondero-automobililamborghini-recomp",
-      "title": "Automobili Lamborghini",
+      "title": "Automobili Lamborghini (Automobili Lamborghini: Recompiled)",
       "platform": "n64",
       "repo": "alondero/automobililamborghini-recomp",
       "authors": [
@@ -2803,7 +2803,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 55,
         "pushedAt": "2026-11-19T08:55:15Z"
       }
     },
@@ -2884,7 +2884,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 30,
+        "stars": 32,
         "pushedAt": "2026-11-04T01:02:44Z"
       }
     },
@@ -2968,7 +2968,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 286,
+        "stars": 290,
         "pushedAt": "2026-11-18T13:27:59Z"
       }
     },
@@ -3076,7 +3076,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1583,
+        "stars": 1584,
         "pushedAt": "2026-11-17T12:15:04Z"
       }
     },
@@ -3149,7 +3149,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 63,
+        "stars": 62,
         "pushedAt": "2026-10-24T17:19:09Z"
       }
     },
@@ -3270,8 +3270,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 26,
-        "pushedAt": "2026-11-20T14:41:16Z"
+        "stars": 31,
+        "pushedAt": "2026-11-20T22:39:27Z"
       }
     },
     {
@@ -3423,7 +3423,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
+        "stars": 115,
         "pushedAt": "2026-07-13T21:55:41Z"
       }
     },
@@ -3459,7 +3459,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 202,
+        "stars": 205,
         "pushedAt": "2026-11-19T09:08:49Z"
       }
     },
@@ -3500,7 +3500,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1851,
+        "stars": 1866,
         "pushedAt": "2026-11-17T06:48:41Z"
       }
     },
@@ -3537,7 +3537,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 170,
+        "stars": 173,
         "pushedAt": "2026-11-20T13:56:36Z"
       }
     },
@@ -3585,8 +3585,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 8734,
-        "pushedAt": "2026-11-20T13:34:57Z"
+        "stars": 8745,
+        "pushedAt": "2026-11-21T02:03:48Z"
       }
     },
     {
@@ -3629,8 +3629,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1473,
-        "pushedAt": "2026-11-20T13:35:53Z"
+        "stars": 1475,
+        "pushedAt": "2026-11-21T06:16:45Z"
       }
     },
     {
@@ -3745,7 +3745,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2148,
+        "stars": 2149,
         "pushedAt": "2026-09-25T18:57:08Z"
       }
     },
@@ -3819,7 +3819,7 @@
       "setupHint": null,
       "stats": {
         "stars": 34,
-        "pushedAt": "2026-11-20T09:37:34Z"
+        "pushedAt": "2026-11-21T14:38:34Z"
       }
     },
     {
@@ -3855,7 +3855,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 273,
+        "stars": 274,
         "pushedAt": "2026-11-10T13:03:34Z"
       }
     },
@@ -3892,7 +3892,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 844,
+        "stars": 847,
         "pushedAt": "2026-11-14T16:44:10Z"
       }
     },
@@ -3955,7 +3955,7 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^PGR\\d+-Recomp-v\\d+\\.zip$",
+          "pattern": "^PGR\\d+-Recomp-v\\d+\\.\\d+\\.\\d+\\.zip$",
           "executable": null
         }
       },
@@ -3968,8 +3968,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 272,
-        "pushedAt": "2026-11-16T21:00:23Z"
+        "stars": 275,
+        "pushedAt": "2026-11-21T00:16:44Z"
       }
     },
     {
@@ -4123,8 +4123,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 68,
-        "pushedAt": "2026-11-19T03:09:43Z"
+        "stars": 69,
+        "pushedAt": "2026-11-21T03:28:26Z"
       }
     },
     {
@@ -4281,7 +4281,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 215,
+        "stars": 217,
         "pushedAt": "2026-11-09T22:30:10Z"
       }
     },
@@ -4326,7 +4326,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 439,
+        "stars": 441,
         "pushedAt": "2026-11-05T17:29:38Z"
       }
     },
@@ -4487,7 +4487,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1153,
+        "stars": 1156,
         "pushedAt": "2026-11-16T22:28:44Z"
       }
     },
@@ -4639,8 +4639,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 135,
-        "pushedAt": "2026-11-01T22:50:19Z"
+        "stars": 136,
+        "pushedAt": "2026-11-21T11:45:14Z"
       }
     },
     {
@@ -4700,7 +4700,7 @@
         "pt-BR": "Em Game & effects, escolha a pasta do jogo (a que tem o eboot.bin) e depois clique em PLAY."
       },
       "stats": {
-        "stars": 5565,
+        "stars": 5584,
         "pushedAt": "2026-11-14T21:58:22Z"
       }
     },
@@ -4778,6 +4778,42 @@
       }
     },
     {
+      "id": "bmx-xxx",
+      "title": "BMX XXX",
+      "platform": "other",
+      "repo": "RaykaFpp/BMX-XXX-Recomp-Android",
+      "authors": [
+        "RaykaFpp"
+      ],
+      "description": {
+        "en": "BMX XXX Recomp Android"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-search",
+      "assets": {
+        "android": {
+          "pattern": "^BMX\\d+X-v\\d+\\.\\d+\\.\\d+-arm\\d+-release\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 0,
+        "pushedAt": "2026-11-21T02:52:17Z"
+      }
+    },
+    {
       "id": "boodyandmustafa-create-moh-europeanassault-pc-port",
       "title": "Medal of Honor: European Assault (Medal of Honor: European Assault — PC Port)",
       "platform": "xbox",
@@ -4810,8 +4846,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 72,
-        "pushedAt": "2026-11-05T20:35:03Z"
+        "stars": 4,
+        "pushedAt": "2026-11-20T22:58:29Z"
       }
     },
     {
@@ -4894,7 +4930,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 76,
+        "stars": 77,
         "pushedAt": "2026-11-12T00:31:12Z"
       }
     },
@@ -4935,8 +4971,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 58492,
-        "pushedAt": "2026-11-20T15:55:34Z"
+        "stars": 59295,
+        "pushedAt": "2026-11-21T14:52:11Z"
       }
     },
     {
@@ -5097,7 +5133,7 @@
       "setupHint": null,
       "stats": {
         "stars": 49,
-        "pushedAt": "2026-11-18T21:10:12Z"
+        "pushedAt": "2026-11-21T02:38:24Z"
       }
     },
     {
@@ -5137,7 +5173,7 @@
       "setupHint": null,
       "stats": {
         "stars": 38,
-        "pushedAt": "2026-11-20T04:14:56Z"
+        "pushedAt": "2026-11-20T23:03:05Z"
       }
     },
     {
@@ -5185,7 +5221,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4191,
+        "stars": 4194,
         "pushedAt": "2026-11-17T03:55:31Z"
       }
     },
@@ -5262,7 +5298,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2018,
+        "stars": 2020,
         "pushedAt": "2026-10-07T00:24:17Z"
       }
     },
@@ -5445,7 +5481,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 56,
+        "stars": 58,
         "pushedAt": "2026-11-18T02:43:57Z"
       }
     },
@@ -5486,8 +5522,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 699,
-        "pushedAt": "2026-11-20T15:53:52Z"
+        "stars": 713,
+        "pushedAt": "2026-11-21T05:25:13Z"
       }
     },
     {
@@ -5531,42 +5567,6 @@
       }
     },
     {
-      "id": "carlosexabyte-arceuszada",
-      "title": "Pokémon Legends: Arceus (Arceuszada)",
-      "platform": "switch",
-      "repo": "CarlosExabyte/Arceuszada",
-      "authors": [
-        "CarlosExabyte"
-      ],
-      "description": {
-        "en": "Amateur Pokémon Legends: Arceus recompilation project. Requires your own game files. More optimizations and size reductions are coming in future updates!"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "playable",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^Arceuszada-v\\d+\\.\\d+\\.\\d+FIX\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 117,
-        "pushedAt": "2026-11-20T15:34:58Z"
-      }
-    },
-    {
       "id": "carlox33-the-simpsons-hit-and-run-android",
       "title": "The Simpsons: Hit & Run (The Simpsons: Hit & Run Android)",
       "platform": "pc",
@@ -5598,7 +5598,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 200,
+        "stars": 201,
         "pushedAt": "2026-11-10T23:18:30Z"
       }
     },
@@ -5635,7 +5635,7 @@
       "setupHint": null,
       "stats": {
         "stars": 441,
-        "pushedAt": "2026-11-20T15:52:20Z"
+        "pushedAt": "2026-11-20T19:53:03Z"
       }
     },
     {
@@ -5671,8 +5671,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1309,
-        "pushedAt": "2026-11-20T07:34:45Z"
+        "stars": 1311,
+        "pushedAt": "2026-11-21T09:50:26Z"
       }
     },
     {
@@ -5713,7 +5713,7 @@
     },
     {
       "id": "cdetv-conker-live-recompiled",
-      "title": "Conker: Live & Reloaded",
+      "title": "Conker: Live & Reloaded (Conker: Live & Recompiled)",
       "platform": "xbox",
       "repo": "cdetv/conker-live-recompiled",
       "authors": [
@@ -5869,7 +5869,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 12,
         "pushedAt": "2026-11-14T07:30:30Z"
       }
     },
@@ -5913,7 +5913,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 107,
+        "stars": 108,
         "pushedAt": "2026-04-26T09:36:28Z"
       }
     },
@@ -5953,8 +5953,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10219,
-        "pushedAt": "2026-11-19T15:54:09Z"
+        "stars": 10229,
+        "pushedAt": "2026-11-20T22:24:58Z"
       }
     },
     {
@@ -5994,7 +5994,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 273,
+        "stars": 275,
         "pushedAt": "2026-11-12T16:12:38Z"
       }
     },
@@ -6120,7 +6120,7 @@
         "chasem-dev"
       ],
       "description": {
-        "en": "Pokémon Colosseum Native PC Port Launcher"
+        "en": "Pokémon Colosseum + XD PC Port Launcher"
       },
       "coverImageUrl": null,
       "heroImageUrl": null,
@@ -6152,8 +6152,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 186,
-        "pushedAt": "2026-11-20T15:43:45Z"
+        "stars": 190,
+        "pushedAt": "2026-11-21T14:35:09Z"
       }
     },
     {
@@ -6197,7 +6197,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 137,
+        "stars": 142,
         "pushedAt": "2026-11-19T23:52:27Z"
       }
     },
@@ -6242,8 +6242,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 113,
-        "pushedAt": "2026-11-20T12:29:50Z"
+        "stars": 126,
+        "pushedAt": "2026-11-20T23:36:17Z"
       }
     },
     {
@@ -6287,7 +6287,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 125,
+        "stars": 128,
         "pushedAt": "2026-11-20T12:22:58Z"
       }
     },
@@ -6328,7 +6328,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 655,
+        "stars": 657,
         "pushedAt": "2026-11-20T11:27:06Z"
       }
     },
@@ -6369,7 +6369,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 761,
+        "stars": 763,
         "pushedAt": "2026-11-20T07:29:47Z"
       }
     },
@@ -6447,7 +6447,7 @@
       "setupHint": null,
       "stats": {
         "stars": 62,
-        "pushedAt": "2026-10-31T22:07:00Z"
+        "pushedAt": "2026-11-21T05:18:30Z"
       }
     },
     {
@@ -6520,8 +6520,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13554,
-        "pushedAt": "2026-11-20T09:56:08Z"
+        "stars": 13559,
+        "pushedAt": "2026-11-21T09:38:45Z"
       }
     },
     {
@@ -6561,7 +6561,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 142,
+        "stars": 143,
         "pushedAt": "2026-11-05T18:14:09Z"
       }
     },
@@ -6601,7 +6601,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 43,
+        "stars": 44,
         "pushedAt": "2026-11-15T21:19:18Z"
       }
     },
@@ -6709,7 +6709,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 164,
+        "stars": 166,
         "pushedAt": "2026-11-20T14:32:44Z"
       }
     },
@@ -6830,7 +6830,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 150,
+        "stars": 152,
         "pushedAt": "2026-11-06T14:05:00Z"
       }
     },
@@ -6948,8 +6948,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1555,
-        "pushedAt": "2026-11-14T06:16:04Z"
+        "stars": 1556,
+        "pushedAt": "2026-11-21T14:41:38Z"
       }
     },
     {
@@ -7067,7 +7067,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 195,
+        "stars": 194,
         "pushedAt": "2026-11-04T00:44:44Z"
       }
     },
@@ -7107,8 +7107,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 270,
-        "pushedAt": "2026-11-18T00:13:49Z"
+        "stars": 277,
+        "pushedAt": "2026-11-21T12:17:10Z"
       }
     },
     {
@@ -7145,6 +7145,47 @@
       "stats": {
         "stars": 16,
         "pushedAt": "2026-11-17T23:23:08Z"
+      }
+    },
+    {
+      "id": "cuesta4-gow3rehooked",
+      "title": "God of War III Remastered (GOW3rehooked)",
+      "platform": "ps4",
+      "repo": "cuesta4/GOW3rehooked",
+      "authors": [
+        "cuesta4"
+      ],
+      "description": {
+        "en": "GOW3rehooked - the definitive GOW3 Remastered experience on PC."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "aiFlag": true,
+      "assets": {
+        "win32": {
+          "pattern": "^GOW\\d+rehooked-Windows-x\\d+_\\d+\\.zip$",
+          "executable": null
+        },
+        "linux": {
+          "pattern": "^GOW\\d+rehooked-Linux-x\\d+_\\d+\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 205,
+        "pushedAt": "2026-11-21T00:55:21Z"
       }
     },
     {
@@ -7224,7 +7265,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 233,
+        "stars": 234,
         "pushedAt": "2026-10-21T01:00:14Z"
       }
     },
@@ -7265,7 +7306,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 194,
+        "stars": 195,
         "pushedAt": "2026-11-16T13:01:27Z"
       }
     },
@@ -7380,7 +7421,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 79,
+        "stars": 80,
         "pushedAt": "2026-09-20T12:17:37Z"
       }
     },
@@ -7548,7 +7589,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 105,
+        "stars": 106,
         "pushedAt": "2026-10-14T11:05:05Z"
       }
     },
@@ -7634,7 +7675,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 385,
+        "stars": 387,
         "pushedAt": "2026-11-06T15:05:49Z"
       }
     },
@@ -7818,7 +7859,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 11,
         "pushedAt": "2026-11-19T07:32:34Z"
       }
     },
@@ -7863,8 +7904,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
-        "pushedAt": "2026-11-20T13:19:49Z"
+        "stars": 24,
+        "pushedAt": "2026-11-21T09:47:13Z"
       }
     },
     {
@@ -7901,7 +7942,7 @@
       "setupHint": null,
       "stats": {
         "stars": 1293,
-        "pushedAt": "2026-11-16T17:55:33Z"
+        "pushedAt": "2026-11-21T14:34:51Z"
       }
     },
     {
@@ -7977,7 +8018,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4147,
+        "stars": 4164,
         "pushedAt": "2026-10-28T23:56:07Z"
       }
     },
@@ -8086,7 +8127,7 @@
       "setupHint": null,
       "stats": {
         "stars": 98,
-        "pushedAt": "2026-11-18T13:39:04Z"
+        "pushedAt": "2026-11-21T13:43:02Z"
       }
     },
     {
@@ -8163,8 +8204,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 91,
-        "pushedAt": "2026-11-20T11:09:12Z"
+        "stars": 94,
+        "pushedAt": "2026-11-20T19:15:56Z"
       }
     },
     {
@@ -8212,7 +8253,7 @@
         "Destinity13"
       ],
       "description": {
-        "en": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled for Windows, Linux and Steam Deck – 60 FPS, real 16:9, up to 8x resolution, online multiplayer, verified against PCSX2"
+        "en": "Crystal Cut: a native PC port of TimeSplitters 2 (PS2, USA and PAL) with cut content restored from your own disc. Windows, Linux and Steam Deck, 60 FPS, true 16:9, up to 8x resolution, online play. Statically recompiled and checked against PCSX2. No game files included."
       },
       "coverImageUrl": null,
       "heroImageUrl": null,
@@ -8240,8 +8281,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 81,
-        "pushedAt": "2026-11-20T10:39:40Z"
+        "stars": 87,
+        "pushedAt": "2026-11-21T08:30:21Z"
       }
     },
     {
@@ -8349,7 +8390,7 @@
       "setupHint": null,
       "stats": {
         "stars": 140,
-        "pushedAt": "2026-11-19T20:52:09Z"
+        "pushedAt": "2026-11-21T12:28:41Z"
       }
     },
     {
@@ -8385,7 +8426,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10030,
+        "stars": 10033,
         "pushedAt": "2026-11-17T06:56:08Z"
       }
     },
@@ -8466,8 +8507,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 77,
-        "pushedAt": "2026-11-07T16:21:49Z"
+        "stars": 78,
+        "pushedAt": "2026-11-20T21:49:01Z"
       }
     },
     {
@@ -8511,6 +8552,46 @@
       }
     },
     {
+      "id": "dipshet-gracemeriarecomp",
+      "title": "Ace Combat 6: Fires of Liberation (GracemeriaRecomp)",
+      "platform": "xbox360",
+      "repo": "Dipshet/GracemeriaRecomp",
+      "authors": [
+        "Dipshet"
+      ],
+      "description": {
+        "en": "Native PC port of Ace Combat 6: Fires of Liberation using XenonRecomp"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^GracemeriaRecomp-\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
+          "executable": null
+        },
+        "linux": {
+          "pattern": "^GracemeriaRecomp-\\d+\\.\\d+\\.\\d+-linux-x\\d+\\.tar\\.gz$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 109,
+        "pushedAt": "2026-11-21T03:49:33Z"
+      }
+    },
+    {
       "id": "discostarslayer-pcsx2-reliquary",
       "title": "PCSX2 (PCSX2 Reliquary)",
       "platform": "ps2",
@@ -8547,7 +8628,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 130,
+        "stars": 132,
         "pushedAt": "2026-10-29T13:39:51Z"
       }
     },
@@ -8611,11 +8692,11 @@
           "executable": null
         },
         "linux": {
-          "pattern": "^PokopiaRecomp-\\d+\\.\\d+\\.\\d+-linux-x\\d+\\.tar\\.gz$",
+          "pattern": "^Recompia-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.tar\\.gz$",
           "executable": null
         },
         "darwin": {
-          "pattern": "^Recompia-\\d+\\.\\d+\\.\\d+-macos-arm\\d+\\.zip$",
+          "pattern": "^PokopiaRecomp-\\d+\\.\\d+\\.\\d+-macos-arm\\d+\\.zip$",
           "executable": null
         }
       },
@@ -8628,8 +8709,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 930,
-        "pushedAt": "2026-11-20T15:54:05Z"
+        "stars": 948,
+        "pushedAt": "2026-11-21T15:00:57Z"
       }
     },
     {
@@ -8665,7 +8746,7 @@
       "setupHint": null,
       "stats": {
         "stars": 306,
-        "pushedAt": "2026-11-20T03:48:25Z"
+        "pushedAt": "2026-11-21T03:36:08Z"
       }
     },
     {
@@ -8701,13 +8782,13 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 75,
+        "stars": 76,
         "pushedAt": "2026-11-13T01:11:01Z"
       }
     },
     {
       "id": "djrobson5-hellmouth-buffy-recomp",
-      "title": "Buffy the Vampire Slayer",
+      "title": "Buffy the Vampire Slayer (Hellmouth)",
       "platform": "xbox",
       "repo": "djrobson5/Hellmouth-buffy-recomp",
       "authors": [
@@ -8718,14 +8799,18 @@
       },
       "coverImageUrl": null,
       "heroImageUrl": null,
-      "status": "partial",
+      "status": "playable",
       "tested": false,
       "channel": "latest",
       "source": "auto",
       "aiFlag": true,
       "assets": {
         "win32": {
-          "pattern": "^Hellmouth-\\d+\\.\\d+\\.\\d+\\.zip$",
+          "pattern": "^Hellmouth-\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
+          "executable": null
+        },
+        "darwin": {
+          "pattern": "^Hellmouth-\\d+\\.\\d+\\.\\d+-macos-arm\\d+\\.zip$",
           "executable": null
         }
       },
@@ -8739,7 +8824,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-11-19T03:14:29Z"
+        "pushedAt": "2026-11-21T04:33:18Z"
       }
     },
     {
@@ -9271,7 +9356,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1,
+        "stars": 2,
         "pushedAt": "2026-11-19T22:55:59Z"
       }
     },
@@ -9384,7 +9469,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 861,
+        "stars": 864,
         "pushedAt": "2026-11-17T06:04:51Z"
       }
     },
@@ -9421,7 +9506,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 214,
+        "stars": 219,
         "pushedAt": "2026-11-14T23:23:11Z"
       }
     },
@@ -9457,8 +9542,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
-        "pushedAt": "2026-11-20T15:51:57Z"
+        "stars": 30,
+        "pushedAt": "2026-11-21T07:35:17Z"
       }
     },
     {
@@ -9493,7 +9578,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 151,
+        "stars": 152,
         "pushedAt": "2026-11-18T17:05:27Z"
       }
     },
@@ -9656,7 +9741,7 @@
       "setupHint": null,
       "stats": {
         "stars": 51,
-        "pushedAt": "2026-11-20T15:52:51Z"
+        "pushedAt": "2026-11-21T14:42:55Z"
       }
     },
     {
@@ -9691,7 +9776,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 110,
+        "stars": 111,
         "pushedAt": "2026-10-27T13:03:33Z"
       }
     },
@@ -9731,7 +9816,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 189,
+        "stars": 191,
         "pushedAt": "2026-10-31T16:52:46Z"
       }
     },
@@ -9771,7 +9856,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 202,
+        "stars": 204,
         "pushedAt": "2026-11-04T18:41:31Z"
       }
     },
@@ -9961,7 +10046,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 18,
         "pushedAt": "2026-10-30T18:42:16Z"
       }
     },
@@ -10006,8 +10091,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6157,
-        "pushedAt": "2026-11-19T23:07:43Z"
+        "stars": 6180,
+        "pushedAt": "2026-11-21T11:02:14Z"
       }
     },
     {
@@ -10351,7 +10436,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 179,
+        "stars": 180,
         "pushedAt": "2026-09-07T22:43:34Z"
       }
     },
@@ -10388,7 +10473,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 307,
+        "stars": 308,
         "pushedAt": "2026-11-15T14:53:30Z"
       }
     },
@@ -10611,7 +10696,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 162,
+        "stars": 170,
         "pushedAt": "2026-10-21T10:01:17Z"
       }
     },
@@ -10768,7 +10853,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 260,
+        "stars": 261,
         "pushedAt": "2026-11-19T14:48:08Z"
       }
     },
@@ -10845,7 +10930,7 @@
       "setupHint": null,
       "stats": {
         "stars": 693,
-        "pushedAt": "2026-10-24T12:21:31Z"
+        "pushedAt": "2026-11-21T13:06:26Z"
       }
     },
     {
@@ -10957,7 +11042,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 27,
         "pushedAt": "2026-10-30T10:29:02Z"
       }
     },
@@ -10994,7 +11079,7 @@
       "setupHint": null,
       "stats": {
         "stars": 712,
-        "pushedAt": "2026-11-18T09:06:43Z"
+        "pushedAt": "2026-11-21T09:10:19Z"
       }
     },
     {
@@ -11034,7 +11119,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
+        "stars": 118,
         "pushedAt": "2026-11-14T18:01:57Z"
       }
     },
@@ -11151,8 +11236,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4963,
-        "pushedAt": "2026-11-17T04:01:49Z"
+        "stars": 4974,
+        "pushedAt": "2026-11-21T00:53:10Z"
       }
     },
     {
@@ -11188,7 +11273,7 @@
       "setupHint": null,
       "stats": {
         "stars": 19,
-        "pushedAt": "2026-11-19T14:58:34Z"
+        "pushedAt": "2026-11-21T04:28:46Z"
       }
     },
     {
@@ -11260,7 +11345,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 478,
+        "stars": 481,
         "pushedAt": "2026-11-19T12:57:39Z"
       }
     },
@@ -11333,7 +11418,7 @@
       "setupHint": null,
       "stats": {
         "stars": 5,
-        "pushedAt": "2026-11-19T05:22:08Z"
+        "pushedAt": "2026-11-20T22:09:06Z"
       }
     },
     {
@@ -11368,8 +11453,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 52,
-        "pushedAt": "2026-11-20T12:09:21Z"
+        "stars": 55,
+        "pushedAt": "2026-11-21T02:15:51Z"
       }
     },
     {
@@ -11523,7 +11608,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 931,
+        "stars": 934,
         "pushedAt": "2026-11-15T16:31:14Z"
       }
     },
@@ -11572,8 +11657,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2666,
-        "pushedAt": "2026-11-20T13:10:10Z"
+        "stars": 2668,
+        "pushedAt": "2026-11-21T03:10:31Z"
       }
     },
     {
@@ -11660,7 +11745,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1594,
+        "stars": 1595,
         "pushedAt": "2026-11-08T19:47:02Z"
       }
     },
@@ -11720,7 +11805,7 @@
         "pt-BR": "Arraste seu ISO para o launcher (ou escolha o ISO), confirme a posse do jogo e depois clique em Verificar e montar."
       },
       "stats": {
-        "stars": 1079,
+        "stars": 1082,
         "pushedAt": "2026-11-20T02:06:35Z"
       }
     },
@@ -11760,8 +11845,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 417,
-        "pushedAt": "2026-11-20T05:58:46Z"
+        "stars": 431,
+        "pushedAt": "2026-11-21T04:24:27Z"
       }
     },
     {
@@ -11842,7 +11927,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1015,
+        "stars": 1023,
         "pushedAt": "2026-11-18T04:16:35Z"
       }
     },
@@ -11890,7 +11975,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 184,
+        "stars": 185,
         "pushedAt": "2026-11-20T00:37:27Z"
       }
     },
@@ -11931,7 +12016,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4419,
+        "stars": 4433,
         "pushedAt": "2026-11-19T07:19:59Z"
       }
     },
@@ -11967,7 +12052,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5,
+        "stars": 6,
         "pushedAt": "2026-11-20T09:39:26Z"
       }
     },
@@ -12171,7 +12256,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 116,
+        "stars": 117,
         "pushedAt": "2026-11-20T02:26:54Z"
       }
     },
@@ -12212,8 +12297,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 301,
-        "pushedAt": "2026-11-20T15:03:03Z"
+        "stars": 306,
+        "pushedAt": "2026-11-21T01:08:59Z"
       }
     },
     {
@@ -12257,8 +12342,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 363,
-        "pushedAt": "2026-11-19T19:27:03Z"
+        "stars": 365,
+        "pushedAt": "2026-11-21T14:34:19Z"
       }
     },
     {
@@ -12445,13 +12530,13 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 759,
+        "stars": 761,
         "pushedAt": "2026-10-19T04:57:14Z"
       }
     },
     {
       "id": "giacomozama-live-and-recompiled",
-      "title": "Conker: Live & Reloaded",
+      "title": "Conker: Live & Reloaded (Live & Recompiled)",
       "platform": "xbox",
       "repo": "giacomozama/live-and-recompiled",
       "authors": [
@@ -12486,7 +12571,7 @@
       "setupHint": null,
       "stats": {
         "stars": 44,
-        "pushedAt": "2026-11-19T18:31:41Z"
+        "pushedAt": "2026-11-20T18:01:05Z"
       }
     },
     {
@@ -12602,7 +12687,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 168,
+        "stars": 172,
         "pushedAt": "2026-11-13T12:17:52Z"
       }
     },
@@ -12638,7 +12723,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 666,
+        "stars": 667,
         "pushedAt": "2026-11-10T01:17:18Z"
       }
     },
@@ -12669,6 +12754,10 @@
           "pattern": "^msr\\d+ds-\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
           "executable": null
         },
+        "darwin": {
+          "pattern": "^msr\\d+ds-\\d+\\.\\d+\\.\\d+-macos-arm\\d+\\.zip$",
+          "executable": null
+        },
         "android": {
           "pattern": "^msr\\d+ds-\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
           "executable": null
@@ -12683,8 +12772,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 269,
-        "pushedAt": "2026-11-20T09:06:15Z"
+        "stars": 270,
+        "pushedAt": "2026-11-20T18:44:30Z"
       }
     },
     {
@@ -12728,8 +12817,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 316,
-        "pushedAt": "2026-11-20T07:15:43Z"
+        "stars": 319,
+        "pushedAt": "2026-11-21T03:28:30Z"
       }
     },
     {
@@ -12769,7 +12858,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 172,
+        "stars": 198,
         "pushedAt": "2026-11-20T03:13:11Z"
       }
     },
@@ -12810,8 +12899,45 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 267,
+        "stars": 268,
         "pushedAt": "2026-10-26T23:02:49Z"
+      }
+    },
+    {
+      "id": "god-hand-rearmed-god-hand-rearmed",
+      "title": "God Hand (God Hand: Rearmed)",
+      "platform": "ps2",
+      "repo": "God-Hand-Rearmed/God-Hand-Rearmed",
+      "authors": [
+        "God-Hand-Rearmed"
+      ],
+      "description": {
+        "en": "God Hand: Rearmed (Project Kamite) is an unofficial native PC port of the PS2 cult classic, built by static recompilation. No game data included. Play your own damn copy!"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "aiFlag": true,
+      "assets": {
+        "win32": {
+          "pattern": "^GHR-v\\d+\\.\\d+\\.\\d+\\.\\d+-Windows-x\\d+\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 163,
+        "pushedAt": "2026-11-21T14:39:02Z"
       }
     },
     {
@@ -12875,8 +13001,8 @@
         "pt-BR": "Abra o God of War III.exe e escolha a pasta do jogo (a que tem o eboot.bin)."
       },
       "stats": {
-        "stars": 4963,
-        "pushedAt": "2026-11-17T04:01:49Z"
+        "stars": 4974,
+        "pushedAt": "2026-11-21T00:53:10Z"
       }
     },
     {
@@ -12911,7 +13037,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 151,
+        "stars": 156,
         "pushedAt": "2026-11-15T23:24:44Z"
       }
     },
@@ -13065,7 +13191,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 14,
         "pushedAt": "2026-11-19T21:51:39Z"
       }
     },
@@ -13142,7 +13268,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 729,
+        "stars": 734,
         "pushedAt": "2026-11-14T13:10:01Z"
       }
     },
@@ -13179,7 +13305,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 238,
+        "stars": 239,
         "pushedAt": "2026-11-06T21:14:44Z"
       }
     },
@@ -13215,7 +13341,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 89,
+        "stars": 90,
         "pushedAt": "2026-11-18T08:12:31Z"
       }
     },
@@ -13260,7 +13386,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 215,
+        "stars": 218,
         "pushedAt": "2026-11-06T21:34:15Z"
       }
     },
@@ -13413,7 +13539,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 104,
+        "stars": 106,
         "pushedAt": "2026-11-18T19:16:47Z"
       }
     },
@@ -13526,7 +13652,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 66,
+        "stars": 65,
         "pushedAt": "2026-11-20T15:19:36Z"
       }
     },
@@ -13568,7 +13694,7 @@
       "setupHint": null,
       "stats": {
         "stars": 62,
-        "pushedAt": "2026-11-14T19:55:57Z"
+        "pushedAt": "2026-11-21T04:33:02Z"
       }
     },
     {
@@ -13604,8 +13730,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 65,
-        "pushedAt": "2026-11-11T01:30:14Z"
+        "stars": 66,
+        "pushedAt": "2026-11-21T07:05:29Z"
       }
     },
     {
@@ -13983,7 +14109,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 268,
+        "stars": 272,
         "pushedAt": "2026-11-18T15:14:35Z"
       }
     },
@@ -14105,7 +14231,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 934,
+        "stars": 935,
         "pushedAt": "2026-10-27T07:44:34Z"
       }
     },
@@ -14149,7 +14275,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 564,
+        "stars": 565,
         "pushedAt": "2026-11-16T18:16:38Z"
       }
     },
@@ -14193,7 +14319,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 571,
+        "stars": 573,
         "pushedAt": "2026-11-09T20:11:35Z"
       }
     },
@@ -14238,7 +14364,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6124,
+        "stars": 6135,
         "pushedAt": "2026-11-20T04:07:25Z"
       }
     },
@@ -14283,7 +14409,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2504,
+        "stars": 2505,
         "pushedAt": "2026-10-22T15:55:20Z"
       }
     },
@@ -14323,7 +14449,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2151,
+        "stars": 2152,
         "pushedAt": "2026-09-15T21:17:12Z"
       }
     },
@@ -14359,7 +14485,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 44,
+        "stars": 45,
         "pushedAt": "2026-11-02T17:00:23Z"
       }
     },
@@ -14436,6 +14562,42 @@
       }
     },
     {
+      "id": "harvest-moon-animal-parade",
+      "title": "Harvest Moon Animal Parade",
+      "platform": "wii",
+      "repo": "RodoLy/HarvestMoonAnimalParadeRecomp",
+      "authors": [
+        "RodoLy"
+      ],
+      "description": {
+        "en": "Community project. Requires your own copy of the game."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-search",
+      "assets": {
+        "android": {
+          "pattern": "^HarvestMoonAnimalParade-Android\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 2,
+        "pushedAt": "2026-11-21T06:29:06Z"
+      }
+    },
+    {
       "id": "harvest-moon-magical-melody",
       "title": "Harvest Moon Magical Melody",
       "platform": "gamecube",
@@ -14468,7 +14630,7 @@
       "setupHint": null,
       "stats": {
         "stars": 6,
-        "pushedAt": "2026-11-17T21:30:37Z"
+        "pushedAt": "2026-11-20T19:11:34Z"
       }
     },
     {
@@ -14593,7 +14755,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1217,
+        "stars": 1220,
         "pushedAt": "2026-11-12T14:03:15Z"
       }
     },
@@ -14634,7 +14796,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 594,
+        "stars": 597,
         "pushedAt": "2026-11-14T21:30:45Z"
       }
     },
@@ -14742,7 +14904,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5399,
+        "stars": 5403,
         "pushedAt": "2026-11-18T13:37:29Z"
       }
     },
@@ -14784,7 +14946,7 @@
       "setupHint": null,
       "stats": {
         "stars": 173,
-        "pushedAt": "2026-11-20T04:11:35Z"
+        "pushedAt": "2026-11-21T06:42:40Z"
       }
     },
     {
@@ -14856,7 +15018,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 29,
         "pushedAt": "2026-10-08T01:12:03Z"
       }
     },
@@ -14971,8 +15133,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 346,
-        "pushedAt": "2026-11-18T03:00:45Z"
+        "stars": 355,
+        "pushedAt": "2026-11-21T15:06:44Z"
       }
     },
     {
@@ -15008,7 +15170,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 89,
+        "stars": 91,
         "pushedAt": "2026-11-12T19:31:25Z"
       }
     },
@@ -15049,7 +15211,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 67,
+        "stars": 66,
         "pushedAt": "2026-11-08T11:53:07Z"
       }
     },
@@ -15162,8 +15324,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 704,
-        "pushedAt": "2026-11-20T06:14:13Z"
+        "stars": 709,
+        "pushedAt": "2026-11-21T01:09:59Z"
       }
     },
     {
@@ -15199,8 +15361,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 76,
-        "pushedAt": "2026-11-18T08:42:23Z"
+        "stars": 78,
+        "pushedAt": "2026-11-21T14:35:13Z"
       }
     },
     {
@@ -15237,7 +15399,7 @@
       "setupHint": null,
       "stats": {
         "stars": 110,
-        "pushedAt": "2026-11-18T10:49:19Z"
+        "pushedAt": "2026-11-21T11:57:13Z"
       }
     },
     {
@@ -15273,7 +15435,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 88,
+        "stars": 92,
         "pushedAt": "2026-11-18T12:49:31Z"
       }
     },
@@ -15311,7 +15473,7 @@
       "setupHint": null,
       "stats": {
         "stars": 98,
-        "pushedAt": "2026-11-18T11:03:22Z"
+        "pushedAt": "2026-11-21T12:34:12Z"
       }
     },
     {
@@ -15348,43 +15510,7 @@
       "setupHint": null,
       "stats": {
         "stars": 126,
-        "pushedAt": "2026-11-18T14:21:34Z"
-      }
-    },
-    {
-      "id": "hmbtn",
-      "title": "HMBTN",
-      "platform": "ps1",
-      "repo": "ramarivansyah/HMBTN-NativePort",
-      "authors": [
-        "ramarivansyah"
-      ],
-      "description": {
-        "en": "Ready-to-play builds of the Harvest Moon: Back to Nature native port for Windows x64, Linux x64 and Android, made by static recompilation - no emulator, no BIOS. This repository holds the release assets, the README and its logo only; the source stays private."
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "experimental",
-      "tested": false,
-      "channel": "latest",
-      "source": "github-search",
-      "assets": {
-        "android": {
-          "pattern": "^HarvestMoonBTN-Android-\\d+\\.\\d+\\.apk$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 0,
-        "pushedAt": "2026-11-16T16:16:34Z"
+        "pushedAt": "2026-11-21T13:40:26Z"
       }
     },
     {
@@ -15460,7 +15586,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 248,
+        "stars": 250,
         "pushedAt": "2026-10-30T01:37:40Z"
       }
     },
@@ -15496,7 +15622,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 125,
+        "stars": 126,
         "pushedAt": "2026-11-19T20:35:10Z"
       }
     },
@@ -15568,7 +15694,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 34,
+        "stars": 35,
         "pushedAt": "2026-11-20T13:06:20Z"
       }
     },
@@ -15605,7 +15731,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 105,
+        "stars": 106,
         "pushedAt": "2026-11-17T14:01:36Z"
       }
     },
@@ -15650,8 +15776,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14953,
-        "pushedAt": "2026-11-20T15:50:34Z"
+        "stars": 14958,
+        "pushedAt": "2026-11-21T14:13:43Z"
       }
     },
     {
@@ -15763,8 +15889,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 164,
-        "pushedAt": "2026-11-18T22:30:00Z"
+        "stars": 168,
+        "pushedAt": "2026-11-21T11:59:45Z"
       }
     },
     {
@@ -15912,7 +16038,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 92,
+        "stars": 93,
         "pushedAt": "2026-10-19T15:11:36Z"
       }
     },
@@ -15994,8 +16120,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 41,
-        "pushedAt": "2026-11-20T11:53:12Z"
+        "stars": 45,
+        "pushedAt": "2026-11-21T15:04:47Z"
       }
     },
     {
@@ -16102,8 +16228,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1011,
-        "pushedAt": "2026-11-20T15:55:18Z"
+        "stars": 1037,
+        "pushedAt": "2026-11-21T00:26:28Z"
       }
     },
     {
@@ -16184,7 +16310,7 @@
       "setupHint": null,
       "stats": {
         "stars": 1113,
-        "pushedAt": "2026-11-16T05:18:13Z"
+        "pushedAt": "2026-11-21T07:01:41Z"
       }
     },
     {
@@ -16293,7 +16419,7 @@
       "setupHint": null,
       "stats": {
         "stars": 45,
-        "pushedAt": "2026-11-20T03:03:40Z"
+        "pushedAt": "2026-11-20T20:46:52Z"
       }
     },
     {
@@ -16332,8 +16458,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 320,
-        "pushedAt": "2026-11-12T07:13:36Z"
+        "stars": 321,
+        "pushedAt": "2026-11-20T18:55:57Z"
       }
     },
     {
@@ -16445,8 +16571,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 191,
-        "pushedAt": "2026-11-20T15:28:13Z"
+        "stars": 194,
+        "pushedAt": "2026-11-21T14:07:46Z"
       }
     },
     {
@@ -16803,7 +16929,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
+        "stars": 45,
         "pushedAt": "2026-11-16T02:09:59Z"
       }
     },
@@ -16925,7 +17051,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 54,
         "pushedAt": "2026-11-20T14:14:48Z"
       }
     },
@@ -17039,7 +17165,7 @@
       "setupHint": null,
       "stats": {
         "stars": 190,
-        "pushedAt": "2026-11-20T05:48:51Z"
+        "pushedAt": "2026-11-21T06:10:37Z"
       }
     },
     {
@@ -17074,7 +17200,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
+        "stars": 29,
         "pushedAt": "2026-11-07T18:15:02Z"
       }
     },
@@ -17110,7 +17236,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 56,
+        "stars": 57,
         "pushedAt": "2026-11-19T04:02:34Z"
       }
     },
@@ -17296,7 +17422,7 @@
       "setupHint": null,
       "stats": {
         "stars": 97,
-        "pushedAt": "2026-11-20T14:03:40Z"
+        "pushedAt": "2026-11-21T12:59:44Z"
       }
     },
     {
@@ -17367,7 +17493,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 54,
         "pushedAt": "2026-11-19T22:34:11Z"
       }
     },
@@ -17407,7 +17533,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3338,
+        "stars": 3339,
         "pushedAt": "2026-11-14T14:45:10Z"
       }
     },
@@ -17484,7 +17610,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 338,
+        "stars": 340,
         "pushedAt": "2026-11-01T22:37:26Z"
       }
     },
@@ -17525,7 +17651,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 213,
+        "stars": 216,
         "pushedAt": "2026-11-19T19:59:05Z"
       }
     },
@@ -17566,7 +17692,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 360,
+        "stars": 364,
         "pushedAt": "2026-11-20T00:01:47Z"
       }
     },
@@ -17648,8 +17774,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 104,
-        "pushedAt": "2026-11-18T08:09:25Z"
+        "stars": 109,
+        "pushedAt": "2026-11-21T00:29:31Z"
       }
     },
     {
@@ -17689,8 +17815,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 515,
-        "pushedAt": "2026-11-20T15:04:13Z"
+        "stars": 521,
+        "pushedAt": "2026-11-21T15:08:33Z"
       }
     },
     {
@@ -17816,7 +17942,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 240,
+        "stars": 242,
         "pushedAt": "2026-10-31T07:03:33Z"
       }
     },
@@ -17939,7 +18065,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 209,
+        "stars": 210,
         "pushedAt": "2026-11-01T18:03:28Z"
       }
     },
@@ -18095,7 +18221,7 @@
       "setupHint": null,
       "stats": {
         "stars": 542,
-        "pushedAt": "2026-11-19T17:25:58Z"
+        "pushedAt": "2026-11-20T17:00:18Z"
       }
     },
     {
@@ -18134,8 +18260,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 413,
-        "pushedAt": "2026-11-16T22:55:03Z"
+        "stars": 414,
+        "pushedAt": "2026-11-21T03:49:06Z"
       }
     },
     {
@@ -18211,7 +18337,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 239,
+        "stars": 238,
         "pushedAt": "2026-11-18T22:42:19Z"
       }
     },
@@ -18248,8 +18374,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 209,
-        "pushedAt": "2026-11-20T13:12:36Z"
+        "stars": 210,
+        "pushedAt": "2026-11-21T11:38:12Z"
       }
     },
     {
@@ -18297,7 +18423,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 292,
+        "stars": 298,
         "pushedAt": "2026-11-13T16:47:11Z"
       }
     },
@@ -18373,8 +18499,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 221,
-        "pushedAt": "2026-11-20T15:17:57Z"
+        "stars": 228,
+        "pushedAt": "2026-11-21T12:47:37Z"
       }
     },
     {
@@ -18451,7 +18577,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 188,
+        "stars": 190,
         "pushedAt": "2026-11-20T14:32:36Z"
       }
     },
@@ -18487,7 +18613,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 36,
+        "stars": 37,
         "pushedAt": "2026-11-05T19:54:05Z"
       }
     },
@@ -18572,7 +18698,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 64,
+        "stars": 63,
         "pushedAt": "2026-11-07T18:07:02Z"
       }
     },
@@ -18609,8 +18735,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 59,
-        "pushedAt": "2026-11-19T08:20:40Z"
+        "stars": 61,
+        "pushedAt": "2026-11-21T09:41:13Z"
       }
     },
     {
@@ -18645,7 +18771,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2157,
+        "stars": 2159,
         "pushedAt": "2026-11-20T13:15:50Z"
       }
     },
@@ -18726,7 +18852,7 @@
       "setupHint": null,
       "stats": {
         "stars": 11,
-        "pushedAt": "2026-11-15T17:25:31Z"
+        "pushedAt": "2026-11-21T01:26:12Z"
       }
     },
     {
@@ -18770,8 +18896,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 103,
-        "pushedAt": "2026-11-20T14:55:32Z"
+        "stars": 104,
+        "pushedAt": "2026-11-20T18:02:55Z"
       }
     },
     {
@@ -18815,7 +18941,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 141,
+        "stars": 142,
         "pushedAt": "2026-11-10T01:38:37Z"
       }
     },
@@ -18837,8 +18963,12 @@
       "channel": "latest",
       "source": "auto",
       "assets": {
+        "win32": {
+          "pattern": "^MH\\d+U-PC-\\d+\\.\\d+\\.\\d+\\.zip$",
+          "executable": null
+        },
         "android": {
-          "pattern": "^MH\\d+U-\\d+\\.\\d+\\.\\d+\\.\\d+\\.apk$",
+          "pattern": "^MH\\d+U-\\d+\\.\\d+\\.\\d+\\.apk$",
           "executable": null
         }
       },
@@ -18851,8 +18981,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 104,
-        "pushedAt": "2026-11-18T01:47:18Z"
+        "stars": 112,
+        "pushedAt": "2026-11-21T01:41:28Z"
       }
     },
     {
@@ -18874,11 +19004,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^MHGU-PC-\\d+\\.\\d+\\.\\d+\\.\\d+\\.zip$",
+          "pattern": "^MHGU-PC-\\d+\\.\\d+\\.\\d+\\.zip$",
           "executable": null
         },
         "android": {
-          "pattern": "^MHGU-\\d+\\.\\d+\\.\\d+\\.\\d+\\.apk$",
+          "pattern": "^MHGU-\\d+\\.\\d+\\.\\d+\\.apk$",
           "executable": null
         }
       },
@@ -18891,8 +19021,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 252,
-        "pushedAt": "2026-11-18T01:45:11Z"
+        "stars": 261,
+        "pushedAt": "2026-11-21T01:38:25Z"
       }
     },
     {
@@ -18980,8 +19110,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 122,
-        "pushedAt": "2026-11-20T12:43:44Z"
+        "stars": 123,
+        "pushedAt": "2026-11-21T12:12:10Z"
       }
     },
     {
@@ -19211,8 +19341,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 54,
-        "pushedAt": "2026-11-19T12:14:38Z"
+        "stars": 55,
+        "pushedAt": "2026-11-21T14:55:41Z"
       }
     },
     {
@@ -19248,7 +19378,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 204,
+        "stars": 205,
         "pushedAt": "2026-10-06T02:41:57Z"
       }
     },
@@ -19297,8 +19427,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 326,
-        "pushedAt": "2026-11-20T13:21:48Z"
+        "stars": 329,
+        "pushedAt": "2026-11-21T13:22:34Z"
       }
     },
     {
@@ -19338,7 +19468,7 @@
       "setupHint": null,
       "stats": {
         "stars": 314,
-        "pushedAt": "2026-11-16T04:23:49Z"
+        "pushedAt": "2026-11-21T04:07:45Z"
       }
     },
     {
@@ -19378,8 +19508,53 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 952,
+        "stars": 956,
         "pushedAt": "2026-11-17T09:57:27Z"
+      }
+    },
+    {
+      "id": "kytyps5-kytyps5",
+      "title": "KytyPS5",
+      "platform": "other",
+      "repo": "KytyPS5/KytyPS5",
+      "authors": [
+        "KytyPS5"
+      ],
+      "description": {
+        "en": "PlayStation 5 translation layer for Windows, Linux and macOS"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "aiFlag": true,
+      "assets": {
+        "win32": {
+          "pattern": "^KytyPS\\d+-\\d+-\\d+-\\d+-\\d+ff-Windows-x\\d+\\.zip$",
+          "executable": null
+        },
+        "linux": {
+          "pattern": "^KytyPS\\d+-\\d+-\\d+-\\d+-\\d+ff-Linux-x\\d+_\\d+\\.tar\\.gz$",
+          "executable": null
+        },
+        "darwin": {
+          "pattern": "^KytyPS\\d+-\\d+-\\d+-\\d+-\\d+ff-macOS-x\\d+_\\d+\\.zip$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 12412,
+        "pushedAt": "2026-11-21T11:22:32Z"
       }
     },
     {
@@ -19416,7 +19591,7 @@
       "setupHint": null,
       "stats": {
         "stars": 103,
-        "pushedAt": "2026-11-19T23:38:22Z"
+        "pushedAt": "2026-11-20T23:50:53Z"
       }
     },
     {
@@ -19528,14 +19703,14 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 254,
+        "stars": 257,
         "pushedAt": "2026-10-23T20:44:10Z"
       }
     },
     {
       "id": "lbalab-lba2-classic-community",
       "title": "Little Big Adventure 2 (Twinsen's Odyssey)",
-      "platform": "other",
+      "platform": "pc",
       "repo": "LBALab/lba2-classic-community",
       "authors": [
         "LBALab"
@@ -19549,6 +19724,7 @@
       "tested": false,
       "channel": "latest",
       "source": "auto",
+      "aiFlag": true,
       "assets": {
         "android": {
           "pattern": "^lba\\d+cc-\\d+\\.\\d+\\.\\d+-android-arm\\d+-v\\d+a\\.apk$",
@@ -19564,7 +19740,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 118,
+        "stars": 119,
         "pushedAt": "2026-11-18T15:07:16Z"
       }
     },
@@ -19637,7 +19813,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 377,
+        "stars": 378,
         "pushedAt": "2026-11-05T21:24:50Z"
       }
     },
@@ -19678,8 +19854,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 95,
-        "pushedAt": "2026-11-19T19:21:38Z"
+        "stars": 96,
+        "pushedAt": "2026-11-20T22:13:12Z"
       }
     },
     {
@@ -19754,7 +19930,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 240,
+        "stars": 242,
         "pushedAt": "2026-11-16T18:54:22Z"
       }
     },
@@ -19837,7 +20013,7 @@
       "setupHint": null,
       "stats": {
         "stars": 138,
-        "pushedAt": "2026-11-19T07:20:58Z"
+        "pushedAt": "2026-11-20T20:38:50Z"
       }
     },
     {
@@ -19872,7 +20048,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 102,
+        "stars": 101,
         "pushedAt": "2026-10-23T03:44:19Z"
       }
     },
@@ -19908,7 +20084,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 129,
+        "stars": 128,
         "pushedAt": "2026-10-30T03:13:30Z"
       }
     },
@@ -19945,8 +20121,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 113,
-        "pushedAt": "2026-11-20T11:32:07Z"
+        "stars": 114,
+        "pushedAt": "2026-11-21T11:41:38Z"
       }
     },
     {
@@ -20018,7 +20194,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 33,
+        "stars": 34,
         "pushedAt": "2026-11-19T18:02:24Z"
       }
     },
@@ -20141,7 +20317,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 173,
+        "stars": 175,
         "pushedAt": "2026-11-19T10:49:50Z"
       }
     },
@@ -20178,7 +20354,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 63,
+        "stars": 65,
         "pushedAt": "2026-11-19T19:24:36Z"
       }
     },
@@ -20300,7 +20476,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 395,
+        "stars": 396,
         "pushedAt": "2026-11-06T12:54:12Z"
       }
     },
@@ -20345,7 +20521,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1251,
+        "stars": 1262,
         "pushedAt": "2026-11-20T10:35:26Z"
       }
     },
@@ -20417,7 +20593,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
+        "stars": 18,
         "pushedAt": "2026-08-30T15:15:13Z"
       }
     },
@@ -20454,7 +20630,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 138,
+        "stars": 139,
         "pushedAt": "2026-11-19T13:00:41Z"
       }
     },
@@ -20571,7 +20747,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 182,
+        "stars": 183,
         "pushedAt": "2026-11-16T11:01:00Z"
       }
     },
@@ -20608,7 +20784,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 138,
+        "stars": 139,
         "pushedAt": "2026-11-07T13:57:51Z"
       }
     },
@@ -20649,7 +20825,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 235,
+        "stars": 241,
         "pushedAt": "2026-11-17T15:58:24Z"
       }
     },
@@ -20726,7 +20902,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 154,
+        "stars": 155,
         "pushedAt": "2026-11-18T13:45:19Z"
       }
     },
@@ -20815,7 +20991,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1203,
+        "stars": 1217,
         "pushedAt": "2026-11-20T14:55:02Z"
       }
     },
@@ -20928,7 +21104,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 114,
+        "stars": 121,
         "pushedAt": "2026-11-20T00:51:36Z"
       }
     },
@@ -21042,7 +21218,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 245,
+        "stars": 244,
         "pushedAt": "2026-11-12T18:27:20Z"
       }
     },
@@ -21080,7 +21256,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-11-15T19:30:34Z"
+        "pushedAt": "2026-11-21T03:59:24Z"
       }
     },
     {
@@ -21242,8 +21418,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 342,
-        "pushedAt": "2026-11-20T05:54:07Z"
+        "stars": 347,
+        "pushedAt": "2026-11-21T07:34:17Z"
       }
     },
     {
@@ -21350,11 +21526,11 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^F\\d+CE_launcher_\\d+\\.\\d+\\.\\d+_windows\\.zip$",
+          "pattern": "^F\\d+CE_launcher_\\d+\\.\\d+_windows\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^F\\d+CE_\\d+\\.\\d+\\.\\d+_linux\\.zip$",
+          "pattern": "^F\\d+CE_\\d+\\.\\d+_linux\\.zip$",
           "executable": null
         }
       },
@@ -21368,7 +21544,7 @@
       "setupHint": null,
       "stats": {
         "stars": 99,
-        "pushedAt": "2026-11-20T15:51:36Z"
+        "pushedAt": "2026-11-21T14:48:12Z"
       }
     },
     {
@@ -21453,8 +21629,8 @@
     },
     {
       "id": "maxilure-mindover-recomp",
-      "title": "Crash: Mind over Mutant (Mind over Recomp)",
-      "platform": "xbox",
+      "title": "Crash: Mind over Mutant",
+      "platform": "xbox360",
       "repo": "Maxilure/MindOver-Recomp",
       "authors": [
         "Maxilure"
@@ -21571,42 +21747,6 @@
       "stats": {
         "stars": 1840,
         "pushedAt": "2026-07-24T21:18:52Z"
-      }
-    },
-    {
-      "id": "mcla-rv",
-      "title": "Mcla Rv",
-      "platform": "xbox360",
-      "repo": "gabrielbskk/mcla-recomp-rv",
-      "authors": [
-        "gabrielbskk"
-      ],
-      "description": {
-        "en": "Los Angeles, recompiled. Unofficial Android ARM64 port of Midnight Club: Los Angeles · Vulkan · SDL3 · ReXGlue"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "experimental",
-      "tested": false,
-      "channel": "latest",
-      "source": "github-search",
-      "assets": {
-        "android": {
-          "pattern": "^MCLA-NORMAL-v\\d+\\.\\d+\\.\\d+\\.apk$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 8,
-        "pushedAt": "2026-11-18T10:14:41Z"
       }
     },
     {
@@ -21774,7 +21914,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 286,
+        "stars": 287,
         "pushedAt": "2026-04-30T20:35:04Z"
       }
     },
@@ -21811,7 +21951,7 @@
       "setupHint": null,
       "stats": {
         "stars": 156,
-        "pushedAt": "2026-11-20T12:33:32Z"
+        "pushedAt": "2026-11-21T13:26:45Z"
       }
     },
     {
@@ -21850,7 +21990,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5230,
+        "stars": 5233,
         "pushedAt": "2026-11-18T17:06:24Z"
       }
     },
@@ -21886,7 +22026,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 25,
+        "stars": 26,
         "pushedAt": "2026-11-10T05:30:32Z"
       }
     },
@@ -21958,8 +22098,48 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 7,
-        "pushedAt": "2026-11-20T14:09:48Z"
+        "stars": 8,
+        "pushedAt": "2026-11-21T00:09:38Z"
+      }
+    },
+    {
+      "id": "miggas-jsrf-recomp",
+      "title": "Jet Set Radio Future (JSRF-Recomp)",
+      "platform": "xbox",
+      "repo": "Miggas/JSRF-Recomp",
+      "authors": [
+        "Miggas"
+      ],
+      "description": {
+        "en": "Static recompilation of Jet Set Radio Future (Xbox) to Windows — bring your own game files"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "playable",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "assets": {
+        "win32": {
+          "pattern": "^jsrf_launcher-windows\\.zip$",
+          "executable": null
+        },
+        "linux": {
+          "pattern": "^jsrf_launcher-linux\\.tar\\.gz$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 83,
+        "pushedAt": "2026-11-21T14:37:57Z"
       }
     },
     {
@@ -22035,7 +22215,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 22,
+        "stars": 23,
         "pushedAt": "2026-11-17T04:33:55Z"
       }
     },
@@ -22113,7 +22293,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 117,
+        "stars": 118,
         "pushedAt": "2026-11-17T22:50:33Z"
       }
     },
@@ -22230,7 +22410,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 38,
+        "stars": 39,
         "pushedAt": "2026-11-12T10:06:50Z"
       }
     },
@@ -22352,8 +22532,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 680,
-        "pushedAt": "2026-11-20T15:34:37Z"
+        "stars": 695,
+        "pushedAt": "2026-11-21T14:31:06Z"
       }
     },
     {
@@ -22606,7 +22786,7 @@
       "setupHint": null,
       "stats": {
         "stars": 17,
-        "pushedAt": "2026-11-20T15:43:46Z"
+        "pushedAt": "2026-11-21T14:55:17Z"
       }
     },
     {
@@ -22642,7 +22822,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 31,
+        "stars": 32,
         "pushedAt": "2026-11-17T01:07:11Z"
       }
     },
@@ -22679,7 +22859,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 652,
+        "stars": 653,
         "pushedAt": "2026-11-18T20:45:39Z"
       }
     },
@@ -22827,8 +23007,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
-        "pushedAt": "2026-11-16T18:43:03Z"
+        "stars": 21,
+        "pushedAt": "2026-11-21T10:42:49Z"
       }
     },
     {
@@ -22936,7 +23116,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 20,
         "pushedAt": "2026-11-13T03:05:13Z"
       }
     },
@@ -22981,8 +23161,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 57,
-        "pushedAt": "2026-11-14T07:02:45Z"
+        "stars": 58,
+        "pushedAt": "2026-11-21T09:12:51Z"
       }
     },
     {
@@ -23017,7 +23197,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 18,
+        "stars": 19,
         "pushedAt": "2026-11-06T19:07:30Z"
       }
     },
@@ -23055,7 +23235,7 @@
       "setupHint": null,
       "stats": {
         "stars": 42,
-        "pushedAt": "2026-11-06T19:07:33Z"
+        "pushedAt": "2026-11-21T06:56:57Z"
       }
     },
     {
@@ -23438,8 +23618,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 234,
-        "pushedAt": "2026-11-18T05:17:45Z"
+        "stars": 235,
+        "pushedAt": "2026-11-21T12:44:12Z"
       }
     },
     {
@@ -23592,7 +23772,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 41,
+        "stars": 42,
         "pushedAt": "2026-11-17T06:28:58Z"
       }
     },
@@ -23701,8 +23881,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 28,
-        "pushedAt": "2026-11-11T16:06:58Z"
+        "stars": 29,
+        "pushedAt": "2026-11-21T06:57:06Z"
       }
     },
     {
@@ -23784,7 +23964,7 @@
       "setupHint": null,
       "stats": {
         "stars": 44,
-        "pushedAt": "2026-11-20T04:16:07Z"
+        "pushedAt": "2026-11-20T23:30:45Z"
       }
     },
     {
@@ -23932,8 +24112,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 59,
-        "pushedAt": "2026-11-16T18:30:39Z"
+        "stars": 60,
+        "pushedAt": "2026-11-21T12:55:23Z"
       }
     },
     {
@@ -23977,7 +24157,7 @@
       "setupHint": null,
       "stats": {
         "stars": 22,
-        "pushedAt": "2026-11-14T21:52:28Z"
+        "pushedAt": "2026-11-21T13:25:17Z"
       }
     },
     {
@@ -24054,8 +24234,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 185,
-        "pushedAt": "2026-11-15T06:15:20Z"
+        "stars": 187,
+        "pushedAt": "2026-11-21T03:34:18Z"
       }
     },
     {
@@ -24099,8 +24279,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 160,
-        "pushedAt": "2026-11-20T04:09:15Z"
+        "stars": 161,
+        "pushedAt": "2026-11-21T11:02:59Z"
       }
     },
     {
@@ -24136,7 +24316,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 11,
+        "stars": 12,
         "pushedAt": "2026-08-17T21:25:13Z"
       }
     },
@@ -24215,7 +24395,7 @@
       "setupHint": null,
       "stats": {
         "stars": 84,
-        "pushedAt": "2026-11-17T19:24:53Z"
+        "pushedAt": "2026-11-21T13:17:35Z"
       }
     },
     {
@@ -24608,7 +24788,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
+        "stars": 43,
         "pushedAt": "2026-11-14T21:44:33Z"
       }
     },
@@ -24657,8 +24837,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 563,
-        "pushedAt": "2026-11-19T09:30:24Z"
+        "stars": 567,
+        "pushedAt": "2026-11-21T04:18:53Z"
       }
     },
     {
@@ -24701,8 +24881,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 133,
-        "pushedAt": "2026-11-20T12:52:49Z"
+        "stars": 134,
+        "pushedAt": "2026-11-21T14:38:23Z"
       }
     },
     {
@@ -24773,7 +24953,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 53,
+        "stars": 54,
         "pushedAt": "2026-10-09T14:50:22Z"
       }
     },
@@ -24990,7 +25170,7 @@
       "setupHint": null,
       "stats": {
         "stars": 25,
-        "pushedAt": "2026-11-03T23:04:32Z"
+        "pushedAt": "2026-11-20T20:29:51Z"
       }
     },
     {
@@ -25026,8 +25206,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 25,
-        "pushedAt": "2026-11-19T19:16:37Z"
+        "stars": 27,
+        "pushedAt": "2026-11-21T12:50:12Z"
       }
     },
     {
@@ -25106,7 +25286,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 671,
+        "stars": 674,
         "pushedAt": "2026-11-15T12:17:18Z"
       }
     },
@@ -25147,7 +25327,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 427,
+        "stars": 429,
         "pushedAt": "2026-11-09T14:40:13Z"
       }
     },
@@ -25233,7 +25413,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 145,
+        "stars": 146,
         "pushedAt": "2026-11-14T11:28:39Z"
       }
     },
@@ -25269,8 +25449,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 109,
-        "pushedAt": "2026-11-05T22:21:40Z"
+        "stars": 110,
+        "pushedAt": "2026-11-21T09:28:28Z"
       }
     },
     {
@@ -25522,8 +25702,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 127,
-        "pushedAt": "2026-11-20T15:29:51Z"
+        "stars": 129,
+        "pushedAt": "2026-11-21T14:45:51Z"
       }
     },
     {
@@ -25563,13 +25743,13 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 64,
+        "stars": 66,
         "pushedAt": "2026-11-20T12:03:23Z"
       }
     },
     {
       "id": "norain211-doaxvb-re",
-      "title": "Dead or Alive Xtreme Beach Volleyball (doaxbv-re)",
+      "title": "Dead or Alive Xtreme Beach Volleyball",
       "platform": "xbox",
       "repo": "NoRain211/doaxvb-re",
       "authors": [
@@ -25584,6 +25764,7 @@
       "tested": false,
       "channel": "latest",
       "source": "auto",
+      "aiFlag": true,
       "assets": {
         "win32": {
           "pattern": "^DOAXBV-\\d+\\.\\d+\\.\\d+\\.zip$",
@@ -25607,7 +25788,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 273,
+        "stars": 275,
         "pushedAt": "2026-11-20T09:35:48Z"
       }
     },
@@ -25805,7 +25986,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 186,
+        "stars": 189,
         "pushedAt": "2026-11-20T01:20:42Z"
       }
     },
@@ -25899,7 +26080,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 369,
+        "stars": 374,
         "pushedAt": "2026-11-17T12:46:15Z"
       }
     },
@@ -25936,7 +26117,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 144,
+        "stars": 145,
         "pushedAt": "2026-10-23T10:43:35Z"
       }
     },
@@ -26014,8 +26195,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 374,
-        "pushedAt": "2026-11-10T18:54:41Z"
+        "stars": 378,
+        "pushedAt": "2026-11-21T00:49:23Z"
       }
     },
     {
@@ -26057,6 +26238,42 @@
       "stats": {
         "stars": 128,
         "pushedAt": "2026-11-18T22:48:20Z"
+      }
+    },
+    {
+      "id": "oblivion",
+      "title": "Oblivion",
+      "platform": "other",
+      "repo": "ttom795/Oblivion_Android",
+      "authors": [
+        "ttom795"
+      ],
+      "description": {
+        "en": "A static recompilation of Oblivion (2006) for Android devices."
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "github-author",
+      "assets": {
+        "android": {
+          "pattern": "^Oblivion-\\d+\\.\\d+\\.\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 25,
+        "pushedAt": "2026-11-21T06:00:44Z"
       }
     },
     {
@@ -26172,7 +26389,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2024,
+        "stars": 2025,
         "pushedAt": "2026-11-17T23:17:14Z"
       }
     },
@@ -26213,7 +26430,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 64,
+        "stars": 75,
         "pushedAt": "2026-11-18T16:44:06Z"
       }
     },
@@ -26288,7 +26505,7 @@
       "setupHint": null,
       "stats": {
         "stars": 190,
-        "pushedAt": "2026-11-14T13:41:50Z"
+        "pushedAt": "2026-11-21T14:31:27Z"
       }
     },
     {
@@ -26328,8 +26545,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 224,
-        "pushedAt": "2026-11-20T15:48:18Z"
+        "stars": 227,
+        "pushedAt": "2026-11-21T14:32:49Z"
       }
     },
     {
@@ -26364,8 +26581,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16596,
-        "pushedAt": "2026-11-20T14:49:42Z"
+        "stars": 16599,
+        "pushedAt": "2026-11-21T15:08:58Z"
       }
     },
     {
@@ -26401,7 +26618,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 217,
+        "stars": 227,
         "pushedAt": "2026-11-20T14:16:43Z"
       }
     },
@@ -26475,7 +26692,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 17,
         "pushedAt": "2026-11-13T06:26:45Z"
       }
     },
@@ -26512,7 +26729,7 @@
       "setupHint": null,
       "stats": {
         "stars": 84,
-        "pushedAt": "2026-11-20T02:00:42Z"
+        "pushedAt": "2026-11-21T14:52:29Z"
       }
     },
     {
@@ -26552,7 +26769,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1057,
+        "stars": 1061,
         "pushedAt": "2026-11-09T09:38:35Z"
       }
     },
@@ -26649,7 +26866,7 @@
       "source": "auto",
       "assets": {
         "android": {
-          "pattern": "^app-release\\.apk$",
+          "pattern": "^app-release-v\\d+\\.apk$",
           "executable": null
         }
       },
@@ -26662,8 +26879,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
-        "pushedAt": "2026-11-05T10:38:09Z"
+        "stars": 21,
+        "pushedAt": "2026-11-21T08:36:03Z"
       }
     },
     {
@@ -26699,7 +26916,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 218,
+        "stars": 222,
         "pushedAt": "2026-11-15T13:26:52Z"
       }
     },
@@ -26736,7 +26953,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 15,
         "pushedAt": "2026-11-01T09:52:52Z"
       }
     },
@@ -26772,7 +26989,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 105,
+        "stars": 106,
         "pushedAt": "2026-10-15T16:44:21Z"
       }
     },
@@ -26850,46 +27067,6 @@
       }
     },
     {
-      "id": "papand7-battlefield-recompilation-project",
-      "title": "Battlefield 1943 / Battlefield: Bad Company",
-      "platform": "xbox360",
-      "repo": "papand7/Battlefield-Recompilation-Project",
-      "authors": [
-        "papand7"
-      ],
-      "description": {
-        "en": "Native PC ports of Battlefield 1943 and Bad Company (Xbox 360) via static recompilation"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "playable",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^BattlefieldLauncher-\\d+\\.\\d+\\.\\d+\\.exe$",
-          "executable": null
-        },
-        "linux": {
-          "pattern": "^BattlefieldLauncher-\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 29,
-        "pushedAt": "2026-11-19T19:19:50Z"
-      }
-    },
-    {
       "id": "papand7-nightfire-recomp",
       "title": "007: Nightfire (007: NightFire Remastered (PC))",
       "platform": "ps2",
@@ -26929,7 +27106,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 30,
+        "stars": 32,
         "pushedAt": "2026-11-15T06:37:24Z"
       }
     },
@@ -27003,7 +27180,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1466,
+        "stars": 1475,
         "pushedAt": "2026-11-18T13:25:21Z"
       }
     },
@@ -27047,7 +27224,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 66,
+        "stars": 69,
         "pushedAt": "2026-11-17T09:27:50Z"
       }
     },
@@ -27087,13 +27264,13 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 211,
+        "stars": 212,
         "pushedAt": "2026-11-07T19:42:04Z"
       }
     },
     {
       "id": "pauloubirajara-asuras-wrath-recomp",
-      "title": "Asura's Wrath (asuras-wrath-recomp)",
+      "title": "Asura's Wrath",
       "platform": "xbox360",
       "repo": "PauloUbirajara/asuras-wrath-recomp",
       "authors": [
@@ -27110,15 +27287,15 @@
       "source": "auto",
       "assets": {
         "win32": {
-          "pattern": "^asuras-wrath-recomp-e\\d+df\\d+ef-windows-x\\d+_\\d+\\.zip$",
+          "pattern": "^asuras-wrath-recomp-\\d+d\\d+-windows-x\\d+_\\d+\\.zip$",
           "executable": null
         },
         "linux": {
-          "pattern": "^asuras-wrath-recomp-e\\d+df\\d+ef-linux-x\\d+_\\d+\\.AppImage$",
+          "pattern": "^asuras-wrath-recomp-\\d+d\\d+-linux-x\\d+_\\d+\\.AppImage$",
           "executable": null
         },
         "android": {
-          "pattern": "^asura_wrath_recomp_android\\.apk$",
+          "pattern": "^asuras-wrath-recomp-\\d+d\\d+-android-arm\\d+-v\\d+a\\.apk$",
           "executable": null
         }
       },
@@ -27131,8 +27308,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 128,
-        "pushedAt": "2026-11-20T03:05:57Z"
+        "stars": 131,
+        "pushedAt": "2026-11-20T20:50:34Z"
       }
     },
     {
@@ -27172,8 +27349,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16103,
-        "pushedAt": "2026-11-20T01:00:07Z"
+        "stars": 16111,
+        "pushedAt": "2026-11-21T13:04:59Z"
       }
     },
     {
@@ -27217,44 +27394,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2516,
-        "pushedAt": "2026-11-20T11:03:27Z"
-      }
-    },
-    {
-      "id": "pepperbelly01-aaroas-xberecomp",
-      "title": "America's Army: Rise of a Soldier",
-      "platform": "xbox",
-      "repo": "PepperBelly01/AARoaS-XBERecomp",
-      "authors": [
-        "PepperBelly01"
-      ],
-      "description": {
-        "en": "Unofficial native PC port of America's Army: Rise of a Soldier (Xbox), made with Xbox XBE Recomp. No game assets included."
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "partial",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "assets": {
-        "win32": {
-          "pattern": "^AARoaS-\\d+\\.\\d+\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 19,
-        "pushedAt": "2026-11-19T01:29:50Z"
+        "stars": 2532,
+        "pushedAt": "2026-11-21T01:24:53Z"
       }
     },
     {
@@ -27373,7 +27514,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 25,
         "pushedAt": "2026-11-20T14:44:10Z"
       }
     },
@@ -27415,7 +27556,7 @@
       "setupHint": null,
       "stats": {
         "stars": 153,
-        "pushedAt": "2026-11-20T13:42:26Z"
+        "pushedAt": "2026-11-21T07:33:05Z"
       }
     },
     {
@@ -27459,7 +27600,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 75,
+        "stars": 74,
         "pushedAt": "2026-11-02T20:55:06Z"
       }
     },
@@ -27567,7 +27708,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 14,
         "pushedAt": "2026-11-09T20:56:30Z"
       }
     },
@@ -27640,7 +27781,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 507,
+        "stars": 523,
         "pushedAt": "2026-11-20T11:19:21Z"
       }
     },
@@ -27829,7 +27970,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 68,
+        "stars": 70,
         "pushedAt": "2026-11-19T10:30:09Z"
       }
     },
@@ -28014,7 +28155,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19494,
+        "stars": 19499,
         "pushedAt": "2026-11-20T13:42:45Z"
       }
     },
@@ -28090,8 +28231,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 233,
-        "pushedAt": "2026-11-20T06:42:28Z"
+        "stars": 234,
+        "pushedAt": "2026-11-21T14:21:08Z"
       }
     },
     {
@@ -28138,8 +28279,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 127,
-        "pushedAt": "2026-11-20T11:10:05Z"
+        "stars": 128,
+        "pushedAt": "2026-11-20T19:28:56Z"
       }
     },
     {
@@ -28174,7 +28315,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 17,
+        "stars": 18,
         "pushedAt": "2026-11-10T21:35:20Z"
       }
     },
@@ -28366,7 +28507,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 204,
+        "stars": 205,
         "pushedAt": "2026-11-01T20:00:22Z"
       }
     },
@@ -28404,7 +28545,7 @@
       "setupHint": null,
       "stats": {
         "stars": 65,
-        "pushedAt": "2026-11-20T15:25:46Z"
+        "pushedAt": "2026-11-21T13:58:32Z"
       }
     },
     {
@@ -28439,7 +28580,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 313,
+        "stars": 314,
         "pushedAt": "2026-11-16T09:46:59Z"
       }
     },
@@ -28591,8 +28732,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 188,
-        "pushedAt": "2026-11-19T12:23:31Z"
+        "stars": 189,
+        "pushedAt": "2026-11-20T18:22:53Z"
       }
     },
     {
@@ -28628,8 +28769,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 103,
-        "pushedAt": "2026-11-20T15:16:52Z"
+        "stars": 104,
+        "pushedAt": "2026-11-21T15:01:06Z"
       }
     },
     {
@@ -28745,7 +28886,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 12,
+        "stars": 13,
         "pushedAt": "2026-11-20T03:19:50Z"
       }
     },
@@ -28899,7 +29040,7 @@
       "setupHint": null,
       "stats": {
         "stars": 147,
-        "pushedAt": "2026-11-20T05:41:47Z"
+        "pushedAt": "2026-11-21T06:08:58Z"
       }
     },
     {
@@ -28938,7 +29079,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 15,
+        "stars": 16,
         "pushedAt": "2026-11-03T17:19:59Z"
       }
     },
@@ -28975,7 +29116,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 317,
+        "stars": 319,
         "pushedAt": "2026-11-18T05:38:42Z"
       }
     },
@@ -29011,7 +29152,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 66,
+        "stars": 68,
         "pushedAt": "2026-11-18T04:13:00Z"
       }
     },
@@ -29048,7 +29189,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 369,
+        "stars": 374,
         "pushedAt": "2026-11-20T03:52:03Z"
       }
     },
@@ -29360,7 +29501,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 169,
+        "stars": 170,
         "pushedAt": "2025-05-05T00:41:38Z"
       }
     },
@@ -29432,7 +29573,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 245,
+        "stars": 244,
         "pushedAt": "2026-11-15T18:26:26Z"
       }
     },
@@ -29472,7 +29613,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 37,
+        "stars": 38,
         "pushedAt": "2026-11-20T07:37:35Z"
       }
     },
@@ -29518,7 +29659,7 @@
       "setupHint": null,
       "stats": {
         "stars": 122,
-        "pushedAt": "2026-11-17T07:57:45Z"
+        "pushedAt": "2026-11-21T09:09:08Z"
       }
     },
     {
@@ -29678,8 +29819,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 170,
-        "pushedAt": "2026-11-20T12:28:36Z"
+        "stars": 176,
+        "pushedAt": "2026-11-21T06:58:02Z"
       }
     },
     {
@@ -29714,7 +29855,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 229,
+        "stars": 228,
         "pushedAt": "2026-10-31T15:38:56Z"
       }
     },
@@ -29833,7 +29974,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 360,
+        "stars": 362,
         "pushedAt": "2026-11-12T08:46:06Z"
       }
     },
@@ -29951,7 +30092,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 203,
+        "stars": 205,
         "pushedAt": "2026-11-11T20:16:10Z"
       }
     },
@@ -30064,7 +30205,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 176,
+        "stars": 178,
         "pushedAt": "2026-11-01T18:10:03Z"
       }
     },
@@ -30105,7 +30246,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 64,
+        "stars": 66,
         "pushedAt": "2026-11-19T00:13:59Z"
       }
     },
@@ -30186,8 +30327,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 103,
-        "pushedAt": "2026-11-20T04:03:02Z"
+        "stars": 107,
+        "pushedAt": "2026-11-20T16:36:02Z"
       }
     },
     {
@@ -30222,7 +30363,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 393,
+        "stars": 398,
         "pushedAt": "2026-10-31T12:47:33Z"
       }
     },
@@ -30263,8 +30404,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 742,
-        "pushedAt": "2026-11-20T12:36:31Z"
+        "stars": 749,
+        "pushedAt": "2026-11-21T06:42:18Z"
       }
     },
     {
@@ -30304,8 +30445,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 247,
-        "pushedAt": "2026-11-20T12:12:39Z"
+        "stars": 258,
+        "pushedAt": "2026-11-21T12:52:28Z"
       }
     },
     {
@@ -30381,7 +30522,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 263,
+        "stars": 271,
         "pushedAt": "2026-11-18T22:13:43Z"
       }
     },
@@ -30418,7 +30559,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 530,
+        "stars": 529,
         "pushedAt": "2026-11-14T22:10:27Z"
       }
     },
@@ -30496,7 +30637,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 104,
+        "stars": 106,
         "pushedAt": "2026-11-03T04:34:58Z"
       }
     },
@@ -30617,8 +30758,49 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 119,
+        "stars": 124,
         "pushedAt": "2026-11-09T01:29:41Z"
+      }
+    },
+    {
+      "id": "saulob-alienation-pc",
+      "title": "Alienation",
+      "platform": "ps4",
+      "repo": "saulob/alienation-pc",
+      "authors": [
+        "saulob"
+      ],
+      "description": {
+        "en": "Alienation PS4 running natively on Windows and Linux/Steam Deck with Vulkan, 4K, True Ultrawide, high-refresh presentation, local and online co-op for up to 4 players"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "partial",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "aiFlag": true,
+      "assets": {
+        "win32": {
+          "pattern": "^AlienationPC-v\\d+\\.\\d+\\.\\d+-windows-x\\d+\\.zip$",
+          "executable": null
+        },
+        "linux": {
+          "pattern": "^AlienationPC-v\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 23,
+        "pushedAt": "2026-11-20T02:41:39Z"
       }
     },
     {
@@ -30658,7 +30840,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 130,
+        "stars": 133,
         "pushedAt": "2026-10-27T00:22:25Z"
       }
     },
@@ -30699,7 +30881,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 527,
+        "stars": 541,
         "pushedAt": "2026-11-20T06:00:27Z"
       }
     },
@@ -30822,7 +31004,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 213,
+        "stars": 217,
         "pushedAt": "2026-11-19T12:25:17Z"
       }
     },
@@ -30906,7 +31088,7 @@
     },
     {
       "id": "sciaschi-cbfd-recompiled",
-      "title": "Conker's Bad Fur Day",
+      "title": "Conker's Bad Fur Day (Conker's Bad Fur Day: Recompiled)",
       "platform": "n64",
       "repo": "sciaschi/CBFD-Recompiled",
       "authors": [
@@ -31090,7 +31272,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 249,
+        "stars": 259,
         "pushedAt": "2026-11-19T16:34:08Z"
       }
     },
@@ -31203,7 +31385,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
+        "stars": 25,
         "pushedAt": "2026-10-12T15:48:32Z"
       }
     },
@@ -31239,8 +31421,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 82,
-        "pushedAt": "2026-11-20T05:20:45Z"
+        "stars": 84,
+        "pushedAt": "2026-11-21T07:08:19Z"
       }
     },
     {
@@ -31276,8 +31458,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 538,
-        "pushedAt": "2026-11-20T15:32:51Z"
+        "stars": 540,
+        "pushedAt": "2026-11-21T04:55:05Z"
       }
     },
     {
@@ -31386,7 +31568,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 66,
+        "stars": 68,
         "pushedAt": "2026-11-07T14:34:05Z"
       }
     },
@@ -31467,7 +31649,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 74,
+        "stars": 76,
         "pushedAt": "2026-10-30T03:30:57Z"
       }
     },
@@ -31504,7 +31686,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 176,
+        "stars": 178,
         "pushedAt": "2026-10-30T17:08:50Z"
       }
     },
@@ -31540,7 +31722,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 628,
+        "stars": 629,
         "pushedAt": "2026-06-09T00:05:13Z"
       }
     },
@@ -31576,8 +31758,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 21,
-        "pushedAt": "2026-11-17T22:59:46Z"
+        "stars": 22,
+        "pushedAt": "2026-11-21T02:06:44Z"
       }
     },
     {
@@ -31625,7 +31807,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 354,
+        "stars": 356,
         "pushedAt": "2026-11-18T19:23:55Z"
       }
     },
@@ -31866,8 +32048,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 426,
-        "pushedAt": "2026-11-20T06:53:52Z"
+        "stars": 487,
+        "pushedAt": "2026-11-21T10:13:37Z"
       }
     },
     {
@@ -31902,8 +32084,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 109,
-        "pushedAt": "2026-11-20T08:29:58Z"
+        "stars": 110,
+        "pushedAt": "2026-11-21T13:36:13Z"
       }
     },
     {
@@ -32025,7 +32207,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 152,
+        "stars": 153,
         "pushedAt": "2026-11-16T20:36:50Z"
       }
     },
@@ -32061,8 +32243,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 191,
-        "pushedAt": "2026-11-20T15:29:13Z"
+        "stars": 194,
+        "pushedAt": "2026-11-21T02:36:33Z"
       }
     },
     {
@@ -32110,8 +32292,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 233,
-        "pushedAt": "2026-11-17T17:27:04Z"
+        "stars": 236,
+        "pushedAt": "2026-11-21T08:08:40Z"
       }
     },
     {
@@ -32231,7 +32413,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 886,
+        "stars": 888,
         "pushedAt": "2026-11-19T23:25:18Z"
       }
     },
@@ -32399,7 +32581,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 295,
+        "stars": 297,
         "pushedAt": "2026-11-18T05:21:13Z"
       }
     },
@@ -32476,8 +32658,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 105,
-        "pushedAt": "2026-11-19T20:14:38Z"
+        "stars": 106,
+        "pushedAt": "2026-11-20T19:13:10Z"
       }
     },
     {
@@ -32586,7 +32768,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 264,
+        "stars": 265,
         "pushedAt": "2026-11-11T08:45:43Z"
       }
     },
@@ -32622,7 +32804,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 20,
+        "stars": 21,
         "pushedAt": "2026-11-18T21:26:22Z"
       }
     },
@@ -32663,7 +32845,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 194,
+        "stars": 195,
         "pushedAt": "2026-11-15T03:28:22Z"
       }
     },
@@ -32736,7 +32918,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-11-19T18:07:21Z"
+        "pushedAt": "2026-11-20T19:48:00Z"
       }
     },
     {
@@ -32823,7 +33005,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 640,
+        "stars": 641,
         "pushedAt": "2026-11-12T01:41:19Z"
       }
     },
@@ -32867,7 +33049,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 409,
+        "stars": 410,
         "pushedAt": "2026-08-11T17:36:21Z"
       }
     },
@@ -32944,8 +33126,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 969,
-        "pushedAt": "2026-11-20T05:04:59Z"
+        "stars": 976,
+        "pushedAt": "2026-11-21T06:43:24Z"
       }
     },
     {
@@ -32980,7 +33162,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 17,
         "pushedAt": "2026-10-14T13:36:25Z"
       }
     },
@@ -33017,45 +33199,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1235,
+        "stars": 1241,
         "pushedAt": "2026-11-11T19:20:58Z"
-      }
-    },
-    {
-      "id": "sp-hy-opencross",
-      "title": "Chrono Cross: The Radical Dreamers Edition",
-      "platform": "ps1",
-      "repo": "sp-hy/OpenCross",
-      "authors": [
-        "sp-hy"
-      ],
-      "description": {
-        "en": "Replacement game engine for Chrono Cross: The Radical Dreamers Edition"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "playable",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "aiFlag": true,
-      "assets": {
-        "win32": {
-          "pattern": "^opencross\\.exe$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 34,
-        "pushedAt": "2026-11-20T10:54:26Z"
       }
     },
     {
@@ -33167,7 +33312,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 304,
+        "stars": 307,
         "pushedAt": "2026-11-08T16:26:47Z"
       }
     },
@@ -33204,7 +33349,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 398,
+        "stars": 399,
         "pushedAt": "2026-11-14T12:51:59Z"
       }
     },
@@ -33285,7 +33430,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 42,
+        "stars": 43,
         "pushedAt": "2026-10-12T02:52:55Z"
       }
     },
@@ -33330,7 +33475,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 61,
+        "stars": 65,
         "pushedAt": "2026-11-19T15:29:05Z"
       }
     },
@@ -33372,12 +33517,12 @@
       "setupHint": null,
       "stats": {
         "stars": 23,
-        "pushedAt": "2026-11-18T19:50:28Z"
+        "pushedAt": "2026-11-21T14:58:59Z"
       }
     },
     {
       "id": "springah-daytona-recomp",
-      "title": "Daytona USA (Daytona USA ReXGlue Recompilation)",
+      "title": "Daytona USA",
       "platform": "xbox360",
       "repo": "springah/daytona_recomp",
       "authors": [
@@ -33412,7 +33557,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
+        "stars": 16,
         "pushedAt": "2026-11-20T05:11:43Z"
       }
     },
@@ -33497,7 +33642,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 321,
+        "stars": 322,
         "pushedAt": "2026-11-20T05:02:09Z"
       }
     },
@@ -33534,7 +33679,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 99,
+        "stars": 100,
         "pushedAt": "2026-10-19T20:26:05Z"
       }
     },
@@ -33781,7 +33926,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 48,
+        "stars": 49,
         "pushedAt": "2026-08-27T13:02:48Z"
       }
     },
@@ -33855,7 +34000,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 93,
+        "stars": 95,
         "pushedAt": "2026-11-14T11:11:52Z"
       }
     },
@@ -33892,7 +34037,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 215,
+        "stars": 214,
         "pushedAt": "2026-11-14T08:37:07Z"
       }
     },
@@ -33964,7 +34109,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 8,
+        "stars": 9,
         "pushedAt": "2026-10-24T10:10:52Z"
       }
     },
@@ -34001,7 +34146,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2333,
+        "stars": 2342,
         "pushedAt": "2026-11-15T18:45:35Z"
       }
     },
@@ -34074,8 +34219,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3207,
-        "pushedAt": "2026-11-20T14:56:23Z"
+        "stars": 3206,
+        "pushedAt": "2026-11-21T12:29:02Z"
       }
     },
     {
@@ -34110,7 +34255,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5489,
+        "stars": 5491,
         "pushedAt": "2026-11-03T17:50:46Z"
       }
     },
@@ -34184,7 +34329,7 @@
       "setupHint": null,
       "stats": {
         "stars": 62,
-        "pushedAt": "2026-11-20T06:42:28Z"
+        "pushedAt": "2026-11-20T19:10:46Z"
       }
     },
     {
@@ -34220,7 +34365,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4339,
+        "stars": 4347,
         "pushedAt": "2026-11-16T02:02:29Z"
       }
     },
@@ -34261,7 +34406,7 @@
       "setupHint": null,
       "stats": {
         "stars": 2824,
-        "pushedAt": "2026-11-19T20:26:24Z"
+        "pushedAt": "2026-11-21T08:40:52Z"
       }
     },
     {
@@ -34346,7 +34491,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 161,
+        "stars": 164,
         "pushedAt": "2026-11-14T02:30:20Z"
       }
     },
@@ -34419,8 +34564,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 2800,
-        "pushedAt": "2026-11-20T13:18:06Z"
+        "stars": 2803,
+        "pushedAt": "2026-11-20T18:07:17Z"
       }
     },
     {
@@ -34464,7 +34609,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 17,
         "pushedAt": "2026-10-11T21:01:31Z"
       }
     },
@@ -35060,7 +35205,7 @@
       "setupHint": null,
       "stats": {
         "stars": 75,
-        "pushedAt": "2026-11-20T08:38:05Z"
+        "pushedAt": "2026-11-21T07:15:07Z"
       }
     },
     {
@@ -35101,7 +35246,7 @@
       "setupHint": null,
       "stats": {
         "stars": 156,
-        "pushedAt": "2026-11-20T15:26:50Z"
+        "pushedAt": "2026-11-21T05:28:57Z"
       }
     },
     {
@@ -35141,7 +35286,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 125,
+        "stars": 126,
         "pushedAt": "2026-10-18T00:30:53Z"
       }
     },
@@ -35450,7 +35595,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 186,
+        "stars": 187,
         "pushedAt": "2026-10-29T15:39:54Z"
       }
     },
@@ -35486,7 +35631,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 157,
+        "stars": 159,
         "pushedAt": "2026-11-05T20:18:02Z"
       }
     },
@@ -35522,7 +35667,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 978,
+        "stars": 980,
         "pushedAt": "2026-10-29T15:04:00Z"
       }
     },
@@ -35559,7 +35704,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 161,
+        "stars": 163,
         "pushedAt": "2026-11-11T16:15:08Z"
       }
     },
@@ -35596,7 +35741,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 498,
+        "stars": 497,
         "pushedAt": "2026-11-01T09:48:18Z"
       }
     },
@@ -35763,7 +35908,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 10,
+        "stars": 11,
         "pushedAt": "2026-11-12T20:08:28Z"
       }
     },
@@ -35786,7 +35931,7 @@
       "source": "github-search",
       "assets": {
         "android": {
-          "pattern": "^Nimbus-Alpha-\\d+\\.\\d+-Android-arm\\d+\\.apk$",
+          "pattern": "^Nimbus-Alpha-\\d+\\.\\d+\\.\\d+-Android-arm\\d+\\.apk$",
           "executable": null
         }
       },
@@ -35800,7 +35945,7 @@
       "setupHint": null,
       "stats": {
         "stars": 31,
-        "pushedAt": "2026-11-18T17:30:52Z"
+        "pushedAt": "2026-11-21T14:51:31Z"
       }
     },
     {
@@ -35835,7 +35980,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 5416,
+        "stars": 5418,
         "pushedAt": "2026-11-19T14:03:00Z"
       }
     },
@@ -35916,8 +36061,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 158,
-        "pushedAt": "2026-11-20T13:02:22Z"
+        "stars": 159,
+        "pushedAt": "2026-11-20T19:09:35Z"
       }
     },
     {
@@ -35998,7 +36143,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 82,
+        "stars": 83,
         "pushedAt": "2026-11-19T04:31:33Z"
       }
     },
@@ -36045,7 +36190,7 @@
     },
     {
       "id": "thegh0sts-bourne-conspiracy-x360-recomp",
-      "title": "Robert Ludlum's The Bourne Conspiracy",
+      "title": "The Bourne Conspiracy (bourne-conspiracy-x360-recomp)",
       "platform": "xbox360",
       "repo": "thegh0sts/bourne-conspiracy-x360-recomp",
       "authors": [
@@ -36077,7 +36222,7 @@
       "setupHint": null,
       "stats": {
         "stars": 45,
-        "pushedAt": "2026-11-20T06:24:15Z"
+        "pushedAt": "2026-11-21T02:00:50Z"
       }
     },
     {
@@ -36115,80 +36260,6 @@
       "stats": {
         "stars": 18,
         "pushedAt": "2026-11-20T06:46:13Z"
-      }
-    },
-    {
-      "id": "thegh0sts-nhl-19-ps4-port-windows",
-      "title": "NHL 19",
-      "platform": "ps4",
-      "repo": "thegh0sts/NHL-19-PS4-PORT-WINDOWS",
-      "authors": [
-        "thegh0sts"
-      ],
-      "description": {
-        "en": "EA SPORTS NHL 19 (PS4) native port for Windows — SacredFire/bbport runtime + shadPS4-derived Vulkan renderer"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "playable",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "aiFlag": true,
-      "assets": {
-        "win32": {
-          "pattern": "^NHL\\d+Native-windows-x\\d+_\\d+\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 7,
-        "pushedAt": "2026-11-20T07:03:03Z"
-      }
-    },
-    {
-      "id": "thegh0sts-nhl-21-ps4-port",
-      "title": "NHL 21",
-      "platform": "ps4",
-      "repo": "thegh0sts/NHL-21-PS4-PORT",
-      "authors": [
-        "thegh0sts"
-      ],
-      "description": {
-        "en": "EA SPORTS NHL 21 (PS4) native port for Windows — SacredFire/bbport runtime + shadPS4-derived Vulkan renderer"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "playable",
-      "tested": false,
-      "channel": "latest",
-      "source": "auto",
-      "aiFlag": true,
-      "assets": {
-        "win32": {
-          "pattern": "^NHL\\d+Native-windows-x\\d+_\\d+\\.zip$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 19,
-        "pushedAt": "2026-11-20T07:02:27Z"
       }
     },
     {
@@ -36297,8 +36368,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 223,
-        "pushedAt": "2026-11-20T11:44:46Z"
+        "stars": 224,
+        "pushedAt": "2026-11-21T07:46:56Z"
       }
     },
     {
@@ -36378,7 +36449,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 59,
+        "stars": 60,
         "pushedAt": "2026-08-24T13:46:17Z"
       }
     },
@@ -36458,7 +36529,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 154,
+        "stars": 155,
         "pushedAt": "2026-10-19T20:24:15Z"
       }
     },
@@ -36584,7 +36655,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 130,
+        "stars": 131,
         "pushedAt": "2026-11-15T13:58:38Z"
       }
     },
@@ -36625,8 +36696,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 3,
-        "pushedAt": "2026-11-20T05:05:24Z"
+        "stars": 4,
+        "pushedAt": "2026-11-21T01:03:01Z"
       }
     },
     {
@@ -36670,8 +36741,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 249,
-        "pushedAt": "2026-11-19T21:22:58Z"
+        "stars": 252,
+        "pushedAt": "2026-11-20T22:55:44Z"
       }
     },
     {
@@ -36696,6 +36767,10 @@
         "win32": {
           "pattern": "^Installation\\.zip$",
           "executable": null
+        },
+        "linux": {
+          "pattern": "^Burnout\\d+-x\\d+_\\d+\\.AppImage$",
+          "executable": null
         }
       },
       "game": {
@@ -36708,7 +36783,7 @@
       "setupHint": null,
       "stats": {
         "stars": 50,
-        "pushedAt": "2026-11-18T18:02:50Z"
+        "pushedAt": "2026-11-21T03:08:46Z"
       }
     },
     {
@@ -36793,7 +36868,7 @@
       "setupHint": null,
       "stats": {
         "stars": 205,
-        "pushedAt": "2026-11-20T14:50:17Z"
+        "pushedAt": "2026-11-21T07:08:15Z"
       }
     },
     {
@@ -36842,7 +36917,7 @@
       "setupHint": null,
       "stats": {
         "stars": 38,
-        "pushedAt": "2026-11-19T05:22:05Z"
+        "pushedAt": "2026-11-20T22:09:03Z"
       }
     },
     {
@@ -36998,7 +37073,7 @@
       "source": "github-author",
       "assets": {
         "android": {
-          "pattern": "^sims\\d+-\\d+\\.\\d+\\.\\d+-dev-\\d+cbbce\\d+\\.apk$",
+          "pattern": "^sims\\d+-\\d+\\.\\d+\\.\\d+-dev-f\\d+b\\d+cce\\d+\\.apk$",
           "executable": null
         }
       },
@@ -37011,13 +37086,13 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 14,
+        "stars": 21,
         "pushedAt": "2026-11-20T13:17:19Z"
       }
     },
     {
       "id": "ttom795-lbm-android",
-      "title": "LEGO Batman: The Videogame (LBM_Android)",
+      "title": "LEGO Batman: The Videogame (LEGO Batman: The Videogame (Android))",
       "platform": "pc",
       "repo": "ttom795/LBM_Android",
       "authors": [
@@ -37047,13 +37122,13 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 24,
+        "stars": 25,
         "pushedAt": "2026-10-26T06:31:03Z"
       }
     },
     {
       "id": "ttom795-lms-android",
-      "title": "LEGO Marvel Super Heroes (LEGO Marvel Super Heroes for Android)",
+      "title": "LEGO Marvel Super Heroes (LEGO Marvel Super Heroes (PC) for Android)",
       "platform": "pc",
       "repo": "ttom795/LMS_Android",
       "authors": [
@@ -37119,8 +37194,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 337,
-        "pushedAt": "2026-11-19T08:54:17Z"
+        "stars": 342,
+        "pushedAt": "2026-11-21T06:00:57Z"
       }
     },
     {
@@ -37167,7 +37242,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6492,
+        "stars": 6500,
         "pushedAt": "2026-10-26T04:50:53Z"
       }
     },
@@ -37239,8 +37314,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 13,
-        "pushedAt": "2026-11-20T11:09:49Z"
+        "stars": 15,
+        "pushedAt": "2026-11-21T03:54:57Z"
       }
     },
     {
@@ -37444,8 +37519,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 7817,
-        "pushedAt": "2026-11-20T05:38:18Z"
+        "stars": 7893,
+        "pushedAt": "2026-11-21T12:45:08Z"
       }
     },
     {
@@ -37485,7 +37560,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 166,
+        "stars": 167,
         "pushedAt": "2026-10-26T15:08:52Z"
       }
     },
@@ -37567,8 +37642,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 6035,
-        "pushedAt": "2026-11-20T11:40:36Z"
+        "stars": 6037,
+        "pushedAt": "2026-11-21T14:24:39Z"
       }
     },
     {
@@ -37757,8 +37832,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 155,
-        "pushedAt": "2026-11-20T13:57:25Z"
+        "stars": 172,
+        "pushedAt": "2026-11-20T22:52:24Z"
       }
     },
     {
@@ -37877,7 +37952,7 @@
       "setupHint": null,
       "stats": {
         "stars": 93,
-        "pushedAt": "2026-11-14T16:09:51Z"
+        "pushedAt": "2026-11-21T01:56:44Z"
       }
     },
     {
@@ -37998,7 +38073,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 644,
+        "stars": 645,
         "pushedAt": "2026-10-16T03:27:37Z"
       }
     },
@@ -38039,7 +38114,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 269,
+        "stars": 272,
         "pushedAt": "2026-11-14T04:01:30Z"
       }
     },
@@ -38052,7 +38127,7 @@
         "Vnnc1"
       ],
       "description": {
-        "en": "MK8-online is an experimental Windows PC port and recompilation of Mario Kart 8 Deluxe with a native launcher, Vulkan runtime and online multiplayer."
+        "en": "Experimental static recompilation of Mario Kart 8 Deluxe 4.0.1 for Windows x64 and Linux amd64. Native Vulkan runtime, Mii creator, online play via Nextendo and Steam rooms. Bring your own game files and keys: no ROMs, assets or keys included."
       },
       "coverImageUrl": null,
       "heroImageUrl": null,
@@ -38065,6 +38140,10 @@
         "win32": {
           "pattern": "^MK\\d+-online-\\d+\\.\\d+\\.\\d+-portable\\.zip$",
           "executable": null
+        },
+        "linux": {
+          "pattern": "^MK\\d+-online-\\d+\\.\\d+\\.\\d+-linux-x\\d+_\\d+\\.AppImage$",
+          "executable": null
         }
       },
       "game": {
@@ -38076,8 +38155,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 231,
-        "pushedAt": "2026-11-20T01:59:12Z"
+        "stars": 240,
+        "pushedAt": "2026-11-21T02:50:05Z"
       }
     },
     {
@@ -38112,8 +38191,57 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 16,
+        "stars": 17,
         "pushedAt": "2026-11-14T11:37:52Z"
+      }
+    },
+    {
+      "id": "voicedrew11-verdite1",
+      "title": "King's Field (Verdite1)",
+      "platform": "ps1",
+      "repo": "Voicedrew11/verdite1",
+      "authors": [
+        "Voicedrew11"
+      ],
+      "description": {
+        "en": "AI driven attempt at porting King's Field (SLPS-00017) to PC with a variety of improvements"
+      },
+      "coverImageUrl": null,
+      "heroImageUrl": null,
+      "status": "experimental",
+      "tested": false,
+      "channel": "latest",
+      "source": "auto",
+      "aiFlag": true,
+      "assets": {
+        "win32": {
+          "pattern": "^Verdite\\d+-\\d+\\.\\d+\\.\\d+-win-x\\d+\\.zip$",
+          "executable": null
+        },
+        "linux": {
+          "pattern": "^Verdite\\d+-\\d+\\.\\d+\\.\\d+-x\\d+_\\d+\\.AppImage$",
+          "executable": null
+        },
+        "darwin": {
+          "pattern": "^Verdite\\d+-\\d+\\.\\d+\\.\\d+-macos-arm\\d+\\.zip$",
+          "executable": null
+        },
+        "android": {
+          "pattern": "^Verdite\\d+-\\d+\\.\\d+\\.\\d+-android-arm\\d+\\.apk$",
+          "executable": null
+        }
+      },
+      "game": {
+        "format": "folder-or-iso",
+        "requiredFiles": [],
+        "titleIds": [],
+        "notes": null
+      },
+      "requirements": null,
+      "setupHint": null,
+      "stats": {
+        "stars": 69,
+        "pushedAt": "2026-11-20T21:17:12Z"
       }
     },
     {
@@ -38236,7 +38364,7 @@
     },
     {
       "id": "vyanhursky-defjamffny-recomp",
-      "title": "Def Jam: Fight for NY (Def Jam: Fight for NY - Fan Recomp)",
+      "title": "Def Jam: Fight for NY",
       "platform": "xbox",
       "repo": "vyanhursky/DefJamFFNY-recomp",
       "authors": [
@@ -38276,7 +38404,7 @@
       "setupHint": null,
       "stats": {
         "stars": 274,
-        "pushedAt": "2026-11-20T00:14:35Z"
+        "pushedAt": "2026-11-21T01:21:09Z"
       }
     },
     {
@@ -38564,7 +38692,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 19,
+        "stars": 20,
         "pushedAt": "2026-11-19T22:05:17Z"
       }
     },
@@ -38773,7 +38901,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 122,
+        "stars": 123,
         "pushedAt": "2026-11-09T23:23:38Z"
       }
     },
@@ -38809,8 +38937,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 936,
-        "pushedAt": "2026-11-20T03:12:58Z"
+        "stars": 937,
+        "pushedAt": "2026-11-21T09:10:35Z"
       }
     },
     {
@@ -38925,8 +39053,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 23,
-        "pushedAt": "2026-11-20T15:05:01Z"
+        "stars": 25,
+        "pushedAt": "2026-11-20T16:58:02Z"
       }
     },
     {
@@ -38970,7 +39098,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 4279,
+        "stars": 4285,
         "pushedAt": "2026-11-16T23:25:06Z"
       }
     },
@@ -39006,7 +39134,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1108,
+        "stars": 1107,
         "pushedAt": "2026-11-14T14:13:36Z"
       }
     },
@@ -39047,7 +39175,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 640,
+        "stars": 641,
         "pushedAt": "2026-11-06T06:16:32Z"
       }
     },
@@ -39085,42 +39213,6 @@
       "stats": {
         "stars": 310,
         "pushedAt": "2026-03-24T15:01:23Z"
-      }
-    },
-    {
-      "id": "xrecomp",
-      "title": "Xrecomp",
-      "platform": "xbox",
-      "repo": "MisterAlex95/Xrecomp",
-      "authors": [
-        "MisterAlex95"
-      ],
-      "description": {
-        "en": "game static recompilation to android"
-      },
-      "coverImageUrl": null,
-      "heroImageUrl": null,
-      "status": "experimental",
-      "tested": false,
-      "channel": "latest",
-      "source": "github-search",
-      "assets": {
-        "android": {
-          "pattern": "^xrecomp-v\\d+\\.\\d+\\.\\d+\\.apk$",
-          "executable": null
-        }
-      },
-      "game": {
-        "format": "folder-or-iso",
-        "requiredFiles": [],
-        "titleIds": [],
-        "notes": null
-      },
-      "requirements": null,
-      "setupHint": null,
-      "stats": {
-        "stars": 18,
-        "pushedAt": "2026-11-20T15:56:37Z"
       }
     },
     {
@@ -39200,7 +39292,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 623,
+        "stars": 625,
         "pushedAt": "2026-11-18T10:41:25Z"
       }
     },
@@ -39314,7 +39406,7 @@
       "setupHint": null,
       "stats": {
         "stars": 13,
-        "pushedAt": "2026-11-12T03:11:46Z"
+        "pushedAt": "2026-11-21T05:52:00Z"
       }
     },
     {
@@ -39393,7 +39485,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 25,
+        "stars": 26,
         "pushedAt": "2026-11-18T05:08:33Z"
       }
     },
@@ -39481,7 +39573,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1131,
+        "stars": 1134,
         "pushedAt": "2026-11-19T21:56:56Z"
       }
     },
@@ -39567,7 +39659,7 @@
         "yozander2009-stack"
       ],
       "description": {
-        "en": "Metroid Dread recomp"
+        "en": "Static recompilation of Metroid Dread (Switch, 2.1.0) for Windows, Linux and Steam Deck. Bring your own dump: no game files, keys or dumping tools included."
       },
       "coverImageUrl": null,
       "heroImageUrl": null,
@@ -39595,8 +39687,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 457,
-        "pushedAt": "2026-11-20T00:17:15Z"
+        "stars": 465,
+        "pushedAt": "2026-11-21T04:37:20Z"
       }
     },
     {
@@ -39716,8 +39808,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 129,
-        "pushedAt": "2026-11-20T15:35:55Z"
+        "stars": 131,
+        "pushedAt": "2026-11-21T12:06:53Z"
       }
     },
     {
@@ -39752,7 +39844,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 111,
+        "stars": 112,
         "pushedAt": "2026-11-20T00:28:11Z"
       }
     },
@@ -39797,7 +39889,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 777,
+        "stars": 779,
         "pushedAt": "2026-11-03T07:14:15Z"
       }
     },
@@ -39873,8 +39965,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 797,
-        "pushedAt": "2026-11-20T15:05:04Z"
+        "stars": 801,
+        "pushedAt": "2026-11-21T13:26:37Z"
       }
     },
     {
@@ -40026,7 +40118,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 7744,
+        "stars": 7748,
         "pushedAt": "2026-09-25T18:57:57Z"
       }
     },
@@ -40075,8 +40167,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 1619,
-        "pushedAt": "2026-11-20T10:38:10Z"
+        "stars": 1631,
+        "pushedAt": "2026-11-21T03:37:16Z"
       }
     },
     {
@@ -40193,7 +40285,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 86,
+        "stars": 87,
         "pushedAt": "2026-11-18T19:39:00Z"
       }
     },
@@ -40230,7 +40322,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 111,
+        "stars": 112,
         "pushedAt": "2026-11-08T00:47:21Z"
       }
     },
@@ -40311,8 +40403,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 425,
-        "pushedAt": "2026-11-20T00:14:51Z"
+        "stars": 430,
+        "pushedAt": "2026-11-20T23:48:31Z"
       }
     },
     {
@@ -40348,8 +40440,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 35,
-        "pushedAt": "2026-10-21T12:30:33Z"
+        "stars": 36,
+        "pushedAt": "2026-11-21T03:35:27Z"
       }
     },
     {
@@ -40464,7 +40556,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 930,
+        "stars": 933,
         "pushedAt": "2026-11-17T16:47:35Z"
       }
     },
@@ -40545,7 +40637,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 186,
+        "stars": 187,
         "pushedAt": "2026-11-05T00:21:05Z"
       }
     },
@@ -40590,7 +40682,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 332,
+        "stars": 333,
         "pushedAt": "2026-11-19T15:28:17Z"
       }
     },
@@ -40635,8 +40727,8 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 9879,
-        "pushedAt": "2026-11-20T15:42:37Z"
+        "stars": 9947,
+        "pushedAt": "2026-11-21T13:52:19Z"
       }
     },
     {
@@ -40676,7 +40768,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 568,
+        "stars": 569,
         "pushedAt": "2026-11-20T02:55:15Z"
       }
     },
@@ -40785,7 +40877,7 @@
       "requirements": null,
       "setupHint": null,
       "stats": {
-        "stars": 57,
+        "stars": 58,
         "pushedAt": "2026-10-06T11:38:43Z"
       }
     }
